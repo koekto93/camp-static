@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="16px" viewBox="0 0 15 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web-1280" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Tours" transform="translate(-104.000000, -758.000000)" fill-rule="nonzero" stroke="#1A1A1A">
+            <path d="M108.7237,772.132155 C106.445082,771.928654 104.389184,769.615621 105.167984,766.508287 C106.162048,763.32396 109.388091,763.787926 110.625348,758 C113.174515,760.310644 114.198896,762.792353 113.698491,765.445129 C115.101851,765.790738 116.068385,765.238338 116.598092,763.787926 C119.062199,765.963543 118.274115,771.956324 114.264322,773 C111.56438,772.304216 110.094805,770.423656 109.855596,767.358319 C108.598407,768.432691 108.221108,770.02397 108.7237,772.132155 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>
