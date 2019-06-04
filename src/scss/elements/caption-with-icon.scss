@@ -1,0 +1,19 @@
+//Иконка с подписью
+.c-caption-with-icon {
+  @include font-intro(12px, 1.25, center);
+
+  display: flex;
+
+  &_row {
+    flex-direction: row;
+    .c-caption-with-icon__icon {
+      margin-right: 12px;
+    }
+  }
+  &_column {
+    flex-direction: column;
+    .c-caption-with-icon__icon {
+      margin-bottom: 13px;
+    }
+  }
+}

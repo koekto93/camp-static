@@ -2,8 +2,17 @@
   title: "Заголовок | Проект",
   author: "Harrix"
 }; %>
+<% var caption = {
+  name: "classololo",
+  items: [
+    1, 2, 3
+  ]
+}; %>
 <%= _.template(require('./../includes/first-page-part.html').default)(data) %>
-
-<div class="container">Первая fffстранvvvица.</div>
+<header>header</header>
+<div class="content-container">
+    <%= _.template(require('./../includes/caption-with-icon.html').default)(caption) %>
+</div>
+<footer>footer</footer>
 
 <%= _.template(require('./../includes/second-page-part.html').default)(data) %>

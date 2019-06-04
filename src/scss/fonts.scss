@@ -27,3 +27,55 @@
   font-family: Intro;
   src: url(../fonts/Intro.otf);
 }
+
+@mixin font-regular(
+  $size: 12px,
+  $lineHeight: normal,
+  $textAlign: start,
+  $color: #1b1e2d
+) {
+  font-family: PTSans-Regular;
+  font-size: $size;
+  line-height: $lineHeight;
+  text-align: $textAlign;
+  color: $color;
+}
+
+@mixin font-intro(
+  $size: 15px,
+  $lineHeight: normal,
+  $textAlign: start,
+  $color: #1a1a1a
+) {
+  font-family: Intro;
+  font-size: $size;
+  line-height: $lineHeight;
+  text-align: $textAlign;
+  color: $color;
+}
+
+@mixin font-bold(
+  $size: 14px,
+  $lineHeight: normal,
+  $textAlign: start,
+  $color: #bfbfbf
+) {
+  font-family: PTSans-Bold;
+  font-size: $size;
+  line-height: $lineHeight;
+  text-align: $textAlign;
+  color: $color;
+}
+
+@mixin font-italic(
+  $size: 13px,
+  $lineHeight: normal,
+  $textAlign: start,
+  $color: #1a1a1a
+) {
+  font-family: PPTSans-Italic;
+  font-size: $size;
+  line-height: $lineHeight;
+  text-align: $textAlign;
+  color: $color;
+}
