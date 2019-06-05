@@ -14,9 +14,14 @@ const captionWithIcon = _.template(
   require("./../html/includes/caption-with-icon.html").default
 );
 
+const newsItem = _.template(
+  require("./../html/includes/news-item.html").default
+);
+
 const firstPageData = {
   title: "Заголовок | Проект",
   author: "Harrix",
+  //caption
   captionWithIcon: captionWithIcon,
   captionWithIconData: {
     className: "_row _a-center",
@@ -24,6 +29,14 @@ const firstPageData = {
     height: "15px",
     imgName: "news",
     text: "Важная информация"
+  },
+  //newsItem
+  newsItem: newsItem,
+  newsItemData: {
+    className: "_row",
+    date: "01.02.2019",
+    time: "14:10",
+    text: "Результаты распределения квот на отдых 2019"
   }
 };
 const text = _.template(require("./../html/includes/text.html").default);

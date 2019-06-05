@@ -1,0 +1,38 @@
+/* ---- arrival-item start ----- */
+.c-arrival-item {
+  @extend %card-border-with-shadow;
+  @extend %regular-font;
+  padding: 20px 19px 12px 19px;
+  width: 349px;
+  &__date-block {
+    display: flex;
+    flex-direction: row;
+    color: #8e8e93;
+    padding-bottom: 19px;
+    @extend %border-bottom;
+  }
+
+  &__date {
+    color: $color-text-link;
+    margin-right: 5px;
+  }
+
+  &__place {
+    text-align: start;
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__address {
+    font-size: 15px;
+    color: #313131;
+    margin-bottom: 10px;
+  }
+  &__city {
+    @extend %section-font;
+    font-size: 13px;
+    color: #313131;
+    text-align: start;
+  }
+}
+/* ---- arrival-item end ----- */

@@ -1,0 +1,22 @@
+//news-item start
+.c-news-item {
+  @include font-regular(12px, 1.58, start, #8e8e93);
+  width: 350px;
+
+  &__date-block {
+    height: 35px;
+    margin-right: 23px;
+  }
+
+  &__date {
+    color: $link-text-color;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: normal;
+    color: #1a1a1a;
+  }
+}
+
+//news-item start
