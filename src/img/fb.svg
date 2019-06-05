@@ -1,44 +1,16 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-<g>
-	<path style="fill:#49608d;" d="M256,0C114.609,0,0,114.609,0,256c0,141.391,114.609,256,256,256c141.391,0,256-114.609,256-256
-		C512,114.609,397.391,0,256,0z M256,472c-119.297,0-216-96.703-216-216S136.703,40,256,40s216,96.703,216,216S375.297,472,256,472z
-		"/>
-	<path style="fill:#49608d;" d="M316.75,216.812h-44.531v-32.5c0-9.969,10.312-12.281,15.125-12.281c4.781,0,28.767,0,28.767,0v-43.859L283.141,128
-		c-44.983,0-55.25,32.703-55.25,53.672v35.141H195.25V262h32.641c0,58.016,0,122,0,122h44.328c0,0,0-64.641,0-122h37.656
-		L316.75,216.812z"/>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer" transform="translate(-904.000000, -140.000000)">
+            <g id="Stacked-Group" transform="translate(825.000000, 141.000000)">
+                <g id="Group-7" transform="translate(80.000000, 0.000000)">
+                    <path d="M0,15 C0,6.71572834 6.71572834,0 15,0 C23.2842717,0 30,6.71572834 30,15 C30,23.2842717 23.2842717,30 15,30 C6.71572834,30 0,23.2842717 0,15 Z" id="back" stroke="#49608D"></path>
+                    <path d="M15.8224,21.319673 L15.8224,15.1591152 L17.5229834,15.1591152 L17.7483474,13.0361529 L15.8224,13.0361529 L15.8252893,11.9735898 C15.8252893,11.4198885 15.8778983,11.1232028 16.6731733,11.1232028 L17.7363088,11.1232028 L17.7363088,9 L16.0354846,9 C13.9925213,9 13.2734512,10.0298651 13.2734512,11.7617744 L13.2734512,13.0363933 L12,13.0363933 L12,15.1593556 L13.2734512,15.1593556 L13.2734512,21.319673 L15.8224,21.319673 Z" id="Shape" fill="#49608D"></path>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>

@@ -10,16 +10,21 @@ jQuery(function() {
 // document.body.innerHTML = _.template(mainTemplate, model);
 import _ from "lodash";
 
-const caption = _.template(
+const captionWithIcon = _.template(
   require("./../html/includes/caption-with-icon.html").default
 );
-
-console.log(caption);
 
 const firstPageData = {
   title: "Заголовок | Проект",
   author: "Harrix",
-  caption: caption
+  captionWithIcon: captionWithIcon,
+  captionWithIconData: {
+    className: "_row _a-center",
+    width: "23px",
+    height: "15px",
+    imgName: "news",
+    text: "Важная информация"
+  }
 };
 const text = _.template(require("./../html/includes/text.html").default);
 

@@ -30,10 +30,10 @@ body {
   width: $width;
   height: $height;
   background-color: $color;
-  -webkit-mask-image: url($image_dir+$name+'.svg');
+  -webkit-mask-image: url($image_dir+$name+".svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100%;
-  mask-image: url($image_dir+$name+'.svg');
+  mask-image: url($image_dir+$name+".svg");
   mask-repeat: no-repeat;
   mask-size: 100%;
 }
@@ -56,7 +56,7 @@ body {
   }
 }
 
-.hidden-absolute-block {
+%hidden-absolute-block {
   position: absolute;
   top: 0;
   left: 0;
