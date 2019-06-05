@@ -1,13 +1,17 @@
-%search {
-  @include btn-theme(#20b2aa);
+%search-icon {
+  @include svg-icon('search', #1a1a1a);
+}
+
+%news-icon {
+  @include svg-icon('news', #1a1a1a);
+}
+
+/* %burger {
+  @include svg-icon(#20b2aa);
 }
 
 %burger {
-  @include btn-theme(#20b2aa);
-}
-
-%burger {
-  @include btn-theme(#20b2aa);
-}
+  @include svg-icon(#20b2aa);
+} */
 
 /* https://blog.teamtreehouse.com/extending-placeholder-selectors-with-sass */

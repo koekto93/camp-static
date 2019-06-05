@@ -1,6 +1,11 @@
-@import "reset";
-@import "fonts";
-@import "common";
-@import "content"; //del
-@import "./elements/caption-with-icon.scss";
-@import "./elements/news-item.scss";
+@import 'reset';
+@import 'fonts';
+@import 'common';
+@import 'icons';
+@import 'content'; //del
+@import './elements/news-block';
+@import './elements/vertical-news-block';
+@import './elements/caption-with-icon.scss';
+@import './elements/news-item.scss';
+
+/* <img src="img/<%=imgName%>.svg" width="<%=width%>" height="<%=height%>" alt="<%=imgName%>" /> */

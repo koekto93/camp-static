@@ -1,0 +1,38 @@
+//---- Блок новостей начало
+
+.l-vertical-news {
+  width: 350px;
+
+  &__image {
+    width: 100%;
+    height: 193px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 23px;
+    & img {
+      max-width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__block {
+    padding-left: 4px;
+
+    & > article {
+      padding: 28px 0;
+    }
+
+    & > article:not(:last-child) {
+      @extend %border-bottom;
+    }
+  }
+
+  &__button {
+    margin: 0 auto;
+    & > button {
+      width: 137px;
+    }
+  }
+}
+
+//---- Блок новостей конец

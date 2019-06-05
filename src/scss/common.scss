@@ -2,6 +2,7 @@ $text-color: #1b1e2d;
 $bold-text-color: #1a1a1a;
 $link-text-color: #e16a49;
 $white-text-color: #f7f7f7;
+$image_dir: '../img/';
 
 body {
   width: 1280px;
@@ -26,14 +27,14 @@ body {
   }
 }
 
-@mixin svg-icon($width, $height, $name, $color) {
-  width: $width;
-  height: $height;
+@mixin svg-icon($name, $color) {
+  width: 100%;
+  height: 100%;
   background-color: $color;
-  -webkit-mask-image: url($image_dir+$name+".svg");
+  -webkit-mask-image: url($image_dir+$name+'.svg');
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100%;
-  mask-image: url($image_dir+$name+".svg");
+  mask-image: url($image_dir+$name+'.svg');
   mask-repeat: no-repeat;
   mask-size: 100%;
 }
@@ -71,6 +72,10 @@ body {
   transition: opacity 0.2s ease-in-out;
 }
 
+%border-bottom {
+  border-bottom: 1px solid rgba(151, 151, 151, 0.18);
+}
+
 .card-border {
   border-radius: 3px;
   border: solid 1px #eeeeee;
@@ -96,11 +101,23 @@ body {
   &._a-center {
     align-items: center;
   }
-  &.j-center {
+  &._a-end {
+    align-items: flex-end;
+  }
+  &._j-center {
     justify-content: center;
   }
-  &.j-between {
+  &._j-between {
     justify-content: space-between;
+  }
+}
+
+.icon {
+  &._search {
+    @extend %search-icon;
+  }
+  &._news {
+    @extend %news-icon;
   }
 }
 

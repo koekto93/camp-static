@@ -1,63 +1,16 @@
 //---- Блок новостей начало
 
-.l-vertical-news-with-img {
-  display: flex;
-  flex-direction: column;
-  width: 350px;
-
-  &__image {
-    width: 100%;
-    height: 193px;
-    border-radius: 4px;
-    overflow: hidden;
-    margin-top: 23px;
-    & img {
-      max-width: 100%;
-      height: 100%;
-    }
-  }
-
-  &__block {
-    display: flex;
-    flex-direction: column;
-    padding-left: 4px;
-
-    & > article {
-      padding: 28px 0;
-    }
-
-    & > article:not(:last-child) {
-      @extend %border-bottom;
-    }
-  }
-
-  &__button {
-    margin: 0 auto;
-    & > button {
-      width: 137px;
-    }
-  }
-}
-
-//---- Блок новостей конец
-
 .l-news {
-  margin-bottom: 34px;
+  //margin-bottom: 34px;
 
-  &_social-vacation {
-    margin-top: 35px;
-    margin-bottom: 0;
-  }
-
-  &__block {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    &_social-vacation {
+  &._with-caption {
+    //margin-top: 35px;
+    .l-news__block {
       margin-top: 40px;
     }
+  }
 
+  &__block {
     //выставление разделителя слева для новости
     & article:not(:first-child) {
       .c-news-item__date-block {
@@ -67,3 +20,4 @@
     }
   }
 }
+//---- Блок новостей конец

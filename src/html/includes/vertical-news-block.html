@@ -1,0 +1,11 @@
+<div class="l-vertical-news display-flex _column">
+  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %> <% if
+  (img) { %>
+  <div class="l-vertical-news__image">
+    <img src="uploads/alpaka.jpg" alt="alpaka" />
+  </div>
+  <% } %>
+  <div class="l-vertical-news__block display-flex _column">
+    <% newsItemData.forEach(function(data) { %> <%= newsItem(data)%> <% }); %>
+  </div>
+</div>

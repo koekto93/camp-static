@@ -1,4 +1,6 @@
-<div class="l-news">
-    <div class="l-news__block">
-    </div>
+<div class="l-news <%=className%>">
+  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>
+  <div class="l-news__block display-flex <%=blockClassName%>">
+    <% newsItemData.forEach(function(data) { %> <%= newsItem(data)%> <% }); %>
+  </div>
 </div>
