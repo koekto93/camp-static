@@ -5,12 +5,11 @@
 
   padding: 20px 19px 12px 19px;
   width: 349px;
+
   &__date-block {
-    display: flex;
-    flex-direction: row;
+    @extend %border-bottom;
     color: #8e8e93;
     padding-bottom: 19px;
-    @extend %border-bottom;
   }
 
   &__date {
@@ -19,10 +18,7 @@
   }
 
   &__place {
-    text-align: start;
     margin-top: 19px;
-    display: flex;
-    flex-direction: column;
   }
   &__address {
     font-size: 15px;

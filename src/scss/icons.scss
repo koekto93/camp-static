@@ -1,9 +1,13 @@
 %search-icon {
-  @include svg-icon('search', #1a1a1a);
+  @include svg-icon(16px, 16px, 'search', #1a1a1a);
 }
 
 %news-icon {
-  @include svg-icon('news', #1a1a1a);
+  @include svg-icon(23px, 16px, 'news', #1a1a1a);
+}
+
+%car-icon {
+  @include svg-icon(32px, 16px, 'car', #1a1a1a);
 }
 
 /* %burger {

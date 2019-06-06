@@ -1,0 +1,11 @@
+.l-arrivals-container {
+  width: 349px;
+
+  & > div:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  &__headline {
+    margin-bottom: 19px;
+  }
+}

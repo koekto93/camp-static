@@ -1,0 +1,7 @@
+<div class="l-arrivals-container">
+  <div class="l-arrivals-container__headline">
+    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>
+  </div>
+  <% arrivalsBlockData.forEach(function(data) { %> <%= arrivalsBlock(data)%> <%
+  }); %>
+</div>

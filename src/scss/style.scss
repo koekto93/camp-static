@@ -3,10 +3,13 @@
 @import 'common';
 @import 'icons';
 @import 'content'; //del
+//elems
 @import './elements/arrival-item';
-@import './elements/news-block';
-@import './elements/vertical-news-block';
 @import './elements/caption-with-icon.scss';
 @import './elements/news-item.scss';
 
-/* <img src="img/<%=imgName%>.svg" width="<%=width%>" height="<%=height%>" alt="<%=imgName%>" /> */
+//blocks
+@import './blocks/arrivals-block';
+@import './blocks/arrivals-container';
+@import './blocks/news-block';
+@import './blocks/vertical-news-block';

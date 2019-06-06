@@ -1,0 +1,18 @@
+/* ------arrival information block start------ */
+.l-arrival-block {
+  &__caption {
+    @include font-bold(13px, null, null, #8e8e93, 0.1px);
+  }
+
+  &__info-section {
+    & > div:not(:last-child) {
+      margin-bottom: 19px;
+    }
+  }
+  &__button {
+    margin: 0 auto;
+    width: 137px;
+  }
+}
+
+/* ------arrival information block end------ */

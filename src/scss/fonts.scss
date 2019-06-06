@@ -60,7 +60,8 @@
   $size: 14px,
   $lineHeight: normal,
   $textAlign: start,
-  $color: #bfbfbf
+  $color: #bfbfbf,
+  $letterSpacing: normal
 ) {
   font-family: PTSans-Bold;
   font-size: $size;
@@ -81,3 +82,6 @@
   text-align: $textAlign;
   color: $color;
 }
+
+/*  <% arrivalItems.forEach(function(data) { %> <%= arrivalItem(data)%> <% });
+    %> */
