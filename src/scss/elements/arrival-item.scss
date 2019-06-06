@@ -1,7 +1,8 @@
 /* ---- arrival-item start ----- */
 .c-arrival-item {
   @extend %card-border-with-shadow;
-  @extend %regular-font;
+  @include font-regular;
+
   padding: 20px 19px 12px 19px;
   width: 349px;
   &__date-block {
@@ -13,7 +14,7 @@
   }
 
   &__date {
-    color: $color-text-link;
+    color: $link-text-color;
     margin-right: 5px;
   }
 
@@ -29,10 +30,7 @@
     margin-bottom: 10px;
   }
   &__city {
-    @extend %section-font;
-    font-size: 13px;
-    color: #313131;
-    text-align: start;
+    @include font-intro(13px, null, null, #313131);
   }
 }
 /* ---- arrival-item end ----- */

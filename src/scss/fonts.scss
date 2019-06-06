@@ -32,13 +32,15 @@
   $size: 12px,
   $lineHeight: normal,
   $textAlign: start,
-  $color: #1b1e2d
+  $color: #1b1e2d,
+  $letterSpacing: normal
 ) {
   font-family: PTSans-Regular;
   font-size: $size;
   line-height: $lineHeight;
   text-align: $textAlign;
   color: $color;
+  letter-spacing: $letterSpacing;
 }
 
 @mixin font-intro(

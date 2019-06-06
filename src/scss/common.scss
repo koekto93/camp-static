@@ -81,7 +81,7 @@ body {
   border: solid 1px #eeeeee;
 }
 
-.card-border-with-shadow {
+%card-border-with-shadow {
   border-radius: 6px;
   box-shadow: 0 2px 4px 0 rgba(151, 151, 151, 0.41);
 }
@@ -124,12 +124,9 @@ body {
 /* Переделка ------ */
 
 .c-button {
+  @include font-regular(11px, null, null, #1a1a1a, 0.1px);
   border-radius: 6px;
-  border: solid 1px #e3775b;
+  border: solid 1px $link-text-color;
   padding: 9px 0;
-  font-family: PTSans-Regular;
-  font-size: 11px;
-  letter-spacing: 0.1px;
-  color: #1a1a1a;
   width: 100%;
 }

@@ -1,5 +1,4 @@
 //---- Блок новостей начало
-
 .l-vertical-news {
   width: 350px;
 
@@ -28,9 +27,8 @@
   }
 
   &__button {
-    margin: 0 auto;
     & > button {
-      width: 137px;
+      max-width: 137px;
     }
   }
 }

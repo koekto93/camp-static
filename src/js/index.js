@@ -1,7 +1,8 @@
 import _ from 'lodash';
+const path = './../html/includes/';
 
 const captionWithIcon = _.template(
-  require('./../html/includes/caption-with-icon.html').default,
+  require(`./../html/includes/caption-with-icon.html`).default,
 );
 
 const newsItem = _.template(
@@ -16,9 +17,13 @@ const verticalNewsBlock = _.template(
   require('./../html/includes/vertical-news-block.html').default,
 );
 
+const arrivalItem = _.template(
+  require('./../html/includes/arrival-item.html').default,
+);
+
 //Вставка блока с новостями
 const newsBlockData = {
-  className: '_with-caption', //для главного блока
+  className: '_with-caption _button', //для главного блока
   blockClassName: '_row _j-between', //для блока news__block
   //caption
   caption: true,
@@ -54,7 +59,10 @@ const newsBlockData = {
   ],
 };
 
-const newsBlockContent = newsBlock(newsBlockData);
+const newsContainer = document.createElement('div');
+newsContainer.innerHTML = newsBlock(newsBlockData);
+
+//const newsBlockContent = newsBlock(newsBlockData);
 
 //Вставка блока с вертикальными новостями и картинкой
 const verticalNewsBlockData = {
@@ -95,12 +103,17 @@ const verticalNewsBlockData = {
     },
   ],
 };
-
-const verticalNewsBlockContent = verticalNewsBlock(verticalNewsBlockData);
+const verticalNewsContainer = document.createElement('div');
+verticalNewsContainer.innerHTML = verticalNewsBlock(verticalNewsBlockData);
+//const verticalNewsBlockContent = verticalNewsBlock(verticalNewsBlockData);
 
 //результат
-const result = newsBlockContent + verticalNewsBlockContent;
+//const result = newsBlockContent;
 
 const content = document.body.querySelector('.content-container');
 
-content.innerHTML = result;
+//content.innerHTML = result;
+
+content.appendChild(newsContainer);
+
+content.appendChild(verticalNewsContainer);
