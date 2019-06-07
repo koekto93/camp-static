@@ -2,7 +2,7 @@ $text-color: #1b1e2d;
 $bold-text-color: #1a1a1a;
 $link-text-color: #e16a49;
 $white-text-color: #f7f7f7;
-$image_dir: '../img/';
+$image_dir: "../img/";
 
 body {
   width: 1280px;
@@ -31,10 +31,10 @@ body {
   width: $width;
   height: $height;
   background-color: $color;
-  -webkit-mask-image: url($image_dir+$name+'.svg');
+  -webkit-mask-image: url($image_dir+$name+".svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100%;
-  mask-image: url($image_dir+$name+'.svg');
+  mask-image: url($image_dir+$name+".svg");
   mask-repeat: no-repeat;
   mask-size: 100%;
 }
@@ -76,7 +76,7 @@ body {
   border-bottom: 1px solid rgba(151, 151, 151, 0.18);
 }
 
-.card-border {
+%card-border {
   border-radius: 3px;
   border: solid 1px #eeeeee;
 }
@@ -122,6 +122,27 @@ body {
   &._car {
     @extend %car-icon;
   }
+  &._house {
+    @extend %house-icon;
+  }
+  &._sun {
+    @extend %sun-icon;
+  }
+  &._lodge {
+    @extend %lodge-icon;
+  }
+  &._people {
+    @extend %people-icon;
+  }
+  &._respect {
+    @extend %respect-icon;
+  }
+  &._blanks {
+    @extend %blanks-icon;
+  }
+  &._wallet {
+    @extend %wallet-icon;
+  }
 }
 
 /* Переделка ------ */
@@ -132,4 +153,5 @@ body {
   border: solid 1px $link-text-color;
   padding: 9px 0;
   width: 100%;
+  background: transparent;
 }

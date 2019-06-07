@@ -1,15 +1,26 @@
-@import 'reset';
-@import 'fonts';
-@import 'common';
-@import 'icons';
-@import 'content'; //del
+@import "reset";
+@import "fonts";
+@import "common";
+@import "icons";
 //elems
-@import './elements/arrival-item';
-@import './elements/caption-with-icon.scss';
-@import './elements/news-item.scss';
+@import "./elements/arrival-item";
+@import "./elements/caption-with-icon.scss";
+@import "./elements/news-item.scss";
+@import "./elements/info-simple-card.scss";
+@import "./elements/inner-element-of-info-card.scss";
 
 //blocks
-@import './blocks/arrivals-block';
-@import './blocks/arrivals-container';
-@import './blocks/news-block';
-@import './blocks/vertical-news-block';
+@import "./blocks/arrivals-block";
+@import "./blocks/arrivals-container";
+@import "./blocks/news-block";
+@import "./blocks/vertical-news-block";
+@import "./blocks/important-info-block";
+
+/* 
+<% if(description) { %> <%= 
+    <div class="c-card-with-icon-item__description">
+        <p>
+                <%= descriptionText %>
+        </p>
+    </div> 
+    %> <% } %> */

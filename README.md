@@ -130,3 +130,7 @@ yarn start dev должна сделать сборку без минифика�
 - select https://ru.stackoverflow.com/questions/417507/%D0%A1%D1%82%D0%B8%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-select-%D0%B8-option
 
 - select https://codepen.io/Eliseenko/pen/bdarGM
+
+* info-simple-card
+* info-double-card
+* info-mono-card

@@ -1,0 +1,11 @@
+.c-inner-element-of-info-card {
+  &__description {
+    @include font-regular(12px, normal, center);
+    width: 223px;
+    margin-top: 11px;
+
+    /* &_mono {
+      margin-top: 23px;
+    } */
+  }
+}

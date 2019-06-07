@@ -2,9 +2,14 @@
 .c-caption-with-icon {
   @include font-intro(15x, 1.25, center);
 
-  &__icon {
-    /*  width: 23px;
-    height: 15px; */
+  //Стили для получения бордера-круга в блоке важной информации
+  &._circle-icon-border {
+    .c-caption-with-icon__icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 30px;
+      border: solid 0.5px #979797;
+    }
   }
 
   &._row {

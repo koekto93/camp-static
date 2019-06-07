@@ -1,14 +1,12 @@
 <!-- Ожидается передача объекта вида
 {
-    className: "_row _a-center",
-    width: "23px",
-    height: "15px",
+    className: "_row _a-center ?_circle-icon-border",
     imgName: "news",
     text: "Важная информация"
   }
 -->
 <div class="c-caption-with-icon display-flex <%=className%>">
-  <div class="c-caption-with-icon__icon">
+  <div class="c-caption-with-icon__icon display-flex _a-center _j-center">
     <div class="icon _<%=imgName%>"></div>
   </div>
   <span class="c-caption-with-icon__text"><%=text%></span>
