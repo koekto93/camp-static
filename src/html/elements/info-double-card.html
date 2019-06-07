@@ -1,17 +1,10 @@
-<article class="c-info-simple-card">
-    <%= innerElementOfInfoCard(innerElementData) %>
-    <% if(backSide) { %> 
-      <div class="c-info-simple-card__back display-flex _column _j-center _a-center">
-        <div class="c-info-simple-card__caption">
-          <%= backCaptionText %>
-        </div>
-        <span class="c-info-simple-card__text"
-          ><%= backText %></span
-        >
-      </div>  
-    <% } %>
-    
-  </article>
+<!-- 
+  _separator - разделитель 2-х блоков
+  _card-border - обводка карты
+ -->
+<article class="c-info-double-card display-flex _column _a-center <%=className%>">
+  <% innerElementData.forEach(function(data) { %> <%= innerElementOfInfoCard(data)%> <% }); %>
+</article>
 
  <!--  <article class="c-card-with-icon-item c-caption-with-icon_column">
     <img

@@ -38,4 +38,12 @@
   @include svg-icon(25px, 24px, "wallet", #1a1a1a);
 }
 
+%empty-calendar-icon {
+  @include svg-icon(24px, 22px, "empty-calendar", #1a1a1a);
+}
+
+%done-icon {
+  @include svg-icon(21px, 21px, "done", #1a1a1a);
+}
+
 /* https://blog.teamtreehouse.com/extending-placeholder-selectors-with-sass */

@@ -1,13 +1,8 @@
 //----card-with-icon style start карта с иконкой из важной информации
-.c-card-with-icon-item {
-  @extend %card-border;
+.c-info-double-card {
   width: 349px;
   height: 100%;
   min-height: 224px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
   padding: 38px 60px 52px 60px;
 
   ul {
@@ -24,59 +19,16 @@
     }
   }
 
-  &__caption {
-    @include font-intro(12px);
-
-    &_front {
-      margin-top: 18px;
-    }
+  &._card-border {
+    @extend %card-border;
   }
 
-  &__description {
-    @include font-regular;
-    width: 223px;
-    margin-top: 11px;
-
-    &_mono {
-      margin-top: 23px;
-    }
+  &._card-border {
+    @extend %card-border;
   }
 
-  &__back {
-    @extend %hidden-absolute-block;
-    background-color: #f7f7f7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 44px;
-  }
-
-  &_double {
-    & > div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-
-  &__first-part {
+  & > div:first-child {
     margin-bottom: 36px;
-  }
-
-  &:hover {
-    .c-card-with-icon-item__back {
-      opacity: 1;
-    }
-  }
-
-  &__text {
-    font-family: PTSans-Regular;
-    line-height: normal;
-    width: 223px;
-    height: 84px;
-    text-align: center;
-    font-size: 12px;
-    margin-top: 12px;
   }
 }
 //----card-with-icon style end

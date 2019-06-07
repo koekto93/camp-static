@@ -143,6 +143,12 @@ body {
   &._wallet {
     @extend %wallet-icon;
   }
+  &._empty-calendar {
+    @extend %empty-calendar-icon;
+  }
+  &._done {
+    @extend %done-icon;
+  }
 }
 
 /* Переделка ------ */

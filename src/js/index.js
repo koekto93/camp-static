@@ -1,6 +1,7 @@
 import _ from "lodash";
 const path = "./../html/includes/";
 
+//-----elements-----
 const captionWithIcon = _.template(
   require(`./../html/elements/caption-with-icon.html`).default
 );
@@ -9,6 +10,23 @@ const newsItem = _.template(
   require("./../html/elements/news-item.html").default
 );
 
+const arrivalItem = _.template(
+  require("./../html/elements/arrival-item.html").default
+);
+
+const infoSimpleCard = _.template(
+  require("./../html/elements/info-simple-card.html").default
+);
+
+const infoDoubleCard = _.template(
+  require("./../html/elements/info-double-card.html").default
+);
+
+const innerElementOfInfoCard = _.template(
+  require("./../html/elements/inner-element-of-info-card.html").default
+);
+
+//----blocks-----
 const newsBlock = _.template(
   require("./../html/blocks/news-block.html").default
 );
@@ -17,24 +35,12 @@ const verticalNewsBlock = _.template(
   require("./../html/blocks/vertical-news-block.html").default
 );
 
-const arrivalItem = _.template(
-  require("./../html/elements/arrival-item.html").default
-);
-
 const arrivalsBlock = _.template(
   require("./../html/blocks/arrivals-block.html").default
 );
 
 const arrivalsContainer = _.template(
   require("./../html/blocks/arrivals-container.html").default
-);
-
-const infoSimpleCard = _.template(
-  require("./../html/elements/info-simple-card.html").default
-);
-
-const innerElementOfInfoCard = _.template(
-  require("./../html/elements/inner-element-of-info-card.html").default
 );
 
 const importantInfoBlock = _.template(
@@ -289,6 +295,44 @@ const importantInfoBlockData = {
 const importantInfoWrapper = document.createElement("div");
 importantInfoWrapper.innerHTML = importantInfoBlock(importantInfoBlockData);
 
+//------- Вставка блока с этапами заявочной компании
+
+const wellnessСompanyData = {
+  className: " _separator",
+  innerElementOfInfoCard,
+  innerElementData: [
+    {
+      caption: true,
+      captionWithIcon,
+      captionWithIconData: {
+        className: "_column _a-center",
+        imgName: "empty-calendar",
+        text: "С 2 ноября по 10 декабря 2018 г."
+      },
+      description: true,
+      descriptionText:
+        "Прием заявлений на предоставление услуги — бесплатной путевки в лагерь или сертификат на компенсацию."
+    },
+    {
+      caption: true,
+      captionWithIcon,
+      captionWithIconData: {
+        className: "_column _a-center",
+        imgName: "done",
+        text: "С 2 ноября по 10 декабря 2018 г."
+      },
+      description: true,
+      descriptionText:
+        "Прием заявлений на предоставление услуги — бесплатной путевки в лагерь или сертификат на компенсацию."
+    }
+  ],
+
+  backSide: false //включает и выключает обратную сторону карточки при наведении
+};
+
+const wellnessСompanyWrapper = document.createElement("div");
+wellnessСompanyWrapper.innerHTML = infoDoubleCard(wellnessСompanyData);
+
 //результат
 //const result = newsBlockContent;
 
@@ -303,3 +347,5 @@ const content = document.body.querySelector(".content-container");
 //content.appendChild(arrivalsWrapper);
 
 //content.appendChild(importantInfoWrapper);
+
+content.appendChild(wellnessСompanyWrapper);
