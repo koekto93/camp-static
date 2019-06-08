@@ -93,6 +93,11 @@ const config = {
         include: path.resolve(__dirname, 'src/html/elements'),
         use: ['raw-loader'],
       },
+      {
+        test: /\.html$/,
+        include: path.resolve(__dirname, 'src/html/layers'),
+        use: ['raw-loader'],
+      },
     ],
   },
   plugins: [

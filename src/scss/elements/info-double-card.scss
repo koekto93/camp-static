@@ -3,32 +3,23 @@
   width: 349px;
   height: 100%;
   min-height: 224px;
-  padding: 38px 60px 52px 60px;
-
-  ul {
-    list-style-type: disc;
-    padding: 0;
-    margin: 10px 0 0 30px;
-
-    & li:not(:last-child) {
-      margin-bottom: 10px;
-    }
-    & li span {
-      position: relative;
-      left: -0.5em;
-    }
-  }
 
   &._card-border {
     @extend %card-border;
+    padding: 38px 60px 52px 60px;
+
+    & > div:first-child {
+      margin-bottom: 36px;
+    }
   }
 
-  &._card-border {
-    @extend %card-border;
-  }
-
-  & > div:first-child {
-    margin-bottom: 36px;
+  &._separator {
+    & > div:first-child {
+      margin-bottom: 47px;
+      padding-bottom: 40px;
+      height: 124px;
+      @extend %border-bottom;
+    }
   }
 }
 //----card-with-icon style end

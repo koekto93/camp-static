@@ -1,42 +1,12 @@
-<article class="c-info-simple-card">
-    <%= innerElementOfInfoCard(innerElementData) %>
-    <% if(backSide) { %> 
-      <div class="c-info-simple-card__back display-flex _column _j-center _a-center">
-        <div class="c-info-simple-card__caption">
-          <%= backCaptionText %>
-        </div>
-        <span class="c-info-simple-card__text"
-          ><%= backText %></span
-        >
-      </div>  
-    <% } %>
-    
-  </article>
-
- <!--  <article class="c-card-with-icon-item c-caption-with-icon_column">
-    <img
-      src="./images/alarm.svg"
-      width="24px"
-      height="19px"
-      alt="alarm"
-    />
-    <div
-      class="c-card-with-icon-item__description c-card-with-icon-item__description_mono"
-    >
-      <p>
-        При формировании реестра получателей услуги приоритет
-        отдается:
-      </p>
-      <ul>
-        <li>
-          <span
-            >тем, кто раньше подал заявление на получение
-            услуги.</span
-          >
-        </li>
-        <li>
-          <span>тем, кто ранее не получал услугу.</span>
-        </li>
-      </ul>
+<article class="c-info-simple-card display-flex _column _a-center _j-center">
+  <%= innerElementOfInfoCard(innerElementData) %> <% if(backSide) { %>
+  <div
+    class="c-info-simple-card__back display-flex _column _j-center _a-center"
+  >
+    <div class="c-info-simple-card__caption">
+      <%= backCaptionText %>
     </div>
-  </article> -->
+    <span class="c-info-simple-card__text"><%= backText %></span>
+  </div>
+  <% } %>
+</article>

@@ -1,0 +1,27 @@
+.l-wellness-company {
+  background-color: #f7f7f7;
+
+  &__content {
+    padding: 39px 0 31px;
+  }
+
+  &__stage {
+    margin-top: 20px;
+
+    & > article:first-child {
+      margin-bottom: 34px;
+    }
+  }
+
+  &__cards-container {
+    margin-top: 20px;
+
+    & > article {
+      min-height: 404px;
+    }
+
+    .c-caption-with-icon__text {
+      font-size: 12px;
+    }
+  }
+}

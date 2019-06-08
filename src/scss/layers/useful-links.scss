@@ -1,0 +1,26 @@
+.l-useful-links {
+  &__content {
+    padding: 40px 0 38px;
+  }
+
+  &__links-block {
+    @include set-link-color(#1b1e2d);
+    margin-top: 25px;
+
+    & > section:first-child {
+      margin-right: 11px;
+    }
+  }
+  &__links-column {
+    & > div:not(:first-child) {
+      margin-top: 9px;
+    }
+  }
+}
+
+.c-link-item {
+  @include font-regular(14px);
+  @extend %border-bottom;
+  width: 530px;
+  padding-bottom: 9px;
+}

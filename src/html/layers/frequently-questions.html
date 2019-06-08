@@ -1,0 +1,11 @@
+<div class="l-frequently-questions">
+  <div class="l-frequently-questions__content">
+    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>
+    <section
+      class="l-frequently-questions__questions-block display-flex _j-between"
+    >
+      <% cardItems.forEach(function(item) { %> <%= infoDoubleCard(item)%> <% });
+      %>
+    </section>
+  </div>
+</div>

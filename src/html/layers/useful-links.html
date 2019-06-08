@@ -1,0 +1,16 @@
+<div class="l-useful-links">
+  <div class="l-useful-links__content">
+    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>
+    <div class="l-useful-links__links-block display-flex _row">
+      <% linkTexts.forEach(function(texts) { %>
+      <section class="l-useful-links__links-column">
+        <% texts.forEach(function(text) { %>
+        <div class="c-link-item">
+          <a href="#"><%= text%></a>
+        </div>
+        <% }); %>
+      </section>
+      <% }); %>
+    </div>
+  </div>
+</div>

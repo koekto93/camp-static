@@ -1,0 +1,22 @@
+.l-additional-booking {
+  @extend %card-border;
+  width: 348px;
+  height: 100%;
+  padding: 20px 20px 40px 20px;
+
+  & > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  &__button {
+    margin-top: 21px;
+    width: 100%;
+    & > button {
+      max-width: 105px;
+      text-align: center;
+    }
+  }
+}

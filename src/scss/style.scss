@@ -1,27 +1,26 @@
-@import "reset";
-@import "fonts";
-@import "common";
-@import "icons";
+@import 'reset';
+@import 'fonts';
+@import 'common';
+@import 'icons';
 //elems
-@import "./elements/arrival-item";
-@import "./elements/caption-with-icon.scss";
-@import "./elements/news-item.scss";
-@import "./elements/info-simple-card.scss";
-@import "./elements/info-double-card.scss";
-@import "./elements/inner-element-of-info-card.scss";
+@import './elements/arrival-item';
+@import './elements/material-input';
+@import './elements/caption-with-icon.scss';
+@import './elements/news-item.scss';
+@import './elements/info-simple-card.scss';
+@import './elements/info-list-card.scss';
+@import './elements/info-double-card.scss';
+@import './elements/inner-element-of-info-card.scss';
 
 //blocks
-@import "./blocks/arrivals-block";
-@import "./blocks/arrivals-container";
-@import "./blocks/news-block";
-@import "./blocks/vertical-news-block";
-@import "./blocks/important-info-block";
+@import './blocks/arrivals-block';
+@import './blocks/arrivals-container';
+@import './blocks/news-block';
+@import './blocks/vertical-news-block';
+@import './blocks/important-info-block';
+@import './blocks/additional-booking';
 
-/* 
-<% if(description) { %> <%= 
-    <div class="c-card-with-icon-item__description">
-        <p>
-                <%= descriptionText %>
-        </p>
-    </div> 
-    %> <% } %> */
+//layers
+@import './layers/wellness-company';
+@import './layers/frequently-questions';
+@import './layers/useful-links';

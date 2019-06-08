@@ -1,5 +1,8 @@
-<div class="c-inner-element-of-info-card">
-        <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>
-
-        <% if(description) { %> <div class="c-inner-element-of-info-card__description"><p><%= descriptionText%></p></div> <% } %>
+<div class="c-inner-element-of-info-card display-flex _column _a-center">
+  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %> <%
+  if(description) { %>
+  <div class="c-inner-element-of-info-card__description">
+    <p><%= descriptionText%></p>
+  </div>
+  <% } %>
 </div>

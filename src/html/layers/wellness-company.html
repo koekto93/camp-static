@@ -1,0 +1,19 @@
+<div class="l-wellness-company">
+  <div class="l-wellness-company__content">
+    <h1>Летняя оздоровительная кампания — 2019</h1>
+    <section class="l-wellness-company__stage">
+      <% stages.forEach(function(data) { %>
+      <article>
+        <h3><%= data.captionText%></h3>
+        <div
+          class="l-wellness-company__cards-container display-flex _row _j-between"
+        >
+          <% data.cardItems.forEach(function(item) { %> <%=
+          data.infoDoubleCard(item)%> <% }); %> <% if(data.listCard) { %> <%=
+          data.infoListCard(data.listCardData) %> <% } %>
+        </div>
+      </article>
+      <% }); %>
+    </section>
+  </div>
+</div>

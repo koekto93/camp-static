@@ -1,0 +1,15 @@
+<div class="l-additional-booking">
+  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>
+  <form>
+    <% materialInputData.forEach(function(data) { %> <%= materialInput(data)%>
+    <% }); %>
+    <p class="c-form-hint">
+      Введите номер путевки и фамилию заявителя для бронирования дополнительного
+      места или услуг
+      <span class="c-form-hint__link">инструкция</span>
+    </p>
+    <div class="l-additional-booking__button display-flex _j-center">
+      <button class="c-button">ОК</button>
+    </div>
+  </form>
+</div>

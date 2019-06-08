@@ -1,203 +1,174 @@
-import _ from "lodash";
-const path = "./../html/includes/";
+import _ from 'lodash';
+const path = './../html/includes/';
 
-//-----elements-----
-const captionWithIcon = _.template(
-  require(`./../html/elements/caption-with-icon.html`).default
-);
+import {
+  captionWithIcon,
+  newsItem,
+  arrivalsBlock,
+  arrivalItem,
+  infoSimpleCard,
+  innerElementOfInfoCard,
+  infoDoubleCard,
+  infoListCard,
+  materialInput,
+  additionalBookingBlock,
+} from './common.js';
+import usefulLinksLayerTemplate from './layers/useful-links.js';
+import wellnessСompanyLayerTemplate from './layers/wellness-company.js';
+import frequentlyQuestionsLayerTemplate from './layers/frequently-questions.js';
 
-const newsItem = _.template(
-  require("./../html/elements/news-item.html").default
-);
+const content = document.body.querySelector('.content-container');
 
-const arrivalItem = _.template(
-  require("./../html/elements/arrival-item.html").default
-);
-
-const infoSimpleCard = _.template(
-  require("./../html/elements/info-simple-card.html").default
-);
-
-const infoDoubleCard = _.template(
-  require("./../html/elements/info-double-card.html").default
-);
-
-const innerElementOfInfoCard = _.template(
-  require("./../html/elements/inner-element-of-info-card.html").default
-);
-
-//----blocks-----
-const newsBlock = _.template(
-  require("./../html/blocks/news-block.html").default
-);
-
-const verticalNewsBlock = _.template(
-  require("./../html/blocks/vertical-news-block.html").default
-);
-
-const arrivalsBlock = _.template(
-  require("./../html/blocks/arrivals-block.html").default
-);
-
-const arrivalsContainer = _.template(
-  require("./../html/blocks/arrivals-container.html").default
-);
-
-const importantInfoBlock = _.template(
-  require("./../html/blocks/important-info-block.html").default
-);
+/* -------------------- Вставка блоков ---------------------- */
 
 //-------- Вставка блока с новостями
 const newsBlockData = {
-  className: "_with-caption _button", //для главного блока
-  blockClassName: "_row _j-between", //для блока news__block
+  className: '_with-caption _button', //для главного блока
+  blockClassName: '_row _j-between', //для блока news__block
   //caption
   caption: true,
   captionWithIcon,
   captionWithIconData: {
-    className: "_row _a-center",
-    width: "23px",
-    height: "15px",
-    imgName: "news",
-    text: "Важная информация"
+    className: '_row _a-center',
+    width: '23px',
+    height: '15px',
+    imgName: 'news',
+    text: 'Важная информация',
   },
   //newsItem
   newsItem,
   newsItemData: [
     {
-      className: "_row",
-      date: "01.02.2019",
-      time: "14:10",
-      text: "Результаты распределения квот на отдых 2019"
+      className: '_row',
+      date: '01.02.2019',
+      time: '14:10',
+      text: 'Результаты распределения квот на отдых 2019',
     },
     {
-      className: "_row",
-      date: "01.02.2019",
-      time: "14:10",
-      text: "Результаты распределения квот на отдых 2019"
+      className: '_row',
+      date: '01.02.2019',
+      time: '14:10',
+      text: 'Результаты распределения квот на отдых 2019',
     },
     {
-      className: "_row",
-      date: "01.02.2019",
-      time: "14:10",
-      text: "Результаты распределения квот на отдых 2019"
-    }
-  ]
+      className: '_row',
+      date: '01.02.2019',
+      time: '14:10',
+      text: 'Результаты распределения квот на отдых 2019',
+    },
+  ],
 };
 
-const newsContainer = document.createElement("div");
-newsContainer.innerHTML = newsBlock(newsBlockData);
-
-//const newsBlockContent = newsBlock(newsBlockData);
+//const newsContainer = document.createElement('div');
+//newsContainer.innerHTML = newsBlock(newsBlockData);
 
 //-------- Вставка блока с вертикальными новостями и картинкой
 const verticalNewsBlockData = {
-  className: "_with-caption", //для главного блока
-  blockClassName: "_row _j-between", //для блока news__block
+  className: '_with-caption', //для главного блока
+  blockClassName: '_row _j-between', //для блока news__block
   //img
   img: true,
   //caption
   caption: true,
   captionWithIcon,
   captionWithIconData: {
-    className: "_row _a-center",
-    width: "23px",
-    height: "15px",
-    imgName: "news",
-    text: "Важная информация"
+    className: '_row _a-center',
+    width: '23px',
+    height: '15px',
+    imgName: 'news',
+    text: 'Важная информация',
   },
   //newsItem
   newsItem,
   newsItemData: [
     {
-      className: "_row",
-      date: "01.02.2019",
-      time: "14:10",
-      text: "Результаты распределения квот на отдых 2019"
+      className: '_row',
+      date: '01.02.2019',
+      time: '14:10',
+      text: 'Результаты распределения квот на отдых 2019',
     },
     {
-      className: "_row",
-      date: "01.02.2019",
-      time: "14:10",
-      text: "Результаты распределения квот на отдых 2019"
+      className: '_row',
+      date: '01.02.2019',
+      time: '14:10',
+      text: 'Результаты распределения квот на отдых 2019',
     },
     {
-      className: "_row",
-      date: "01.02.2019",
-      time: "14:10",
-      text: "Результаты распределения квот на отдых 2019"
-    }
-  ]
+      className: '_row',
+      date: '01.02.2019',
+      time: '14:10',
+      text: 'Результаты распределения квот на отдых 2019',
+    },
+  ],
 };
-const verticalNewsContainer = document.createElement("div");
-verticalNewsContainer.innerHTML = verticalNewsBlock(verticalNewsBlockData);
-//const verticalNewsBlockContent = verticalNewsBlock(verticalNewsBlockData);
+//const verticalNewsContainer = document.createElement('div');
+//verticalNewsContainer.innerHTML = verticalNewsBlock(verticalNewsBlockData);
 
-//-------- Вставка блока с заездами
+//-------- DONE! Вставка блока с заездами
 const arrivalsContainerData = {
-  className: "", //для главного блока
-  blockClassName: "_row _j-between", //для блока news__block
+  className: '', //для главного блока
+  blockClassName: '_row _j-between', //для блока news__block
   //caption
   caption: true,
   captionWithIcon,
   captionWithIconData: {
-    className: "_row _a-center",
-    width: "32px",
-    height: "16px",
-    imgName: "car",
-    text: "информация о заездах сегодня"
+    className: '_row _a-center',
+    width: '32px',
+    height: '16px',
+    imgName: 'car',
+    text: 'информация о заездах сегодня',
   },
 
   //arrivalsBlock
   arrivalsBlock,
   arrivalsBlockData: [
     {
-      caption: "ЗАЕЗДЫ —20–27 ИЮНЯ 2019",
+      caption: 'ЗАЕЗДЫ —20–27 ИЮНЯ 2019',
       arrivalItem,
       arrivalItems: [
         {
-          className: "_column",
-          date: "01.02.2019",
-          time: "14:10",
-          address: "Результаты распределения квот на отдых 2019",
-          city: "адлер"
+          className: '_column',
+          date: '01.02.2019',
+          time: '14:10',
+          address: 'Результаты распределения квот на отдых 2019',
+          city: 'адлер',
         },
         {
-          className: "_column",
-          date: "01.02.2019",
-          time: "14:10",
-          address: "Результаты распределения квот на отдых 2019",
-          city: "адлер"
-        }
-      ]
+          className: '_column',
+          date: '01.02.2019',
+          time: '14:10',
+          address: 'Результаты распределения квот на отдых 2019',
+          city: 'адлер',
+        },
+      ],
     },
     {
-      caption: "ВЫЕЗДЫ —20–27 ИЮНЯ 2019",
+      caption: 'ВЫЕЗДЫ —20–27 ИЮНЯ 2019',
       arrivalItem,
       arrivalItems: [
         {
-          className: "_column",
-          date: "01.02.2019",
-          time: "14:10",
-          address: "Результаты распределения квот на отдых 2019",
-          city: "адлер"
+          className: '_column',
+          date: '01.02.2019',
+          time: '14:10',
+          address: 'Результаты распределения квот на отдых 2019',
+          city: 'адлер',
         },
         {
-          className: "_column",
-          date: "01.02.2019",
-          time: "14:10",
-          address: "Результаты распределения квот на отдых 2019",
-          city: "адлер"
-        }
-      ]
-    }
-  ]
+          className: '_column',
+          date: '01.02.2019',
+          time: '14:10',
+          address: 'Результаты распределения квот на отдых 2019',
+          city: 'адлер',
+        },
+      ],
+    },
+  ],
 };
 
-const arrivalsWrapper = document.createElement("div");
-arrivalsWrapper.innerHTML = arrivalsContainer(arrivalsContainerData);
+//const arrivalsWrapper = document.createElement('div');
+//arrivalsWrapper.innerHTML = arrivalsContainer(arrivalsContainerData);
 
-//------- Вставка блока с важной информацией
+//------- DONE! Вставка блока с важной информацией
 const importantInfoBlockData = {
   infoSimpleCard,
   infoSimpleCardsData: [
@@ -207,16 +178,16 @@ const importantInfoBlockData = {
         caption: true,
         captionWithIcon,
         captionWithIconData: {
-          className: "_column _a-center _circle-icon-border",
-          imgName: "respect",
-          text: "Как получить льготу"
+          className: '_column _a-center _circle-icon-border',
+          imgName: 'respect',
+          text: 'Как получить льготу',
         },
-        description: false
+        description: false,
       },
       backSide: true, //включает и выключает обратную сторону карточки при наведении
-      backCaptionText: "Как получить льготу",
+      backCaptionText: 'Как получить льготу',
       backText:
-        "Заявление о предоставлении услуг отдыха и оздоровления может подать родитель (иной законный представитель) или доверенное лицо на совершение действий в период проведения заявочной кампании."
+        'Заявление о предоставлении услуг отдыха и оздоровления может подать родитель (иной законный представитель) или доверенное лицо на совершение действий в период проведения заявочной кампании.',
     },
     {
       innerElementOfInfoCard,
@@ -224,13 +195,13 @@ const importantInfoBlockData = {
         caption: true,
         captionWithIcon,
         captionWithIconData: {
-          className: "_column _a-center _circle-icon-border",
-          imgName: "sun",
-          text: "Квоты на отдых и оздоровление в 2019 году"
+          className: '_column _a-center _circle-icon-border',
+          imgName: 'sun',
+          text: 'Квоты на отдых и оздоровление в 2019 году',
         },
-        description: false
+        description: false,
       },
-      backSide: false //включает и выключает обратную сторону карточки при наведении
+      backSide: false, //включает и выключает обратную сторону карточки при наведении
     },
     {
       innerElementOfInfoCard,
@@ -238,13 +209,13 @@ const importantInfoBlockData = {
         caption: true,
         captionWithIcon,
         captionWithIconData: {
-          className: "_column _a-center _circle-icon-border",
-          imgName: "wallet",
-          text: "Порядок выплаты частичной компенсации"
+          className: '_column _a-center _circle-icon-border',
+          imgName: 'wallet',
+          text: 'Порядок выплаты частичной компенсации',
         },
-        description: false
+        description: false,
       },
-      backSide: false //включает и выключает обратную сторону карточки при наведении
+      backSide: false, //включает и выключает обратную сторону карточки при наведении
     },
     {
       innerElementOfInfoCard,
@@ -252,13 +223,13 @@ const importantInfoBlockData = {
         caption: true,
         captionWithIcon,
         captionWithIconData: {
-          className: "_column _a-center _circle-icon-border",
-          imgName: "people",
-          text: "Список льготных категорий"
+          className: '_column _a-center _circle-icon-border',
+          imgName: 'people',
+          text: 'Список льготных категорий',
         },
-        description: false
+        description: false,
       },
-      backSide: false //включает и выключает обратную сторону карточки при наведении
+      backSide: false, //включает и выключает обратную сторону карточки при наведении
     },
     {
       innerElementOfInfoCard,
@@ -266,13 +237,13 @@ const importantInfoBlockData = {
         caption: true,
         captionWithIcon,
         captionWithIconData: {
-          className: "_column _a-center _circle-icon-border",
-          imgName: "lodge",
-          text: "Бесплатные путевки в Орленок для одаренных детей"
+          className: '_column _a-center _circle-icon-border',
+          imgName: 'lodge',
+          text: 'Бесплатные путевки в Орленок для одаренных детей',
         },
-        description: false
+        description: false,
       },
-      backSide: false //включает и выключает обратную сторону карточки при наведении
+      backSide: false, //включает и выключает обратную сторону карточки при наведении
     },
     {
       innerElementOfInfoCard,
@@ -280,63 +251,51 @@ const importantInfoBlockData = {
         caption: true,
         captionWithIcon,
         captionWithIconData: {
-          className: "_column _a-center _circle-icon-border",
-          imgName: "blanks",
+          className: '_column _a-center _circle-icon-border',
+          imgName: 'blanks',
           text:
-            "Постановление Правительства Москвы № 56-ПП «Об организации отдыха и оздоровления детей, находящихся в трудной жизненной ситуации» (в актуальной редакции от 18 октября 2018 г.)"
+            'Постановление Правительства Москвы № 56-ПП «Об организации отдыха и оздоровления детей, находящихся в трудной жизненной ситуации» (в актуальной редакции от 18 октября 2018 г.)',
         },
-        description: false
+        description: false,
       },
-      backSide: false //включает и выключает обратную сторону карточки при наведении
-    }
-  ]
-};
-
-const importantInfoWrapper = document.createElement("div");
-importantInfoWrapper.innerHTML = importantInfoBlock(importantInfoBlockData);
-
-//------- Вставка блока с этапами заявочной компании
-
-const wellnessСompanyData = {
-  className: " _separator",
-  innerElementOfInfoCard,
-  innerElementData: [
-    {
-      caption: true,
-      captionWithIcon,
-      captionWithIconData: {
-        className: "_column _a-center",
-        imgName: "empty-calendar",
-        text: "С 2 ноября по 10 декабря 2018 г."
-      },
-      description: true,
-      descriptionText:
-        "Прием заявлений на предоставление услуги — бесплатной путевки в лагерь или сертификат на компенсацию."
+      backSide: false, //включает и выключает обратную сторону карточки при наведении
     },
-    {
-      caption: true,
-      captionWithIcon,
-      captionWithIconData: {
-        className: "_column _a-center",
-        imgName: "done",
-        text: "С 2 ноября по 10 декабря 2018 г."
-      },
-      description: true,
-      descriptionText:
-        "Прием заявлений на предоставление услуги — бесплатной путевки в лагерь или сертификат на компенсацию."
-    }
   ],
-
-  backSide: false //включает и выключает обратную сторону карточки при наведении
 };
 
-const wellnessСompanyWrapper = document.createElement("div");
-wellnessСompanyWrapper.innerHTML = infoDoubleCard(wellnessСompanyData);
+//const importantInfoWrapper = document.createElement('div');
+//importantInfoWrapper.innerHTML = importantInfoBlock(importantInfoBlockData);
+
+//------- DONE! Вставка блока с этапами заявочной компании
+
+content.innerHTML = wellnessСompanyLayerTemplate;
+
+//------ DONE! Блок бронирования дополнительных услуг и мест
+const additionalBookingBlockData = {
+  caption: true,
+  captionWithIcon,
+  captionWithIconData: {
+    className: '_column _a-center',
+    imgName: 'calendar',
+    text: 'Бронирование дополнительных мест и услуг',
+  },
+  description: false,
+  materialInput,
+  materialInputData: [{ text: 'Номер путевки' }, { text: 'Фамилия заявителя' }],
+};
+//const additionalBookingBlockWrapper = document.createElement('div');
+/* additionalBookingBlockWrapper.innerHTML = additionalBookingBlock(
+  additionalBookingBlockData,
+); */
+
+//------- DONE! Блок ответа на частые вопросы
+//content.innerHTML = frequentlyQuestionsLayerTemplate;
+
+// ----- DONE! Вставка блока полезных ссылок
+//content.innerHTML = usefulLinksLayerTemplate;
 
 //результат
 //const result = newsBlockContent;
-
-const content = document.body.querySelector(".content-container");
 
 //content.innerHTML = result;
 
@@ -348,4 +307,6 @@ const content = document.body.querySelector(".content-container");
 
 //content.appendChild(importantInfoWrapper);
 
-content.appendChild(wellnessСompanyWrapper);
+//content.appendChild(wellnessСompanyWrapper);
+
+//content.appendChild(additionalBookingBlockWrapper);
