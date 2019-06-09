@@ -27,8 +27,10 @@
   }
 
   &__button {
+    width: 100%;
     & > button {
       max-width: 137px;
+      text-align: center;
     }
   }
 }

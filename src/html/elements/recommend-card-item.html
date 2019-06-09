@@ -1,0 +1,32 @@
+<article class="c-recommendations-card-item">
+  <div
+    class="c-recommendations-card-item__header display-flex _a-center _j-between"
+  >
+    <div class="c-recommendations-card-item__date">
+      <span>Сегодня</span>
+    </div>
+    <div class="c-age-limit display-flex _a-center _j-center">
+      <span>8+</span>
+    </div>
+  </div>
+  <div class="c-recommendations-card-item__headline">
+    Выставка Евгений Антуфьев и Дмитрий Краснопевцев: Диалог. Когда искусство
+    становится частью ландшафта. Часть III, Москва
+  </div>
+  <div class="c-recommendations-card-item__description">
+    Третья и заключительная часть диалогов художника Евгения Антуфьева и
+    мастеров прошлого....
+  </div>
+  <div class="c-recommendations-card-item__info-caption-block">
+    <% captions.forEach(function(data) { %>
+    <div>
+      <%= data.captionWithIcon(data.captionWithIconData)%>
+    </div>
+    <% }); %>
+  </div>
+
+  <div class="c-recommendations-card-item__categories display-flex _j-center">
+    <button>Искусство</button>
+    <button>Культура</button>
+  </div>
+</article>

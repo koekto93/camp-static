@@ -2,6 +2,10 @@
   @include svg-icon(16px, 16px, 'search', #1a1a1a);
 }
 
+%cloud-icon {
+  @include svg-icon(18px, 18px, 'cartoon_cloud', #1a1a1a);
+}
+
 %news-icon {
   @include svg-icon(23px, 16px, 'news', #1a1a1a);
 }
@@ -38,6 +42,14 @@
   @include svg-icon(25px, 24px, 'wallet', #1a1a1a);
 }
 
+%white-wallet-icon {
+  @include svg-icon(11px, 10px, 'wallet', #f7f7f7);
+}
+
+%white-mark-icon {
+  @include svg-icon(11px, 10px, 'mark', #f7f7f7);
+}
+
 %empty-calendar-icon {
   @include svg-icon(24px, 22px, 'empty-calendar', #1a1a1a);
 }
@@ -62,4 +74,19 @@
   @include svg-icon(17px, 17px, 'link', #1a1a1a);
 }
 
+%stars-icon {
+  @include svg-icon(21px, 21px, 'stars', #1a1a1a);
+}
+
+%search-icon {
+  @include svg-icon(16px, 16px, 'search', #bfbfbf);
+}
+
+%burger-icon {
+  @include svg-icon(19px, 15px, 'burger_menu', #bfbfbf);
+}
+
+%video-icon {
+  @include svg-icon(20px, 15px, 'video', #1a1a1a);
+}
 /* https://blog.teamtreehouse.com/extending-placeholder-selectors-with-sass */

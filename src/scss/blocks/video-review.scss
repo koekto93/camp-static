@@ -1,0 +1,52 @@
+.l-video-reviews {
+  &__content {
+    margin-top: 23px;
+  }
+
+  &__image {
+    width: 350px;
+    height: 289px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 10px;
+    & img {
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__info-block {
+    width: 348px;
+  }
+
+  &__text-block {
+    margin-bottom: 53px;
+    & > div:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__text {
+    @include font-bold(14px, normal, start, #8e8e93);
+  }
+
+  &__chats-caption {
+    @include font-regular;
+  }
+
+  &__chat-icons {
+    margin-top: 17px;
+
+    & > div:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+  &__chat-item {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 1px #979797;
+    background-color: #ffffff;
+  }
+}

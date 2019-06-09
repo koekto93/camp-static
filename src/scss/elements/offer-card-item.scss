@@ -1,0 +1,131 @@
+//State 1: dots, for kids, age limit top
+//State 2: for kids, age limit bottom
+//State 3: age limit bottom
+.c-offer-card-item {
+  @extend %card-border-with-shadow;
+  border-radius: 0px 0px 6px 6px;
+  position: relative;
+  width: 350px;
+
+  &._state-1 {
+    .c-offer-card-item__dots {
+      display: flex;
+    }
+    .c-offer-card-item__for-kids {
+      display: flex;
+    }
+    .c-offer-card-item__age-limit_top {
+      display: flex !important;
+    }
+
+    .c-offer-card-item__bottom-info {
+      margin-top: 7px;
+    }
+  }
+
+  &._state-2 {
+    .c-offer-card-item__for-kids {
+      display: flex;
+    }
+    .c-offer-card-item__age-limit_bottom {
+      display: flex !important;
+    }
+  }
+
+  &._state-3 {
+    .c-offer-card-item__age-limit_bottom {
+      display: flex !important;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: 198px;
+
+    & img {
+      max-width: 100%;
+      height: 198px;
+    }
+  }
+
+  &__top-info {
+    padding-bottom: 20px;
+    @extend %border-bottom;
+  }
+
+  &__caption {
+    @include font-intro(15px, 1.47);
+    margin-bottom: 10px;
+  }
+
+  &__city {
+    @include font-regular(15px, normal, start, #9b9b9b);
+  }
+
+  &__bottom-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 19px;
+  }
+
+  &__coast {
+    @include font-regular(15px, normal, start, #313131);
+    display: flex;
+    align-items: center;
+  }
+
+  &__dots {
+    display: none;
+
+    & > span {
+      width: 10px;
+      height: 10px;
+      border-radius: 5px;
+      background-color: #e3775b;
+
+      //hide text
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    & > span:not(:last-child) {
+      margin-right: 4px;
+    }
+  }
+
+  &__age-limit {
+    display: none !important;
+    border: 1px solid #313131 !important;
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    color: #313131;
+    &_top {
+      position: absolute;
+      top: 20px;
+      right: 24px;
+    }
+  }
+
+  &__for-kids {
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    width: 127px;
+    height: 26px;
+    border-radius: 3px;
+    background-color: $link-text-color;
+
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @include font-regular(11px, normal, start, $white-text-color, 0.9px);
+  }
+}
+
+.l-offer-card-item-info {
+  padding: 23px 23px 21px 18px;
+}

@@ -1,0 +1,63 @@
+.c-recommendations-card-item {
+  width: 349px;
+  height: 435px;
+  border-radius: 6px;
+  background-image: url('../../uploads/moon.jpg');
+  padding: 20px 20px 10px 20px;
+
+  &__header {
+    @include font-regular(12px, normal, start, $white-text-color);
+    padding-bottom: 19px;
+    border-bottom: 1px solid $white-text-color;
+  }
+
+  &__date {
+    font-size: 15px;
+  }
+
+  &__headline {
+    @include font-intro(15px, 1.47, start, $white-text-color);
+    margin-top: 31px;
+  }
+
+  &__description {
+    @include font-regular(15px, normal, start, $white-text-color);
+    margin: 10px 0 16px;
+  }
+
+  &__info-caption-block {
+    & > div:first-child {
+      margin-bottom: 6px;
+    }
+  }
+
+  &__categories {
+    @include font-regular(10px, normal, center, $white-text-color);
+    margin-top: 75px;
+
+    & > button {
+      width: 90px;
+      height: 21px;
+      border: 0.5px solid $white-text-color;
+      background-color: rgba(0, 0, 0, 0.3);
+      color: $white-text-color;
+      font-size: 10px;
+    }
+
+    & > button:first-child {
+      margin-right: 10px;
+    }
+  }
+
+  & .c-caption-with-icon__icon {
+    margin-right: 9px;
+
+    /* & > img {
+      filter: invert(100%);
+    } */
+  }
+  & .c-caption-with-icon__text {
+    @include font-regular(12px, normal, start, $white-text-color);
+    @extend %bold-font !optional;
+  }
+}

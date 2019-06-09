@@ -1,0 +1,11 @@
+<div class="l-recommendations">
+  <div class="l-recommendations__content">
+    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>
+  </div>
+  <div
+    class="l-recommendations__recommendations-block display-flex _row _j-between"
+  >
+    <% recommendCardsData.forEach(function(data) { %> <%=
+    recommendCardItem(data)%> <% }); %>
+  </div>
+</div>

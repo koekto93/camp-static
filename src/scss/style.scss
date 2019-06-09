@@ -4,6 +4,7 @@
 @import 'icons';
 //elems
 @import './elements/arrival-item';
+@import './elements/recommend-card-item';
 @import './elements/material-input';
 @import './elements/caption-with-icon.scss';
 @import './elements/news-item.scss';
@@ -11,16 +12,30 @@
 @import './elements/info-list-card.scss';
 @import './elements/info-double-card.scss';
 @import './elements/inner-element-of-info-card.scss';
+//@import './elements/content-header-main.scss';
+@import './elements/content-header-tours.scss';
+@import './elements/input.scss';
+@import './elements/offer-card-item.scss';
 
 //blocks
 @import './blocks/arrivals-block';
 @import './blocks/arrivals-container';
+@import './blocks/important-info-container';
 @import './blocks/news-block';
 @import './blocks/vertical-news-block';
 @import './blocks/important-info-block';
 @import './blocks/additional-booking';
+@import './blocks/video-review.scss';
+@import './blocks/main-top-offers.scss';
 
 //layers
 @import './layers/wellness-company';
 @import './layers/frequently-questions';
 @import './layers/useful-links';
+@import './layers/recommendations';
+@import './layers/header';
+
+//--- main
+@import './layers/main-news';
+@import './layers/main-first-composite-layer';
+@import './layers/main-second-composite-layer';

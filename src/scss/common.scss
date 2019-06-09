@@ -31,6 +31,16 @@ body {
   color: $link-text-color;
 }
 
+%image-wrapper {
+  background-size: cover;
+  overflow: hidden;
+}
+
+@mixin vertical-bar($height, $color) {
+  height: $height;
+  border-left: 1px solid $color;
+}
+
 @mixin svg-icon($width, $height, $name, $color) {
   width: $width;
   height: $height;
@@ -165,6 +175,27 @@ body {
   &._link {
     @extend %link-icon;
   }
+  &._stars {
+    @extend %stars-icon;
+  }
+  &._white-wallet {
+    @extend %white-wallet-icon;
+  }
+  &._white-mark {
+    @extend %white-mark-icon;
+  }
+  &._search {
+    @extend %search-icon;
+  }
+  &._burger {
+    @extend %burger-icon;
+  }
+  &._video {
+    @extend %video-icon;
+  }
+  &._cloud {
+    @extend %cloud-icon;
+  }
 }
 
 .c-button {
@@ -176,6 +207,16 @@ body {
   background: transparent;
 }
 
+//возратное ограничение
+.c-age-limit {
+  @include font-regular(11px, normal, center, $white-text-color);
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  border: 1px solid $white-text-color;
+  background-color: rgba(0, 0, 0, 0.21);
+}
+
 h1 {
   @include font-intro(25px, 1.36, start);
 }
@@ -183,13 +224,3 @@ h1 {
 h3 {
   @include font-intro(15px, 1.6);
 }
-
-/* <% linksText.forEach(function(texts) { %>
-      <section class="l-useful-links__links-column">
-        <% texts.forEach(function(text) { %> <%=
-        <div class="c-link-item">
-          <a href="#"><%=text %></a>
-        </div>
-        <% }); %>
-      </section>
-      <% }); %>  */

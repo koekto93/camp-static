@@ -1,0 +1,14 @@
+.header-content {
+  &__caption {
+    @include font-intro(28px, normal, center, $white-text-color);
+    width: 341px;
+    height: 34px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #bfbfbf;
+  }
+  &__description {
+    @include font-bold(14px, 1.43, center, $white-text-color);
+    width: 478px;
+    height: 91px;
+  }
+}

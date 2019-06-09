@@ -1,5 +1,7 @@
 //---- Блок новостей начало
 
+//_button включает кнопку.
+
 .l-news {
   //margin-bottom: 34px;
 
@@ -14,6 +16,9 @@
     .l-news__block {
       margin-bottom: 24px;
     }
+    .l-news__button {
+      display: flex;
+    }
   }
 
   &__block {
@@ -27,8 +32,11 @@
   }
 
   &__button {
+    display: none;
+    width: 100%;
     & > button {
       max-width: 137px;
+      text-align: center;
     }
   }
 }

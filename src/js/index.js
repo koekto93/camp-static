@@ -12,14 +12,54 @@ import {
   infoListCard,
   materialInput,
   additionalBookingBlock,
+  videoReview,
+  offerCardItem,
 } from './common.js';
+
+//main
+import headerLayerTemplate from './layers/header.js';
+import mainNewsLayerTemplate from './layers/main-news.js';
+import mainFirstCompositeLayerTemplate from './layers/main-first-composite-layer.js';
+import mainSecondCompositeLayerTemplate from './layers/main-second-composite-layer.js';
+
+//social vacation
 import usefulLinksLayerTemplate from './layers/useful-links.js';
 import wellnessСompanyLayerTemplate from './layers/wellness-company.js';
 import frequentlyQuestionsLayerTemplate from './layers/frequently-questions.js';
+import recommendationsLayerTemplate from './layers/recommendations.js';
 
 const content = document.body.querySelector('.content-container');
 
 /* -------------------- Вставка блоков ---------------------- */
+
+//----- DONE! Вставка блока с видеоотзывами
+const videoReviewData = {
+  caption: true,
+  captionWithIcon,
+  captionWithIconData: {
+    className: '_row _a-center',
+    imgName: 'video',
+    text: 'Видеоотзывы',
+  },
+};
+const videoReviewContainer = document.createElement('div');
+videoReviewContainer.innerHTML = videoReview(videoReviewData);
+//content.appendChild(videoReviewContainer);
+
+//---- DONE!Вставка блока с предложением у которого 3 состояния
+const offerCardItemData = {
+  className: '_state-1',
+  /* caption: true,
+  captionWithIcon,
+  captionWithIconData: {
+    className: '_row _a-center',
+    imgName: 'video',
+    text: 'Видеоотзывы',
+  }, */
+};
+const offerCardItemContainer = document.createElement('div');
+offerCardItemContainer.innerHTML = offerCardItem(offerCardItemData);
+//content.appendChild(offerCardItemContainer);
 
 //-------- Вставка блока с новостями
 const newsBlockData = {
@@ -267,8 +307,7 @@ const importantInfoBlockData = {
 //importantInfoWrapper.innerHTML = importantInfoBlock(importantInfoBlockData);
 
 //------- DONE! Вставка блока с этапами заявочной компании
-
-content.innerHTML = wellnessСompanyLayerTemplate;
+//content.innerHTML = wellnessСompanyLayerTemplate;
 
 //------ DONE! Блок бронирования дополнительных услуг и мест
 const additionalBookingBlockData = {
@@ -294,6 +333,12 @@ const additionalBookingBlockData = {
 // ----- DONE! Вставка блока полезных ссылок
 //content.innerHTML = usefulLinksLayerTemplate;
 
+//------ DONE! Вставка блока рекомендаций
+//content.innerHTML = recommendationsLayerTemplate;
+
+//Вставка шапки пиздец!
+//content.innerHTML = headerLayerTemplate;
+
 //результат
 //const result = newsBlockContent;
 
@@ -310,3 +355,11 @@ const additionalBookingBlockData = {
 //content.appendChild(wellnessСompanyWrapper);
 
 //content.appendChild(additionalBookingBlockWrapper);
+
+//Сборка main страницы
+const mainResult =
+  headerLayerTemplate +
+  mainNewsLayerTemplate +
+  mainFirstCompositeLayerTemplate +
+  mainSecondCompositeLayerTemplate;
+content.innerHTML = mainResult;

@@ -1,0 +1,7 @@
+<div class="l-main-top-offers">
+  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>
+  <div class="l-main-top-offers__block display-flex _j-between">
+    <% offerCardItemsData.forEach(function(data) { %> <%= offerCardItem(data)%>
+    <% }); %>
+  </div>
+</div>

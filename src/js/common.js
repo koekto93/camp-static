@@ -3,6 +3,26 @@ export const captionWithIcon = _.template(
   require(`./../html/elements/caption-with-icon.html`).default,
 );
 
+export const offerCardItem = _.template(
+  require(`./../html/elements/offer-card-item.html`).default,
+);
+
+export const contentHeaderMain = _.template(
+  require(`./../html/elements/content-header-main.html`).default,
+); //???
+
+export const contentHeaderTours = _.template(
+  require(`./../html/elements/content-header-tours.html`).default,
+);
+
+export const input = _.template(
+  require(`./../html/elements/input.html`).default,
+);
+
+export const recommendCardItem = _.template(
+  require(`./../html/elements/recommend-card-item.html`).default,
+);
+
 export const materialInput = _.template(
   require(`./../html/elements/material-input.html`).default,
 );
@@ -48,12 +68,24 @@ export const arrivalsContainer = _.template(
   require('./../html/blocks/arrivals-container.html').default,
 );
 
+export const importantInfoContainer = _.template(
+  require('./../html/blocks/important-info-container.html').default,
+);
+
 export const importantInfoBlock = _.template(
   require('./../html/blocks/important-info-block.html').default,
 );
 
 export const additionalBookingBlock = _.template(
   require('./../html/blocks/additional-booking.html').default,
+);
+
+export const videoReview = _.template(
+  require(`./../html/blocks/video-review.html`).default,
+);
+
+export const mainTopOffers = _.template(
+  require(`./../html/blocks/main-top-offers.html`).default,
 );
 
 //----layers-----
@@ -67,4 +99,25 @@ export const frequentlyQuestionsLayer = _.template(
 
 export const usefulLinksLayer = _.template(
   require('./../html/layers/useful-links.html').default,
+);
+
+export const recommendationsLayer = _.template(
+  require('./../html/layers/recommendations.html').default,
+);
+
+export const headerLayer = _.template(
+  require('./../html/layers/header.html').default,
+);
+
+//----main
+export const mainNewsLayer = _.template(
+  require('./../html/layers/main-news.html').default,
+);
+
+export const mainFirstCompositeLayer = _.template(
+  require('./../html/layers/main-first-composite-layer.html').default,
+);
+
+export const mainSecondCompositeLayer = _.template(
+  require('./../html/layers/main-second-composite-layer.html').default,
 );

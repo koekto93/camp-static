@@ -10,8 +10,11 @@
     }
   }
   &__button {
-    margin: 0 auto;
-    width: 137px;
+    width: 100%;
+    & > button {
+      max-width: 137px;
+      text-align: center;
+    }
   }
 }
 
