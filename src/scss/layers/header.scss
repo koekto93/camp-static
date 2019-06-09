@@ -3,14 +3,14 @@
   padding-top: 20px;
 
   &._main {
-    background-image: url('../../uploads/main.png');
+    background-image: url('../uploads/main.png');
     .header-content__caption {
       width: 341px;
       border-bottom: 1px solid #bfbfbf;
     }
   }
   &._tours {
-    background-image: url('../../uploads/tours.png');
+    background-image: url('../uploads/tours.png');
     .header-content__caption {
       width: 771px;
     }
