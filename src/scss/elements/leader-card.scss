@@ -1,0 +1,33 @@
+.c-leader-card {
+  width: 349px;
+  height: 435px;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 0 22px 0 19px;
+  position: relative;
+
+  &__background::after {
+    content: '';
+    background: url('../../uploads/bg.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+  &__caption {
+    @include font-intro(15px, normal, center, $white-text-color, 1.47);
+    margin: 107px 0 128px;
+  }
+
+  &__icon {
+    margin-bottom: 20px;
+  }
+
+  &__info {
+    @include font-regular(15px, normal, center, $white-text-color);
+  }
+}

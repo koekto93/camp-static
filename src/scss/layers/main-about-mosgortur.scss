@@ -1,0 +1,52 @@
+.l-about-mosgortur {
+  background-color: $white-text-color;
+  margin-top: 29px;
+  &__content {
+    padding: 35px 0 20px;
+  }
+
+  &__headline {
+    width: 790px;
+    margin-bottom: 25px;
+    @include font-intro(25px, 1.36);
+  }
+
+  &__text-block {
+    width: 349px;
+  }
+
+  &__text {
+    margin-bottom: 35px;
+    @include font-regular(13px, normal, start, #1b1e2d, 0.1px);
+  }
+
+  &__stats {
+    & > div:not(:last-child) {
+      margin-bottom: 22px;
+    }
+  }
+
+  &__stat-headline {
+    margin-bottom: 8px;
+    @include font-intro(35px, 0.69);
+  }
+
+  &__stat-text {
+    @include font-regular(13px, normal, start, #1b1e2d, 0.1px);
+  }
+
+  &__offers-block {
+    margin-bottom: 20px;
+    & > div:first-child {
+      margin-right: 8px;
+    }
+  }
+
+  &__button {
+    width: 100%;
+    & > button {
+      max-width: 137px;
+      text-align: center;
+    }
+  }
+}

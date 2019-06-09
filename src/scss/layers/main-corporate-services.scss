@@ -1,0 +1,21 @@
+.l-main-corporate-services {
+  &__content {
+    padding-top: 37px;
+  }
+
+  &__extra-caption {
+    margin-bottom: 25px;
+  }
+
+  &__extra-caption-text {
+    @include font-bold(13px, normal, start, #9b9b9b, 0.1px);
+  }
+
+  &__button {
+    & > button {
+      width: 137px;
+      text-align: center;
+      justify-content: flex-end;
+    }
+  }
+}

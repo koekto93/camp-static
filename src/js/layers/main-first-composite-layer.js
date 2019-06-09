@@ -20,7 +20,7 @@ const importantInfoContainerData = {
   captionWithIcon,
   captionWithIconData: {
     className: '_row _a-center',
-    imgName: 'cloud',
+    imgName: 'important',
     text: 'Важная информация',
   },
 

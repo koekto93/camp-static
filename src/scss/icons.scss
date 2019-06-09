@@ -89,4 +89,53 @@
 %video-icon {
   @include svg-icon(20px, 15px, 'video', #1a1a1a);
 }
+
+%subscribe-icon {
+  @include svg-icon(20px, 21px, 'subscribe', #fad100);
+}
+
+%glass-icon {
+  @include svg-icon(25px, 12px, 'glass', #1a1a1a);
+}
+
+%wave-icon {
+  @include svg-icon(72px, 5px, 'wave', #e3775b);
+}
+
+%important-icon {
+  @include svg-icon(18px, 18px, 'important', #1a1a1a);
+}
+
+%vk-icon {
+  @include svg-icon(60px, 60px, 'vk', #4a90e2);
+}
+
+%vk-small-icon {
+  @include svg-icon(30px, 30px, 'vk', #4a90e2);
+}
+
+%ok-icon {
+  @include svg-icon(60px, 60px, 'ok', #e3775b);
+}
+
+%ok-small-icon {
+  @include svg-icon(30px, 30px, 'ok', #e3775b);
+}
+
+%fb-icon {
+  @include svg-icon(60px, 60px, 'fb', #49608d);
+}
+
+%fb-small-icon {
+  @include svg-icon(30px, 30px, 'fb', #49608d);
+}
+
+%suitcase-icon {
+  @include svg-icon(23px, 25px, 'suitcase', #1a1a1a);
+}
+
+%arrow-icon {
+  @include svg-icon(30px, 40px, 'arrow', rgba(191, 191, 191, 0.51));
+}
+
 /* https://blog.teamtreehouse.com/extending-placeholder-selectors-with-sass */

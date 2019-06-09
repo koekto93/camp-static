@@ -1,0 +1,9 @@
+.l-main-layer-with-offers {
+  &__content {
+    padding: 40px 0 30px;
+
+    & > div {
+      margin-bottom: 20px;
+    }
+  }
+}

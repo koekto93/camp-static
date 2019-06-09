@@ -3,6 +3,18 @@ export const captionWithIcon = _.template(
   require(`./../html/elements/caption-with-icon.html`).default,
 );
 
+export const corporateServiceItem = _.template(
+  require(`./../html/elements/corporate-service-item.html`).default,
+);
+
+export const castomRadio = _.template(
+  require(`./../html/elements/castom-radio.html`).default,
+);
+
+export const leaderCard = _.template(
+  require(`./../html/elements/leader-card.html`).default,
+);
+
 export const offerCardItem = _.template(
   require(`./../html/elements/offer-card-item.html`).default,
 );
@@ -88,6 +100,10 @@ export const mainTopOffers = _.template(
   require(`./../html/blocks/main-top-offers.html`).default,
 );
 
+export const mainSocialBlock = _.template(
+  require(`./../html/blocks/main-social-block.html`).default,
+);
+
 //----layers-----
 export const wellnessСompanyLayer = _.template(
   require('./../html/layers/wellness-company.html').default,
@@ -109,6 +125,14 @@ export const headerLayer = _.template(
   require('./../html/layers/header.html').default,
 );
 
+export const mailingLayer = _.template(
+  require('./../html/layers/mailing.html').default,
+);
+
+export const footer = _.template(
+  require('./../html/layers/footer.html').default,
+);
+
 //----main
 export const mainNewsLayer = _.template(
   require('./../html/layers/main-news.html').default,
@@ -120,4 +144,28 @@ export const mainFirstCompositeLayer = _.template(
 
 export const mainSecondCompositeLayer = _.template(
   require('./../html/layers/main-second-composite-layer.html').default,
+);
+
+export const mainThirdCompositeLayer = _.template(
+  require('./../html/layers/main-third-composite-layer.html').default,
+);
+
+export const mainAboutMosgorturLayer = _.template(
+  require('./../html/layers/main-about-mosgortur.html').default,
+);
+
+export const mainLayerWithOffers = _.template(
+  require('./../html/layers/main-layer-with-offers.html').default,
+);
+
+export const mainLeader = _.template(
+  require('./../html/layers/main-leader.html').default,
+);
+
+export const mainCorporateServices = _.template(
+  require('./../html/layers/main-corporate-services.html').default,
+);
+
+export const mainOurCamps = _.template(
+  require('./../html/layers/main-our-camps.html').default,
 );

@@ -1,0 +1,26 @@
+<div class="l-main-corporate-services">
+  <div class="l-main-corporate-services__content">
+    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>
+    <div>
+      <div class="l-main-corporate-services__content-block">
+        <div
+          class="l-main-corporate-services__extra-caption display-flex _a-end _j-between"
+        >
+          <div class="l-main-corporate-services__extra-caption-text">
+            <span
+              >Текстовая подводвка с информацией о том какие корпоративные
+              услуги оказывает МГТ</span
+            >
+          </div>
+          <div class="l-main-corporate-services__button display-flex _j-end">
+            <button class="c-button">ВСЕ ПРЕДЛОЖЕНИЯ</button>
+          </div>
+        </div>
+        <div class="l-main-corporate-services__cards display-flex _j-between">
+          <% corporateServiceItemData.forEach(function(data) { %> <%=
+          corporateServiceItem(data)%> <% }); %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,4 +1,4 @@
-src/html/includes/first-page-part.html
-src/html/includes/second-page-part.html
+src/html/elements/first-page-part.html
+src/html/elements/second-page-part.html
 src/html/views/index.html
 src/html/views/second.html

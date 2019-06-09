@@ -1,0 +1,14 @@
+.l-main-leader {
+  &__content {
+    padding: 30px 0;
+  }
+
+  &__block-content {
+    margin-top: 12px;
+  }
+
+  &__description {
+    @include font-bold(13px, normal, start, #9b9b9b, 0.1px);
+    margin-bottom: 29px;
+  }
+}

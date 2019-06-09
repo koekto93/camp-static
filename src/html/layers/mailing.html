@@ -1,0 +1,24 @@
+<div class="l-mailing">
+  <div class="l-mailing__content">
+    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>
+    <div class="l-mailing__content-block display-flex">
+      <div class="l-mailing__description">
+        <span
+          >Присылаем раз в неделю в мессенджер или на почту подборку мероприятий
+          по выбранным критериям. Подпишитесь, чтобы быть в курсе эксклюзивных
+          событий для москвичей</span
+        >
+      </div>
+      <div class="l-mailing__controls-block display-flex _column">
+        <div class="l-mailing__control-input display-flex">
+          <%= materialInput(materialInputData) %>
+
+          <div class="l-mailing__button">
+            <button class="c-button">ПОДПИСАТЬСЯ</button>
+          </div>
+        </div>
+        <%= castomRadio() %>
+      </div>
+    </div>
+  </div>
+</div>

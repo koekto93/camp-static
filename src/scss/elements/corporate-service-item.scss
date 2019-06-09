@@ -1,0 +1,94 @@
+.c-corporate-service-item {
+  @extend %card-border;
+  width: 528px;
+  height: 706px;
+  padding: 34px 0;
+
+  &__caption {
+    width: 74px;
+    @include font-intro(15px, 1.6, center);
+    padding-bottom: 5px;
+    border-bottom: 1px solid #979797;
+    margin-bottom: 8px;
+  }
+
+  &__extra-caption {
+    @include font-regular(13px, normal, center, #1b1e2d, 0.1px);
+    margin-bottom: 20px;
+  }
+
+  &__button {
+    width: 100%;
+    & > button {
+      max-width: 137px;
+      text-align: center;
+    }
+  }
+}
+
+.c-corporate-service-inner-card {
+  @extend %card-border-with-shadow;
+  width: 349px;
+  height: 500px;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 30px 22px 0 19px;
+  margin-bottom: 20px;
+  position: relative;
+
+  &__background::after {
+    content: '';
+    background: url('../../uploads/bg.jpg');
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+  &__tab {
+    @include font-regular(11px, normal, center, $white-text-color, 0.1px);
+    & > span {
+      padding: 6px 30px;
+      background-color: #e3775b;
+      border-radius: 3px;
+    }
+  }
+
+  &__caption {
+    @include font-intro(15px, 1.47, start, $white-text-color);
+    margin: 35px 0 20px;
+  }
+
+  &__info {
+    @include font-regular(13px, normal, start, $white-text-color);
+    padding-bottom: 20px;
+    border-bottom: 1px solid $white-text-color;
+  }
+
+  &__lessons {
+    @include font-bold(14px, normal, start, $white-text-color);
+    margin-top: 20px;
+    & .dot {
+      width: 6px;
+      height: 6px;
+      opacity: 0.5;
+      border-radius: 4.5px;
+      background-color: $white-text-color;
+      margin: 0 8px;
+    }
+  }
+
+  &__button {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    width: 100%;
+    & > button {
+      max-width: 137px;
+      text-align: center;
+      color: $white-text-color;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.l-mailing {
+  background-color: $mailing-bg-color;
+  &__content {
+    padding: 58px 0 59px;
+
+    & .c-caption-with-icon__text {
+      font-size: 19px;
+      color: $mailing-text-color;
+    }
+  }
+
+  &__content-block {
+    margin-top: 8px;
+    padding-left: 28px;
+  }
+
+  &__controls-block {
+    width: 425px;
+    & .c-material-input label {
+      color: $white-text-color;
+    }
+    & .c-material-input input {
+      color: $white-text-color;
+    }
+  }
+
+  &__description {
+    width: 447px;
+    margin-right: 22px;
+    @include font-regular(14px, normal, start, $white-text-color);
+  }
+
+  &__control-input {
+    margin-bottom: 14px;
+  }
+  &__button {
+    width: 100%;
+    & > button {
+      max-width: 105px;
+      text-align: center;
+      border: 1px solid $mailing-text-color;
+      color: $white-text-color;
+    }
+  }
+}

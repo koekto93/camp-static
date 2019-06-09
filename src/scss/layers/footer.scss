@@ -1,0 +1,49 @@
+.l-footer {
+  background-color: #1a1a1a;
+  margin-top: 47px;
+  &__content {
+    display: flex;
+    flex-direction: row;
+    padding: 41px 0 66px 56px;
+
+    & > .c-links-column {
+      margin-right: 20px;
+    }
+  }
+
+  &__logo {
+    margin-right: 58px;
+  }
+}
+
+.c-links-column {
+  width: 158px;
+  &__header {
+    @include font-bold(15px, normal, start, $white-text-color);
+    height: 34px;
+    margin-bottom: 11px;
+  }
+
+  &__block {
+    @include set-link-color($white-text-color);
+    @include font-regular(12px, normal, start, $white-text-color);
+
+    & > div:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__item-with-icons-block {
+    margin-top: 19px;
+  }
+
+  &__icons-block {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+    & > div:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.main-our-camps {
+  &__content {
+    padding-top: 40px;
+  }
+
+  &__carousel {
+    margin-top: 32px;
+    padding-left: 46px;
+  }
+  &__img {
+    &._eagle {
+      width: 77px;
+      height: 122px;
+    }
+    &._mdc {
+      width: 105px;
+      height: 43px;
+    }
+    & img {
+      max-width: 100%;
+      height: 100%;
+    }
+  }
+}

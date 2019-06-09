@@ -5,21 +5,21 @@ yarn start dev должна сделать сборку без минифика�
 Составляющие страницы main:
 
 - header(летний отдых, зеленая картинка)
-- горизонтальный блок новостей без картинки и тайтла (l-news l-news_horizontal l-news_no-img l-news-)
-- Составной блок (l-main-first-composite-block l-flex-row)
+- ~~горизонтальный блок новостей без картинки и тайтла (l-news)~~
+- ~~Составной блок (l-main-first-composite-block l-flex-row)~~
   - Важная информация (l-important-information-block)
   - Информация о заездах сегодня (l-arrivals)
-- Составной блок (l-main-second-composite-block l-flex-row)
+- ~~Составной блок (l-main-second-composite-block l-flex-row)~~
   - Блок вертикальной новости с картинкой (l-news l-news_vertical l-news_img l-news_title l-news_button)
   - (l-main-second-composite-block\_\_right-side l-flex-column) --start
     - Блок видеоотзыва (l-video-reviews)
     - Блок лучших предложений (l-top-offers)
   - (l-main-second-composite-block\_\_right-side l-flex-column) --end
-- О мосгортуре (l-info-about-company)
-- Какой-то блок с предложениями (l-block-with-offers)
-- Блок подписки на рассылку (l-mailing-block)
-- Блок "вожатым" (l-info-for-leaders)
-- Составной блок (l-main-third-composite-block l-flex-row)
+- ~~О мосгортуре (l-info-about-company)~~
+- ~~Какой-то блок с предложениями (l-block-with-offers)~~
+- ~~Блок подписки на рассылку (l-mailing-block)~~
+- ~~Блок "вожатым" (l-info-for-leaders)~~
+- ~~Составной блок (l-main-third-composite-block l-flex-row)~~
   - Экскурсии (l-tours)
   - Мы в соц сетях (l-social-network ???)
 - Корпоративные услуги (l-corporate-services)

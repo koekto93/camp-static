@@ -21,6 +21,14 @@ import headerLayerTemplate from './layers/header.js';
 import mainNewsLayerTemplate from './layers/main-news.js';
 import mainFirstCompositeLayerTemplate from './layers/main-first-composite-layer.js';
 import mainSecondCompositeLayerTemplate from './layers/main-second-composite-layer.js';
+import mainAboutMosgorturLayerTemplate from './layers/main-about-mosgortur.js';
+import mainLayerWithOffersTemplate from './layers/main-layer-with-offers.js';
+import mailingLayerTemplate from './layers/mailing.js';
+import mainLeaderTemplate from './layers/main-leader.js';
+import mainThirdCompositeLayerTemplate from './layers/main-third-composite-layer.js';
+import mainCorporateServicesTemplate from './layers/main-corporate-services.js';
+import mainOurCampsTemplate from './layers/main-our-camps.js';
+import footerTemplate from './layers/footer.js';
 
 //social vacation
 import usefulLinksLayerTemplate from './layers/useful-links.js';
@@ -361,5 +369,13 @@ const mainResult =
   headerLayerTemplate +
   mainNewsLayerTemplate +
   mainFirstCompositeLayerTemplate +
-  mainSecondCompositeLayerTemplate;
+  mainSecondCompositeLayerTemplate +
+  mainAboutMosgorturLayerTemplate +
+  mainLayerWithOffersTemplate +
+  mailingLayerTemplate +
+  mainLeaderTemplate +
+  mainThirdCompositeLayerTemplate +
+  mainCorporateServicesTemplate +
+  mainOurCampsTemplate +
+  footerTemplate;
 content.innerHTML = mainResult;

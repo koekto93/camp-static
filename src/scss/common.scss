@@ -2,6 +2,9 @@ $text-color: #1b1e2d;
 $bold-text-color: #1a1a1a;
 $link-text-color: #e16a49;
 $white-text-color: #f7f7f7;
+$mailing-bg-color: #69268c;
+$mailing-text-color: #fad100;
+
 $image_dir: '../img/';
 
 body {
@@ -124,6 +127,9 @@ body {
   &._j-between {
     justify-content: space-between;
   }
+  &._j-end {
+    justify-content: flex-end;
+  }
 }
 
 .icon {
@@ -196,12 +202,48 @@ body {
   &._cloud {
     @extend %cloud-icon;
   }
+  &._subscribe {
+    @extend %subscribe-icon;
+  }
+  &._glass {
+    @extend %glass-icon;
+  }
+  &._wave {
+    @extend %wave-icon;
+  }
+  &._important {
+    @extend %important-icon;
+  }
+  &._vk {
+    @extend %vk-icon;
+  }
+  &._vk-small {
+    @extend %vk-small-icon;
+  }
+  &._fb {
+    @extend %fb-icon;
+  }
+  &._fb-small {
+    @extend %fb-small-icon;
+  }
+  &._ok {
+    @extend %ok-icon;
+  }
+  &._ok-small {
+    @extend %ok-small-icon;
+  }
+  &._suitcase {
+    @extend %suitcase-icon;
+  }
+  &._arrow {
+    @extend %arrow-icon;
+  }
 }
 
 .c-button {
   @include font-regular(11px, normal, start, #1a1a1a, 0.1px);
   border-radius: 6px;
-  border: solid 1px $link-text-color;
+  border: 1px solid $link-text-color;
   padding: 9px 0;
   width: 100%;
   background: transparent;
@@ -223,4 +265,16 @@ h1 {
 
 h3 {
   @include font-intro(15px, 1.6);
+}
+
+//рефактор
+.c-form-hint {
+  font-family: PTSans-Regular;
+  font-size: 13px;
+  color: #666666;
+
+  &__link {
+    color: #e3775b;
+    cursor: pointer;
+  }
 }

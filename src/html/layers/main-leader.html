@@ -1,0 +1,16 @@
+<div class="l-main-leader">
+  <div class="l-main-leader__content"></div>
+  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>
+  <div class="l-main-leader__block-content">
+    <div class="l-main-leader__description">
+      <span
+        >Текстовая подводвка с информацией о том какие корпоративные услуги
+        оказывает МГТ</span
+      >
+    </div>
+    <div class="l-main-leader__cards display-flex _j-between">
+      <% leaderCardData.forEach(function(data) { %> <%= leaderCard(data)%> <%
+      }); %>
+    </div>
+  </div>
+</div>

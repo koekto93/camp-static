@@ -47,13 +47,15 @@
   $size: 15px,
   $lineHeight: normal,
   $textAlign: start,
-  $color: #1a1a1a
+  $color: #1a1a1a,
+  $letterSpacing: normal
 ) {
   font-family: Intro;
   font-size: $size;
   line-height: $lineHeight;
   text-align: $textAlign;
   color: $color;
+  letter-spacing: $letterSpacing;
 }
 
 @mixin font-bold(

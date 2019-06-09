@@ -6,6 +6,8 @@
 @import './elements/arrival-item';
 @import './elements/recommend-card-item';
 @import './elements/material-input';
+@import './elements/leader-card';
+
 @import './elements/caption-with-icon.scss';
 @import './elements/news-item.scss';
 @import './elements/info-simple-card.scss';
@@ -15,7 +17,9 @@
 //@import './elements/content-header-main.scss';
 @import './elements/content-header-tours.scss';
 @import './elements/input.scss';
+@import './elements/castom-radio.scss';
 @import './elements/offer-card-item.scss';
+@import './elements/corporate-service-item.scss';
 
 //blocks
 @import './blocks/arrivals-block';
@@ -27,6 +31,7 @@
 @import './blocks/additional-booking';
 @import './blocks/video-review.scss';
 @import './blocks/main-top-offers.scss';
+@import './blocks/main-social-block.scss';
 
 //layers
 @import './layers/wellness-company';
@@ -34,8 +39,16 @@
 @import './layers/useful-links';
 @import './layers/recommendations';
 @import './layers/header';
+@import './layers/mailing';
+@import './layers/footer';
 
 //--- main
 @import './layers/main-news';
 @import './layers/main-first-composite-layer';
 @import './layers/main-second-composite-layer';
+@import './layers/main-about-mosgortur';
+@import './layers/main-layer-with-offers';
+@import './layers/main-leader';
+@import './layers/main-third-composite-layer';
+@import './layers/main-corporate-services';
+@import './layers/main-our-camps';

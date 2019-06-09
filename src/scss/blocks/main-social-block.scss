@@ -1,0 +1,14 @@
+.main-social-block {
+  @extend %card-border;
+  width: 348px;
+  height: 261px;
+  padding: 0 21px;
+  & h3 {
+    text-align: center;
+  }
+  &__text {
+    @include font-regular(15px, normal, center, #666666);
+    width: 301px;
+    margin: 12px 0 26px;
+  }
+}

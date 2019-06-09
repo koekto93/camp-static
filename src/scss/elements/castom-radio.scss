@@ -1,0 +1,38 @@
+.radio {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin: 10px 0 0 7px;
+}
+.radio + label {
+  position: relative;
+  padding: 0 0 0 24px;
+  cursor: pointer;
+  @include font-regular(12px, normal, center, $mailing-text-color);
+}
+.radio + label:before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border: 1px solid $mailing-text-color;
+  border-radius: 50%;
+  background: transparent;
+}
+.radio + label:after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 2px;
+  width: 6px;
+  height: 5px;
+  border-radius: 50%;
+  background: $mailing-text-color;
+  opacity: 0;
+  transition: 0.2s;
+}
+.radio:checked + label:after {
+  opacity: 1;
+}
