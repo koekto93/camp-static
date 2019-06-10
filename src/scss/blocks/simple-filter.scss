@@ -1,0 +1,16 @@
+.c-simple-filter {
+  &__items-container {
+    @include font-regular(14px, normal, start, #bfbfbf);
+
+    & > li:not(:last-child) {
+      border-right: 1px solid #bfbfbf;
+    }
+  }
+
+  &__item {
+    padding: 0 18px;
+    &._active {
+      color: #2b2b2b;
+    }
+  }
+}

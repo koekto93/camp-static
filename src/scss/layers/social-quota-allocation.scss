@@ -1,0 +1,32 @@
+.l-social-quota-allocation {
+  height: 214px;
+  position: relative;
+
+  &__content {
+    //padding-top: 71px;
+  }
+
+  &__background::after {
+    content: "";
+    background: url("../../uploads/bg.jpg");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+  &__caption {
+    @include font-intro(28px, normal, center, $white-text-color);
+  }
+
+  &__icon {
+    margin: 14px 0 13px;
+  }
+
+  &__text {
+    @include font-regular(12px, normal, center, $white-text-color);
+  }
+}

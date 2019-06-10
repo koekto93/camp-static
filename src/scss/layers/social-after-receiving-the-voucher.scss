@@ -1,0 +1,45 @@
+.l-preparation-for-trip {
+  &__content {
+    @extend %card-border-with-shadow;
+    margin-top: 31px;
+    padding-right: 45px;
+  }
+
+  &__caption {
+    @include font-intro(15px, 1.47);
+    margin-bottom: 14px;
+  }
+
+  &__description {
+    @include font-regular(15px);
+    margin-bottom: 31px;
+  }
+
+  &__image {
+    width: 710px;
+    height: 435px;
+    margin-right: 9px;
+    border-radius: 6px 0 0 6px;
+    background-image: url("./../../uploads/kids-vaucher.jpg");
+  }
+
+  &__info {
+    width: 308px;
+    margin-top: 136px;
+  }
+
+  &__links-block {
+    @include set-link-color(#8e8e93);
+    margin-top: 25px;
+
+    & > article:not(:last-child) {
+      margin-bottom: 17px;
+    }
+  }
+}
+
+.c-preparation-link-item {
+  @include font-regular(12px);
+  padding-bottom: 17px;
+  border-bottom: solid 1px rgba(151, 151, 151, 0.18);
+}

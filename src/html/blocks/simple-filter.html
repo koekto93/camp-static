@@ -1,0 +1,9 @@
+<div class="c-simple-filter display-flex _j-center">
+    <ul class="c-simple-filter__items-container display-flex">
+        <% items.forEach(function(item) { %> 
+            <li class="c-simple-filter__item <%=item.className%>">
+                <%=item.text%>
+            </li>
+        <% }); %>
+    </ul>
+</div>

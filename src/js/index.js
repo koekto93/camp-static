@@ -1,5 +1,5 @@
-import _ from 'lodash';
-const path = './../html/includes/';
+import _ from "lodash";
+const path = "./../html/includes/";
 
 import {
   captionWithIcon,
@@ -13,32 +13,39 @@ import {
   materialInput,
   additionalBookingBlock,
   videoReview,
-  offerCardItem,
-} from './common.js';
+  offerCardItem
+} from "./common.js";
+//common layers
+import headerLayerTemplate from "./layers/header.js";
+import footerTemplate from "./layers/footer.js";
+import mailingLayerTemplate from "./layers/mailing.js";
+import previouslyViewedOffers from "./layers/previously-viewed-offers.js";
 
 //main
-import headerLayerTemplate from './layers/header.js';
-import mainNewsLayerTemplate from './layers/main-news.js';
-import mainFirstCompositeLayerTemplate from './layers/main-first-composite-layer.js';
-import mainSecondCompositeLayerTemplate from './layers/main-second-composite-layer.js';
-import mainAboutMosgorturLayerTemplate from './layers/main-about-mosgortur.js';
-import mainLayerWithOffersTemplate from './layers/main-layer-with-offers.js';
-import mailingLayerTemplate from './layers/mailing.js';
-import mainLeaderTemplate from './layers/main-leader.js';
-import mainThirdCompositeLayerTemplate from './layers/main-third-composite-layer.js';
-import mainCorporateServicesTemplate from './layers/main-corporate-services.js';
-import mainOurCampsTemplate from './layers/main-our-camps.js';
-import footerTemplate from './layers/footer.js';
+import mainNewsLayerTemplate from "./layers/main-news.js";
+import mainFirstCompositeLayerTemplate from "./layers/main-first-composite-layer.js";
+import mainSecondCompositeLayerTemplate from "./layers/main-second-composite-layer.js";
+import mainAboutMosgorturLayerTemplate from "./layers/main-about-mosgortur.js";
+import mainLayerWithOffersTemplate from "./layers/main-layer-with-offers.js";
+import mainLeaderTemplate from "./layers/main-leader.js";
+import mainThirdCompositeLayerTemplate from "./layers/main-third-composite-layer.js";
+import mainCorporateServicesTemplate from "./layers/main-corporate-services.js";
+import mainOurCampsTemplate from "./layers/main-our-camps.js";
 
 //social vacation
-import socialNewsLayerTemplate from './layers/social-news.js';
-import socialFirstCompositeLayerTemplate from './layers/social-first-composite-layer.js';
-import socialWellnessСompanyLayerTemplate from './layers/social-wellness-company.js';
-import socialUsefulLinksLayerTemplate from './layers/social-useful-links.js';
-import socialFrequentlyQuestionsLayerTemplate from './layers/social-frequently-questions.js';
-import socialRecommendationsLayerTemplate from './layers/social-recommendations.js';
+import socialNewsLayerTemplate from "./layers/social-news.js";
+import socialFirstCompositeLayerTemplate from "./layers/social-first-composite-layer.js";
+import socialWellnessСompanyLayerTemplate from "./layers/social-wellness-company.js";
+import socialUsefulLinksLayerTemplate from "./layers/social-useful-links.js";
+import socialFrequentlyQuestionsLayerTemplate from "./layers/social-frequently-questions.js";
+import socialRecommendationsLayerTemplate from "./layers/social-recommendations.js";
+import socialAfterReceivingTheVoucherTemplate from "./layers/social-after-receiving-the-voucher.js";
+import socialQuotaAllocationTemplate from "./layers/social-quota-allocation.js";
 
-const contentMain = document.body.querySelector('.content-container__main');
+//tours
+import toursFilterTemplate from "./layers/tours-filter.js";
+
+const contentMain = document.body.querySelector(".content-container__main");
 
 /* -------------------- Вставка блоков ---------------------- */
 
@@ -47,18 +54,18 @@ const videoReviewData = {
   caption: true,
   captionWithIcon,
   captionWithIconData: {
-    className: '_row _a-center',
-    imgName: 'video',
-    text: 'Видеоотзывы',
-  },
+    className: "_row _a-center",
+    imgName: "video",
+    text: "Видеоотзывы"
+  }
 };
-const videoReviewContainer = document.createElement('div');
+const videoReviewContainer = document.createElement("div");
 videoReviewContainer.innerHTML = videoReview(videoReviewData);
 //content.appendChild(videoReviewContainer);
 
 //---- DONE!Вставка блока с предложением у которого 3 состояния
 const offerCardItemData = {
-  className: '_state-1',
+  className: "_state-1"
   /* caption: true,
   captionWithIcon,
   captionWithIconData: {
@@ -67,46 +74,46 @@ const offerCardItemData = {
     text: 'Видеоотзывы',
   }, */
 };
-const offerCardItemContainer = document.createElement('div');
+const offerCardItemContainer = document.createElement("div");
 offerCardItemContainer.innerHTML = offerCardItem(offerCardItemData);
 //content.appendChild(offerCardItemContainer);
 
 //-------- Вставка блока с новостями
 const newsBlockData = {
-  className: '_with-caption _button', //для главного блока
-  blockClassName: '_row _j-between', //для блока news__block
+  className: "_with-caption _button", //для главного блока
+  blockClassName: "_row _j-between", //для блока news__block
   //caption
   caption: true,
   captionWithIcon,
   captionWithIconData: {
-    className: '_row _a-center',
-    width: '23px',
-    height: '15px',
-    imgName: 'news',
-    text: 'Важная информация',
+    className: "_row _a-center",
+    width: "23px",
+    height: "15px",
+    imgName: "news",
+    text: "Важная информация"
   },
   //newsItem
   newsItem,
   newsItemData: [
     {
-      className: '_row',
-      date: '01.02.2019',
-      time: '14:10',
-      text: 'Результаты распределения квот на отдых 2019',
+      className: "_row",
+      date: "01.02.2019",
+      time: "14:10",
+      text: "Результаты распределения квот на отдых 2019"
     },
     {
-      className: '_row',
-      date: '01.02.2019',
-      time: '14:10',
-      text: 'Результаты распределения квот на отдых 2019',
+      className: "_row",
+      date: "01.02.2019",
+      time: "14:10",
+      text: "Результаты распределения квот на отдых 2019"
     },
     {
-      className: '_row',
-      date: '01.02.2019',
-      time: '14:10',
-      text: 'Результаты распределения квот на отдых 2019',
-    },
-  ],
+      className: "_row",
+      date: "01.02.2019",
+      time: "14:10",
+      text: "Результаты распределения квот на отдых 2019"
+    }
+  ]
 };
 
 //const newsContainer = document.createElement('div');
@@ -114,105 +121,105 @@ const newsBlockData = {
 
 //-------- Вставка блока с вертикальными новостями и картинкой
 const verticalNewsBlockData = {
-  className: '_with-caption', //для главного блока
-  blockClassName: '_row _j-between', //для блока news__block
+  className: "_with-caption", //для главного блока
+  blockClassName: "_row _j-between", //для блока news__block
   //img
   img: true,
   //caption
   caption: true,
   captionWithIcon,
   captionWithIconData: {
-    className: '_row _a-center',
-    width: '23px',
-    height: '15px',
-    imgName: 'news',
-    text: 'Важная информация',
+    className: "_row _a-center",
+    width: "23px",
+    height: "15px",
+    imgName: "news",
+    text: "Важная информация"
   },
   //newsItem
   newsItem,
   newsItemData: [
     {
-      className: '_row',
-      date: '01.02.2019',
-      time: '14:10',
-      text: 'Результаты распределения квот на отдых 2019',
+      className: "_row",
+      date: "01.02.2019",
+      time: "14:10",
+      text: "Результаты распределения квот на отдых 2019"
     },
     {
-      className: '_row',
-      date: '01.02.2019',
-      time: '14:10',
-      text: 'Результаты распределения квот на отдых 2019',
+      className: "_row",
+      date: "01.02.2019",
+      time: "14:10",
+      text: "Результаты распределения квот на отдых 2019"
     },
     {
-      className: '_row',
-      date: '01.02.2019',
-      time: '14:10',
-      text: 'Результаты распределения квот на отдых 2019',
-    },
-  ],
+      className: "_row",
+      date: "01.02.2019",
+      time: "14:10",
+      text: "Результаты распределения квот на отдых 2019"
+    }
+  ]
 };
 //const verticalNewsContainer = document.createElement('div');
 //verticalNewsContainer.innerHTML = verticalNewsBlock(verticalNewsBlockData);
 
 //-------- DONE! Вставка блока с заездами
 const arrivalsContainerData = {
-  className: '', //для главного блока
-  blockClassName: '_row _j-between', //для блока news__block
+  className: "", //для главного блока
+  blockClassName: "_row _j-between", //для блока news__block
   //caption
   caption: true,
   captionWithIcon,
   captionWithIconData: {
-    className: '_row _a-center',
-    width: '32px',
-    height: '16px',
-    imgName: 'car',
-    text: 'информация о заездах сегодня',
+    className: "_row _a-center",
+    width: "32px",
+    height: "16px",
+    imgName: "car",
+    text: "информация о заездах сегодня"
   },
 
   //arrivalsBlock
   arrivalsBlock,
   arrivalsBlockData: [
     {
-      caption: 'ЗАЕЗДЫ —20–27 ИЮНЯ 2019',
+      caption: "ЗАЕЗДЫ —20–27 ИЮНЯ 2019",
       arrivalItem,
       arrivalItems: [
         {
-          className: '_column',
-          date: '01.02.2019',
-          time: '14:10',
-          address: 'Результаты распределения квот на отдых 2019',
-          city: 'адлер',
+          className: "_column",
+          date: "01.02.2019",
+          time: "14:10",
+          address: "Результаты распределения квот на отдых 2019",
+          city: "адлер"
         },
         {
-          className: '_column',
-          date: '01.02.2019',
-          time: '14:10',
-          address: 'Результаты распределения квот на отдых 2019',
-          city: 'адлер',
-        },
-      ],
+          className: "_column",
+          date: "01.02.2019",
+          time: "14:10",
+          address: "Результаты распределения квот на отдых 2019",
+          city: "адлер"
+        }
+      ]
     },
     {
-      caption: 'ВЫЕЗДЫ —20–27 ИЮНЯ 2019',
+      caption: "ВЫЕЗДЫ —20–27 ИЮНЯ 2019",
       arrivalItem,
       arrivalItems: [
         {
-          className: '_column',
-          date: '01.02.2019',
-          time: '14:10',
-          address: 'Результаты распределения квот на отдых 2019',
-          city: 'адлер',
+          className: "_column",
+          date: "01.02.2019",
+          time: "14:10",
+          address: "Результаты распределения квот на отдых 2019",
+          city: "адлер"
         },
         {
-          className: '_column',
-          date: '01.02.2019',
-          time: '14:10',
-          address: 'Результаты распределения квот на отдых 2019',
-          city: 'адлер',
-        },
-      ],
-    },
-  ],
+          className: "_column",
+          date: "01.02.2019",
+          time: "14:10",
+          address: "Результаты распределения квот на отдых 2019",
+          city: "адлер"
+        }
+      ]
+    }
+  ]
 };
 
 //const arrivalsWrapper = document.createElement('div');
@@ -228,16 +235,16 @@ const importantInfoBlockData = {
         caption: true,
         captionWithIcon,
         captionWithIconData: {
-          className: '_column _a-center _circle-icon-border',
-          imgName: 'respect',
-          text: 'Как получить льготу',
+          className: "_column _a-center _circle-icon-border",
+          imgName: "respect",
+          text: "Как получить льготу"
         },
-        description: false,
+        description: false
       },
       backSide: true, //включает и выключает обратную сторону карточки при наведении
-      backCaptionText: 'Как получить льготу',
+      backCaptionText: "Как получить льготу",
       backText:
-        'Заявление о предоставлении услуг отдыха и оздоровления может подать родитель (иной законный представитель) или доверенное лицо на совершение действий в период проведения заявочной кампании.',
+        "Заявление о предоставлении услуг отдыха и оздоровления может подать родитель (иной законный представитель) или доверенное лицо на совершение действий в период проведения заявочной кампании."
     },
     {
       innerElementOfInfoCard,
@@ -245,13 +252,13 @@ const importantInfoBlockData = {
         caption: true,
         captionWithIcon,
         captionWithIconData: {
-          className: '_column _a-center _circle-icon-border',
-          imgName: 'sun',
-          text: 'Квоты на отдых и оздоровление в 2019 году',
+          className: "_column _a-center _circle-icon-border",
+          imgName: "sun",
+          text: "Квоты на отдых и оздоровление в 2019 году"
         },
-        description: false,
+        description: false
       },
-      backSide: false, //включает и выключает обратную сторону карточки при наведении
+      backSide: false //включает и выключает обратную сторону карточки при наведении
     },
     {
       innerElementOfInfoCard,
@@ -259,13 +266,13 @@ const importantInfoBlockData = {
         caption: true,
         captionWithIcon,
         captionWithIconData: {
-          className: '_column _a-center _circle-icon-border',
-          imgName: 'wallet',
-          text: 'Порядок выплаты частичной компенсации',
+          className: "_column _a-center _circle-icon-border",
+          imgName: "wallet",
+          text: "Порядок выплаты частичной компенсации"
         },
-        description: false,
+        description: false
       },
-      backSide: false, //включает и выключает обратную сторону карточки при наведении
+      backSide: false //включает и выключает обратную сторону карточки при наведении
     },
     {
       innerElementOfInfoCard,
@@ -273,13 +280,13 @@ const importantInfoBlockData = {
         caption: true,
         captionWithIcon,
         captionWithIconData: {
-          className: '_column _a-center _circle-icon-border',
-          imgName: 'people',
-          text: 'Список льготных категорий',
+          className: "_column _a-center _circle-icon-border",
+          imgName: "people",
+          text: "Список льготных категорий"
         },
-        description: false,
+        description: false
       },
-      backSide: false, //включает и выключает обратную сторону карточки при наведении
+      backSide: false //включает и выключает обратную сторону карточки при наведении
     },
     {
       innerElementOfInfoCard,
@@ -287,13 +294,13 @@ const importantInfoBlockData = {
         caption: true,
         captionWithIcon,
         captionWithIconData: {
-          className: '_column _a-center _circle-icon-border',
-          imgName: 'lodge',
-          text: 'Бесплатные путевки в Орленок для одаренных детей',
+          className: "_column _a-center _circle-icon-border",
+          imgName: "lodge",
+          text: "Бесплатные путевки в Орленок для одаренных детей"
         },
-        description: false,
+        description: false
       },
-      backSide: false, //включает и выключает обратную сторону карточки при наведении
+      backSide: false //включает и выключает обратную сторону карточки при наведении
     },
     {
       innerElementOfInfoCard,
@@ -301,16 +308,16 @@ const importantInfoBlockData = {
         caption: true,
         captionWithIcon,
         captionWithIconData: {
-          className: '_column _a-center _circle-icon-border',
-          imgName: 'blanks',
+          className: "_column _a-center _circle-icon-border",
+          imgName: "blanks",
           text:
-            'Постановление Правительства Москвы № 56-ПП «Об организации отдыха и оздоровления детей, находящихся в трудной жизненной ситуации» (в актуальной редакции от 18 октября 2018 г.)',
+            "Постановление Правительства Москвы № 56-ПП «Об организации отдыха и оздоровления детей, находящихся в трудной жизненной ситуации» (в актуальной редакции от 18 октября 2018 г.)"
         },
-        description: false,
+        description: false
       },
-      backSide: false, //включает и выключает обратную сторону карточки при наведении
-    },
-  ],
+      backSide: false //включает и выключает обратную сторону карточки при наведении
+    }
+  ]
 };
 
 //const importantInfoWrapper = document.createElement('div');
@@ -324,13 +331,13 @@ const additionalBookingBlockData = {
   caption: true,
   captionWithIcon,
   captionWithIconData: {
-    className: '_column _a-center',
-    imgName: 'calendar',
-    text: 'Бронирование дополнительных мест и услуг',
+    className: "_column _a-center",
+    imgName: "calendar",
+    text: "Бронирование дополнительных мест и услуг"
   },
   description: false,
   materialInput,
-  materialInputData: [{ text: 'Номер путевки' }, { text: 'Фамилия заявителя' }],
+  materialInputData: [{ text: "Номер путевки" }, { text: "Фамилия заявителя" }]
 };
 //const additionalBookingBlockWrapper = document.createElement('div');
 /* additionalBookingBlockWrapper.innerHTML = additionalBookingBlock(
@@ -379,14 +386,22 @@ const additionalBookingBlockData = {
   footerTemplate; */
 
 //Сборка страницы social
-const result =
+/* const result =
   headerLayerTemplate +
   socialFirstCompositeLayerTemplate +
   socialNewsLayerTemplate +
   socialWellnessСompanyLayerTemplate +
   socialUsefulLinksLayerTemplate +
+  socialQuotaAllocationTemplate +
+  socialAfterReceivingTheVoucherTemplate +
   socialFrequentlyQuestionsLayerTemplate +
   socialRecommendationsLayerTemplate +
+  footerTemplate; */
+
+const result =
+  headerLayerTemplate +
+  toursFilterTemplate +
+  previouslyViewedOffers +
   footerTemplate;
 
 contentMain.innerHTML = result;

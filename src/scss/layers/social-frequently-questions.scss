@@ -1,4 +1,8 @@
 .l-frequently-questions {
+  &__content {
+    padding-top: 41px;
+  }
+
   &__questions-block {
     @extend %card-border;
     margin-top: 27px;
