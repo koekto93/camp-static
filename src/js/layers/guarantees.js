@@ -1,9 +1,16 @@
 import _ from "lodash";
 
-import { guaranteesLayer, captionWithIcon } from "../common.js";
+import {
+  guaranteesLayer,
+  captionWithIcon,
+  customSelector,
+  customDatepicker
+} from "../common.js";
 
 const data = {
   //caption
+  customSelector,
+  customDatepicker,
   captionWithIcon,
   captions: [
     {

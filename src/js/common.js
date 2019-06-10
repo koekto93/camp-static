@@ -3,6 +3,14 @@ export const captionWithIcon = _.template(
   require(`./../html/elements/caption-with-icon.html`).default
 );
 
+export const customSelector = _.template(
+  require(`./../html/elements/custom-selector.html`).default
+);
+
+export const customDatepicker = _.template(
+  require(`./../html/elements/custom-datepicker.html`).default
+);
+
 export const transferInfoTableItem = _.template(
   require(`./../html/elements/transfer-info-table-item.html`).default
 );
