@@ -1,72 +1,72 @@
-@import "reset";
-@import "fonts";
-@import "common";
-@import "icons";
+@import 'reset';
+@import 'fonts';
+@import 'common';
+@import 'icons';
 //elems
-@import "./elements/arrival-item";
-@import "./elements/recommend-card-item";
-@import "./elements/material-input";
-@import "./elements/leader-card";
+@import './elements/arrival-item';
+@import './elements/recommend-card-item';
+@import './elements/material-input';
+@import './elements/leader-card';
 
-@import "./elements/caption-with-icon.scss";
-@import "./elements/news-item.scss";
-@import "./elements/info-simple-card.scss";
-@import "./elements/info-list-card.scss";
-@import "./elements/info-double-card.scss";
-@import "./elements/inner-element-of-info-card.scss";
-//@import './elements/content-header-main.scss';
-@import "./elements/content-header-tours.scss";
-@import "./elements/input.scss";
-@import "./elements/castom-radio.scss";
-@import "./elements/offer-card-item.scss";
-@import "./elements/corporate-service-item.scss";
-@import "./elements/transfer-info-table-item.scss";
-@import "./elements/custom-selector.scss";
-@import "./elements/custom-datepicker.scss";
+@import './elements/caption-with-icon.scss';
+@import './elements/news-item.scss';
+@import './elements/info-simple-card.scss';
+@import './elements/info-list-card.scss';
+@import './elements/info-double-card.scss';
+@import './elements/inner-element-of-info-card.scss';
+@import './elements/content-header.scss';
+@import './elements/custom-input.scss';
+
+@import './elements/castom-radio.scss';
+@import './elements/offer-card-item.scss';
+@import './elements/corporate-service-item.scss';
+@import './elements/transfer-info-table-item.scss';
+@import './elements/custom-selector.scss';
+@import './elements/custom-datepicker.scss';
 
 //blocks
-@import "./blocks/arrivals-block";
-@import "./blocks/arrivals-container";
-@import "./blocks/important-info-container";
-@import "./blocks/news-block";
-@import "./blocks/vertical-news-block";
-@import "./blocks/important-info-block";
-@import "./blocks/additional-booking";
-@import "./blocks/video-review.scss";
-@import "./blocks/main-top-offers.scss";
-@import "./blocks/main-social-block.scss";
-@import "./blocks/simple-filter.scss";
+@import './blocks/arrivals-block';
+@import './blocks/arrivals-container';
+@import './blocks/important-info-container';
+@import './blocks/news-block';
+@import './blocks/vertical-news-block';
+@import './blocks/important-info-block';
+@import './blocks/additional-booking';
+@import './blocks/video-review.scss';
+@import './blocks/main-top-offers.scss';
+@import './blocks/main-social-block.scss';
+@import './blocks/simple-filter.scss';
 
 //layers
-@import "./layers/header";
-@import "./layers/mailing";
-@import "./layers/footer";
-@import "./layers/guarantees";
-@import "./layers/previously-viewed-offers";
+@import './layers/header-layer';
+@import './layers/mailing';
+@import './layers/footer';
+@import './layers/guarantees';
+@import './layers/previously-viewed-offers';
 
 //--- main
-@import "./layers/main-news";
-@import "./layers/main-first-composite-layer";
-@import "./layers/main-second-composite-layer";
-@import "./layers/main-about-mosgortur";
-@import "./layers/main-layer-with-offers";
-@import "./layers/main-leader";
-@import "./layers/main-third-composite-layer";
-@import "./layers/main-corporate-services";
-@import "./layers/main-our-camps";
+@import './layers/main-news';
+@import './layers/main-first-composite-layer';
+@import './layers/main-second-composite-layer';
+@import './layers/main-about-mosgortur';
+@import './layers/main-layer-with-offers';
+@import './layers/main-leader';
+@import './layers/main-third-composite-layer';
+@import './layers/main-corporate-services';
+@import './layers/main-our-camps';
 
 //social
-@import "./layers/social-news";
-@import "./layers/social-first-composite-layer";
-@import "./layers/social-wellness-company";
-@import "./layers/social-useful-links";
-@import "./layers/social-frequently-questions";
-@import "./layers/social-recommendations";
-@import "./layers/social-after-receiving-the-voucher";
-@import "./layers/social-quota-allocation";
+@import './layers/social-news';
+@import './layers/social-first-composite-layer';
+@import './layers/social-wellness-company';
+@import './layers/social-useful-links';
+@import './layers/social-frequently-questions';
+@import './layers/social-recommendations';
+@import './layers/social-after-receiving-the-voucher';
+@import './layers/social-quota-allocation';
 
 //tours
-@import "./layers/tours-filter";
+@import './layers/tours-filter';
 
 //transfers
-@import "./layers/transfers-info-about-races";
+@import './layers/transfers-info-about-races';

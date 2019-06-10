@@ -1,0 +1,90 @@
+.c-header-content {
+  color: $white-text-color;
+  &__simple-search {
+    @include font-regular(11px, normal, center, $white-text-color);
+    border-bottom: 1px solid $white-text-color;
+    margin-bottom: 23px;
+  }
+  &__button {
+    width: 100%;
+    & > button {
+      max-width: 137px;
+      text-align: center;
+      color: $white-text-color;
+    }
+  }
+  &__caption {
+    @include font-intro(28px, normal, center, $white-text-color);
+
+    &._main,
+    &._social {
+      width: 341px;
+      height: 34px;
+      margin-bottom: 12px;
+      border-bottom: 1px solid #bfbfbf;
+    }
+
+    &._tours,
+    &._tours-big {
+      width: 771px;
+      margin-bottom: 32px;
+    }
+
+    &._family {
+      width: 771px;
+      margin-bottom: 38px;
+    }
+  }
+  &__content {
+    @include font-bold(14px, 1.43, center, $white-text-color);
+    width: 478px;
+    height: 91px;
+    &._tours {
+      .c-header-content__search {
+        margin-top: 8px;
+      }
+    }
+    &._tours-big {
+      .c-header-content__selectors {
+        width: 940px;
+        margin: 28px 0 10px;
+      }
+    }
+    &._transfers {
+      .c-header-content__controls {
+        width: 710px;
+        margin: 30px 0;
+      }
+    }
+    &._kids {
+      .c-header-content__selectors {
+        width: 689px;
+        margin: 37px 0 8px;
+      }
+    }
+    &._kids-big {
+      .c-header-content__selectors {
+        width: 689px;
+      }
+      .c-header-content__selectors:first-child {
+        margin: 37px 0 26px;
+      }
+      .c-header-content__selectors:nth-child(2) {
+        width: 560px;
+        margin-bottom: 8px;
+      }
+    }
+    &._family-big {
+      .c-header-content__selectors {
+        width: 818px;
+      }
+      .c-header-content__selectors:first-child {
+        margin: 37px 0 28px;
+      }
+      .c-header-content__selectors:nth-child(2) {
+        width: 628px;
+        margin-bottom: 26px;
+      }
+    }
+  }
+}

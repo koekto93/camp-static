@@ -1,0 +1,21 @@
+<div class="c-header-content display-flex _column _a-center _j-center">
+  <div class="c-header-content__caption <%=className%>">
+    <span>поиск семейного отдыха</span>
+  </div>
+
+  <div
+    class="c-header-content__content display-flex _column _a-center <%=className%>"
+  >
+    <div class="c-header-content__selectors display-flex _j-between">
+      <% firstSelectorData.forEach(function(data) { %> <%=
+      customSelector(data)%> <% }); %>
+    </div>
+    <div class="c-header-content__selectors display-flex _j-between">
+      <% secondSelectorData.forEach(function(data) { %> <%=
+      customSelector(data)%> <% }); %>
+    </div>
+    <div class="c-header-content__button display-flex _j-center">
+      <button class="c-button">НАЙТИ</button>
+    </div>
+  </div>
+</div>

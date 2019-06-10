@@ -4,9 +4,8 @@
 
   &._main {
     background-image: url('../uploads/main.png');
-    .header-content__caption {
-      width: 341px;
-      border-bottom: 1px solid #bfbfbf;
+    .header-content__bottom {
+      margin-top: 80px;
     }
   }
   &._tours {
@@ -14,15 +13,54 @@
     .header-content__caption {
       width: 771px;
     }
+    .header-content__bottom {
+      margin-top: 58px;
+    }
+  }
+  &._tours-big {
+    height: 450px;
+    background-image: url('../uploads/tours.png');
+    background-size: cover;
+    .header-content__caption {
+      width: 771px;
+    }
+    .header-content__bottom {
+      margin-top: 58px;
+    }
   }
   &._transfers {
     background-image: url('../../uploads/transfers.png');
+    .header-content__bottom {
+      margin-top: 73px;
+    }
   }
-  &._family-vacation {
+  &._family-big {
+    height: 450px;
+    background-size: cover;
     background-image: url('../../uploads/family vacation.png');
+    .header-content__bottom {
+      margin-top: 58px;
+    }
+  }
+  &._family {
+    background-image: url('../../uploads/family vacation.png');
+    .header-content__bottom {
+      margin-top: 94px;
+    }
   }
   &._kids {
     background-image: url('../../uploads/kids.png');
+    .header-content__bottom {
+      margin-top: 58px;
+    }
+  }
+  &._kids-big {
+    height: 450px;
+    background-size: cover;
+    background-image: url('../../uploads/kids.png');
+    .header-content__bottom {
+      margin-top: 58px;
+    }
   }
 }
 
@@ -45,7 +83,7 @@
     @extend %image-wrapper;
     width: 144px;
     height: 40px;
-    margin-right: 10px;
+    margin-right: 36px;
   }
 
   &__logo {
@@ -79,11 +117,6 @@
     height: 28px;
     cursor: pointer;
     border-left: 1px solid #4a4a4a;
-  }
-
-  &__bottom {
-    margin-top: 80px;
-    color: $white-text-color;
   }
 
   &__caption {

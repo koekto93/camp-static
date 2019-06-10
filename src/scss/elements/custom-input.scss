@@ -1,0 +1,25 @@
+.custom-input {
+  width: 350px;
+
+  & label {
+    display: none;
+    margin-bottom: 7px;
+  }
+  &._label {
+    display: block;
+  }
+  & input {
+    width: 100%;
+    height: 40px;
+    padding: 6px 0 4px 10px;
+    border-radius: 6px;
+    border: 1px solid #eeeeee;
+    background-color: rgba(0, 0, 0, 0.21);
+
+    @include font-bold(13px, normal, start, #ffffff);
+
+    &::placeholder {
+      color: #ffffff;
+    }
+  }
+}

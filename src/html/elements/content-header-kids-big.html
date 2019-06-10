@@ -1,15 +1,19 @@
 <div class="c-header-content display-flex _column _a-center _j-center">
   <div class="c-header-content__caption <%=className%>">
-    <span
-      >МОСГОРТУР: авторские экскурсии по Москве, путешествия по городам России и
-      Европе</span
-    >
+    <span>Отдых для вашего ребенка</span>
   </div>
 
   <div
     class="c-header-content__content display-flex _column _a-center <%=className%>"
   >
-    <%=customInput(customInputData)%>
+    <div class="c-header-content__selectors display-flex _j-between">
+      <% firstSelectorData.forEach(function(data) { %> <%=
+      customSelector(data)%> <% }); %>
+    </div>
+    <div class="c-header-content__selectors display-flex _j-between">
+      <% secondSelectorData.forEach(function(data) { %> <%=
+      customSelector(data)%> <% }); %>
+    </div>
     <div class="c-header-content__simple-search">
       <span>Простой поиск</span>
     </div>
