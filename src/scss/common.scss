@@ -118,6 +118,9 @@ body {
   &._a-center {
     align-items: center;
   }
+  &._a-start {
+    align-items: flex-start;
+  }
   &._a-end {
     align-items: flex-end;
   }
@@ -243,6 +246,9 @@ body {
   }
   &._eye {
     @extend %eye-icon;
+  }
+  &._download {
+    @extend %download-icon;
   }
 }
 

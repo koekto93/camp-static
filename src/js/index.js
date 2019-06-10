@@ -45,6 +45,9 @@ import socialQuotaAllocationTemplate from "./layers/social-quota-allocation.js";
 //tours
 import toursFilterTemplate from "./layers/tours-filter.js";
 
+//transfers
+import transfersInfoAboutRacesTemplate from "./layers/transfers-info-about-races.js";
+
 const contentMain = document.body.querySelector(".content-container__main");
 
 /* -------------------- Вставка блоков ---------------------- */
@@ -402,6 +405,7 @@ const result =
   headerLayerTemplate +
   toursFilterTemplate +
   previouslyViewedOffers +
+  transfersInfoAboutRacesTemplate +
   footerTemplate;
 
 contentMain.innerHTML = result;

@@ -1,0 +1,22 @@
+.l-transfers-info-about-races {
+  &__content {
+    padding-top: 54px;
+  }
+
+  &__table-head {
+    @include font-bold(13px, normal, start, #8e8e93, 0.1px);
+    width: 85%;
+    & > span:first-child {
+      flex-basis: 20%;
+    }
+    & > span:nth-child(2) {
+      flex-basis: 40%;
+    }
+  }
+
+  &__table-content {
+    & > div:not(:last-child) {
+      margin-bottom: 13px;
+    }
+  }
+}

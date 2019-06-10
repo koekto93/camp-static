@@ -20,6 +20,7 @@
 @import "./elements/castom-radio.scss";
 @import "./elements/offer-card-item.scss";
 @import "./elements/corporate-service-item.scss";
+@import "./elements/transfer-info-table-item.scss";
 
 //blocks
 @import "./blocks/arrivals-block";
@@ -63,3 +64,6 @@
 
 //tours
 @import "./layers/tours-filter";
+
+//transfers
+@import "./layers/transfers-info-about-races";

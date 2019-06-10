@@ -1,0 +1,49 @@
+.l-transfer-info-table-item {
+  &__left-side {
+    padding-bottom: 27px;
+    @extend %border-bottom;
+    height: 109px;
+    width: 85%;
+
+    & > div:not(:first-child) {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+    }
+  }
+
+  &__item-info {
+    & > div:first-child {
+      margin-bottom: 4px;
+    }
+
+    &._info {
+      flex-basis: 20%;
+    }
+
+    &._from {
+      flex-basis: 40%;
+    }
+    &._to {
+    }
+  }
+
+  &__type {
+    @include font-regular(12px, normal, start, #8e8e93);
+  }
+
+  &__date {
+    @include font-regular(14px, normal, start, #e3775b);
+    width: 118px;
+  }
+
+  &__camp {
+    @include font-regular(15px);
+    margin-bottom: 13px;
+    width: 319px;
+  }
+
+  &__address {
+    @include font-bold(15px, normal, start, #313131);
+  }
+}

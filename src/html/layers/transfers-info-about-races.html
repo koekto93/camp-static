@@ -1,0 +1,18 @@
+<div class="l-transfers-info-about-races">
+    <div class="l-transfers-info-about-races__content">
+
+        <div class="l-transfers-info-about-races__table">
+            <div class="l-transfers-info-about-races__table-head display-flex">
+                <span class="l-transfers-info-about-races__head-item"></span>
+                <span class="l-transfers-info-about-races__head-item">ОТКУДА</span>
+                <span class="l-transfers-info-about-races__head-item">КУДА</span>
+            </div>
+            <div class="l-transfers-info-about-races__table-content">
+                <!-- Строка таблицы -->
+                <% transferInfoTableItemData.forEach(function(data) { %> <%= transferInfoTableItem(data)%> <% }); %>
+                <!-- Строка таблицы -->
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -144,6 +144,9 @@
 %eye-icon {
   @include svg-icon(23px, 21px, "eye", #1a1a1a);
 }
+%download-icon {
+  @include svg-icon(24px, 24px, "download", #bfbfbf);
+}
 /* https://blog.teamtreehouse.com/extending-placeholder-selectors-with-sass */
 
 /* <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>

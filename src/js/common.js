@@ -3,6 +3,10 @@ export const captionWithIcon = _.template(
   require(`./../html/elements/caption-with-icon.html`).default
 );
 
+export const transferInfoTableItem = _.template(
+  require(`./../html/elements/transfer-info-table-item.html`).default
+);
+
 export const corporateServiceItem = _.template(
   require(`./../html/elements/corporate-service-item.html`).default
 );
@@ -199,4 +203,9 @@ export const socialQuotaAllocation = _.template(
 //tours
 export const toursFilter = _.template(
   require("./../html/layers/tours-filter.html").default
+);
+
+//transfers
+export const transfersInfoAboutRaces = _.template(
+  require("./../html/layers/transfers-info-about-races.html").default
 );
