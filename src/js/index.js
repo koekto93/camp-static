@@ -46,9 +46,16 @@ import socialQuotaAllocationTemplate from './layers/social-quota-allocation.js';
 
 //tours
 import toursFilterTemplate from './layers/tours-filter.js';
+import toursControlTemplate from './layers/tours-control.js';
 
 //transfers
 import transfersInfoAboutRacesTemplate from './layers/transfers-info-about-races.js';
+
+//family
+import familyControlTemplate from './layers/family-control.js';
+
+//kids
+import kidsFilterTemplate from './layers/kids-filter.js';
 
 const contentMain = document.body.querySelector('.content-container__main');
 
@@ -404,11 +411,11 @@ const additionalBookingBlockData = {
   footerTemplate; */
 
 const result =
-  getTemplate('family') +
+  getTemplate('toursBig') +
   toursFilterTemplate +
   previouslyViewedOffers +
   transfersInfoAboutRacesTemplate +
-  guaranteesTemplate +
+  kidsFilterTemplate +
   footerTemplate;
 
 contentMain.innerHTML = result;

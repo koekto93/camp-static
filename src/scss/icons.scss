@@ -142,6 +142,10 @@
   @include svg-icon(16px, 16px, 'arrow', $white-text-color);
 }
 
+%simple-arrow-icon {
+  @include svg-icon(16px, 16px, 'arrow', #e16a49);
+}
+
 %like-icon {
   @include svg-icon(17px, 16px, 'like', #1a1a1a);
 }

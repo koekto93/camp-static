@@ -12,6 +12,12 @@
   &._lg {
     width: 180px;
   }
+
+  &._simple {
+    .select-wrapper__label {
+      @include font-regular(13px, normal, start, #9b9b9b);
+    }
+  }
 }
 
 .c-select {
@@ -45,6 +51,12 @@
   &._white {
     & select {
       color: $white-text-color;
+    }
+  }
+
+  &._simple {
+    & select {
+      color: #1a1a1a;
     }
   }
 

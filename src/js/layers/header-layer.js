@@ -52,25 +52,22 @@ const data = {
       customSelector,
       customSelectorData: [
         {
+          arrow: '_white-arrow',
           className: '_white _lg',
           textLabel: 'Продолжительность',
         },
         {
+          arrow: '_white-arrow',
           className: '_white _lg',
           textLabel: 'Аудитория',
         },
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Регион' },
         {
-          className: '_white _lg',
-          textLabel: 'Регион',
-        },
-        {
+          arrow: '_white-arrow',
           className: '_white _lg',
           textLabel: 'Стоимость',
         },
-        {
-          className: '_white _lg',
-          textLabel: 'Акции',
-        },
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Акции' },
       ],
       customInput,
       customInputData: {
@@ -109,22 +106,18 @@ const data = {
       className: '_kids',
       customSelector,
       customSelectorData: [
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Тип' },
         {
-          className: '_white _lg',
-          textLabel: 'Тип',
-        },
-        {
+          arrow: '_white-arrow',
           className: '_white _lg',
           textLabel: 'Направление',
         },
         {
+          arrow: '_white-arrow',
           className: '_white _lg',
           textLabel: 'Месяц заезда',
         },
-        {
-          className: '_white _sm',
-          textLabel: 'Кол-во',
-        },
+        { arrow: '_white-arrow', className: '_white _sm', textLabel: 'Кол-во' },
       ],
     },
   },
@@ -135,33 +128,24 @@ const data = {
       className: '_kids-big',
       customSelector,
       firstSelectorData: [
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Тип' },
         {
-          className: '_white _lg',
-          textLabel: 'Тип',
-        },
-        {
+          arrow: '_white-arrow',
           className: '_white _lg',
           textLabel: 'Направление',
         },
         {
+          arrow: '_white-arrow',
           className: '_white _lg',
           textLabel: 'Месяц заезда',
         },
-        {
-          className: '_white _sm',
-          textLabel: 'Кол-во',
-        },
+        { arrow: '_white-arrow', className: '_white _sm', textLabel: 'Кол-во' },
       ],
       secondSelectorData: [
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Лагерь' },
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Смена' },
         {
-          className: '_white _lg',
-          textLabel: 'Лагерь',
-        },
-        {
-          className: '_white _lg',
-          textLabel: 'Смена',
-        },
-        {
+          arrow: '_white-arrow',
           className: '_white _lg',
           textLabel: 'Тематика',
         },
@@ -175,41 +159,38 @@ const data = {
       className: '_family-big',
       customSelector,
       firstSelectorData: [
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Страна' },
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Регион' },
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Отель' },
         {
-          className: '_white _lg',
-          textLabel: 'Страна',
-        },
-        {
-          className: '_white _lg',
-          textLabel: 'Регион',
-        },
-        {
-          className: '_white _lg',
-          textLabel: 'Отель',
-        },
-        {
+          arrow: '_white-arrow',
           className: '_white _sm',
           textLabel: 'Дата въезда',
         },
         {
+          arrow: '_white-arrow',
           className: '_white _sm',
           textLabel: 'Дата выезда',
         },
       ],
       secondSelectorData: [
         {
+          arrow: '_white-arrow',
           className: '_white _lg',
           textLabel: 'Отдыхающих',
         },
         {
+          arrow: '_white-arrow',
           className: '_white _lg',
           textLabel: 'Питание',
         },
         {
+          arrow: '_white-arrow',
           className: '_white _sm',
           textLabel: 'Цена от',
         },
         {
+          arrow: '_white-arrow',
           className: '_white _sm',
           textLabel: 'Цена до',
         },

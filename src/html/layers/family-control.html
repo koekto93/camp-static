@@ -1,0 +1,15 @@
+<div class="l-family-control">
+  <div class="l-family-control__content display-flex _column">
+    <div class="l-family-control__selectors display-flex _j-between">
+      <% firstSelectorData.forEach(function(data) { %> <%=
+      customSelector(data)%> <% }); %>
+    </div>
+    <div class="l-family-control__selectors display-flex _j-between">
+      <% secondSelectorData.forEach(function(data) { %> <%=
+      customSelector(data)%> <% }); %>
+      <div class="l-family-control__button display-flex _a-end">
+        <button class="c-button">НАЙТИ</button>
+      </div>
+    </div>
+  </div>
+</div>

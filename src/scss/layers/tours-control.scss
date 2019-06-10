@@ -1,0 +1,13 @@
+.l-tours-control {
+  &__content {
+    padding-top: 37px;
+  }
+
+  &__button {
+    & > button {
+      height: 40px;
+      width: 170px;
+      text-align: center;
+    }
+  }
+}

@@ -244,6 +244,9 @@ body {
   &._white-arrow {
     @extend %white-arrow-icon;
   }
+  &._simple-arrow {
+    @extend %simple-arrow-icon;
+  }
   &._like {
     @extend %like-icon;
   }

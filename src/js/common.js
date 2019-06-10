@@ -241,7 +241,21 @@ export const toursFilter = _.template(
   require('./../html/layers/tours-filter.html').default,
 );
 
+export const toursControl = _.template(
+  require('./../html/layers/tours-control.html').default,
+);
+
 //transfers
 export const transfersInfoAboutRaces = _.template(
   require('./../html/layers/transfers-info-about-races.html').default,
+);
+
+//family
+export const familyControl = _.template(
+  require('./../html/layers/family-control.html').default,
+);
+
+//kids
+export const kidsFilter = _.template(
+  require('./../html/layers/kids-filter.html').default,
 );

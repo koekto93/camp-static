@@ -1,0 +1,18 @@
+.l-family-control {
+  &__content {
+    padding-top: 37px;
+    width: 890px;
+
+    & > div:first-child {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__button {
+    & > button {
+      height: 40px;
+      width: 170px;
+      text-align: center;
+    }
+  }
+}
