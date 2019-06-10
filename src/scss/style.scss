@@ -34,10 +34,6 @@
 @import './blocks/main-social-block.scss';
 
 //layers
-@import './layers/wellness-company';
-@import './layers/frequently-questions';
-@import './layers/useful-links';
-@import './layers/recommendations';
 @import './layers/header';
 @import './layers/mailing';
 @import './layers/footer';
@@ -52,3 +48,11 @@
 @import './layers/main-third-composite-layer';
 @import './layers/main-corporate-services';
 @import './layers/main-our-camps';
+
+//social
+@import './layers/social-news';
+@import './layers/social-first-composite-layer';
+@import './layers/social-wellness-company';
+@import './layers/social-useful-links';
+@import './layers/social-frequently-questions';
+@import './layers/social-recommendations';

@@ -1,7 +1,7 @@
 import _ from 'lodash';
 
 import {
-  recommendationsLayer,
+  socialRecommendationsLayer,
   recommendCardItem,
   captionWithIcon,
 } from '../common.js';
@@ -86,6 +86,8 @@ const recommendationsData = {
   ],
 };
 
-const recommendationsLayerTemplate = recommendationsLayer(recommendationsData);
+const recommendationsLayerTemplate = socialRecommendationsLayer(
+  recommendationsData,
+);
 
 export default recommendationsLayerTemplate;

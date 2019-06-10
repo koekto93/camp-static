@@ -1,7 +1,7 @@
 import _ from 'lodash';
 
 import {
-  frequentlyQuestionsLayer,
+  socialFrequentlyQuestionsLayer,
   captionWithIcon,
   infoDoubleCard,
   innerElementOfInfoCard,
@@ -115,7 +115,7 @@ const frequentlyQuestionsData = {
   ],
 };
 
-const frequentlyQuestionsLayerTemplate = frequentlyQuestionsLayer(
+const frequentlyQuestionsLayerTemplate = socialFrequentlyQuestionsLayer(
   frequentlyQuestionsData,
 );
 

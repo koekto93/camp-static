@@ -1,0 +1,6 @@
+<% var data = { title: "Второй заголовок | Проект", author: "Harrix" }; %> <%=
+_.template(require('./../elements/first-page-part.html').default)(data) %>
+
+<div class="content-container content-container__social"></div>
+
+<%= _.template(require('./../elements/second-page-part.html').default)(data) %>

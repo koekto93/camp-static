@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-import { usefulLinksLayer, captionWithIcon } from '../common.js';
+import { socialUsefulLinksLayer, captionWithIcon } from '../common.js';
 
 const usefulLinksData = {
   //caption
@@ -41,6 +41,6 @@ const usefulLinksData = {
   ],
 };
 
-const usefulLinksLayerTemplate = usefulLinksLayer(usefulLinksData);
+const usefulLinksLayerTemplate = socialUsefulLinksLayer(usefulLinksData);
 
 export default usefulLinksLayerTemplate;

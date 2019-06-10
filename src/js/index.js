@@ -31,12 +31,14 @@ import mainOurCampsTemplate from './layers/main-our-camps.js';
 import footerTemplate from './layers/footer.js';
 
 //social vacation
-import usefulLinksLayerTemplate from './layers/useful-links.js';
-import wellnessСompanyLayerTemplate from './layers/wellness-company.js';
-import frequentlyQuestionsLayerTemplate from './layers/frequently-questions.js';
-import recommendationsLayerTemplate from './layers/recommendations.js';
+import socialNewsLayerTemplate from './layers/social-news.js';
+import socialFirstCompositeLayerTemplate from './layers/social-first-composite-layer.js';
+import socialWellnessСompanyLayerTemplate from './layers/social-wellness-company.js';
+import socialUsefulLinksLayerTemplate from './layers/social-useful-links.js';
+import socialFrequentlyQuestionsLayerTemplate from './layers/social-frequently-questions.js';
+import socialRecommendationsLayerTemplate from './layers/social-recommendations.js';
 
-const content = document.body.querySelector('.content-container');
+const contentMain = document.body.querySelector('.content-container__main');
 
 /* -------------------- Вставка блоков ---------------------- */
 
@@ -347,9 +349,6 @@ const additionalBookingBlockData = {
 //Вставка шапки пиздец!
 //content.innerHTML = headerLayerTemplate;
 
-//результат
-//const result = newsBlockContent;
-
 //content.innerHTML = result;
 
 //content.appendChild(newsContainer);
@@ -365,7 +364,7 @@ const additionalBookingBlockData = {
 //content.appendChild(additionalBookingBlockWrapper);
 
 //Сборка main страницы
-const mainResult =
+/* const result =
   headerLayerTemplate +
   mainNewsLayerTemplate +
   mainFirstCompositeLayerTemplate +
@@ -377,5 +376,17 @@ const mainResult =
   mainThirdCompositeLayerTemplate +
   mainCorporateServicesTemplate +
   mainOurCampsTemplate +
+  footerTemplate; */
+
+//Сборка страницы social
+const result =
+  headerLayerTemplate +
+  socialFirstCompositeLayerTemplate +
+  socialNewsLayerTemplate +
+  socialWellnessСompanyLayerTemplate +
+  socialUsefulLinksLayerTemplate +
+  socialFrequentlyQuestionsLayerTemplate +
+  socialRecommendationsLayerTemplate +
   footerTemplate;
-content.innerHTML = mainResult;
+
+contentMain.innerHTML = result;

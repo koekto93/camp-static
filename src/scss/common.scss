@@ -266,15 +266,3 @@ h1 {
 h3 {
   @include font-intro(15px, 1.6);
 }
-
-//рефактор
-.c-form-hint {
-  font-family: PTSans-Regular;
-  font-size: 13px;
-  color: #666666;
-
-  &__link {
-    color: #e3775b;
-    cursor: pointer;
-  }
-}

@@ -1,14 +1,14 @@
 import _ from 'lodash';
 
 import {
-  wellnessСompanyLayer,
+  socialWellnessСompanyLayer,
   infoDoubleCard,
   innerElementOfInfoCard,
   captionWithIcon,
   infoListCard,
 } from '../common.js';
 
-const wellnessСompanyData = {
+const data = {
   stages: [
     {
       captionText: 'Первый этап заявочной кампании',
@@ -196,6 +196,6 @@ const wellnessСompanyData = {
   ],
 };
 
-const wellnessСompanyLayerTemplate = wellnessСompanyLayer(wellnessСompanyData);
+const template = socialWellnessСompanyLayer(data);
 
-export default wellnessСompanyLayerTemplate;
+export default template;

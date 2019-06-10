@@ -105,21 +105,6 @@ export const mainSocialBlock = _.template(
 );
 
 //----layers-----
-export const wellnessСompanyLayer = _.template(
-  require('./../html/layers/wellness-company.html').default,
-);
-
-export const frequentlyQuestionsLayer = _.template(
-  require('./../html/layers/frequently-questions.html').default,
-);
-
-export const usefulLinksLayer = _.template(
-  require('./../html/layers/useful-links.html').default,
-);
-
-export const recommendationsLayer = _.template(
-  require('./../html/layers/recommendations.html').default,
-);
 
 export const headerLayer = _.template(
   require('./../html/layers/header.html').default,
@@ -168,4 +153,29 @@ export const mainCorporateServices = _.template(
 
 export const mainOurCamps = _.template(
   require('./../html/layers/main-our-camps.html').default,
+);
+
+//social
+export const socialNewsLayer = _.template(
+  require('./../html/layers/social-news.html').default,
+);
+
+export const socialFirstCompositeLayer = _.template(
+  require('./../html/layers/social-first-composite-layer.html').default,
+);
+
+export const socialWellnessСompanyLayer = _.template(
+  require('./../html/layers/social-wellness-company.html').default,
+);
+
+export const socialUsefulLinksLayer = _.template(
+  require('./../html/layers/social-useful-links.html').default,
+);
+
+export const socialFrequentlyQuestionsLayer = _.template(
+  require('./../html/layers/social-frequently-questions.html').default,
+);
+
+export const socialRecommendationsLayer = _.template(
+  require('./../html/layers/social-recommendations.html').default,
 );
