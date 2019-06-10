@@ -19,6 +19,7 @@ import {
 import headerLayerTemplate from "./layers/header.js";
 import footerTemplate from "./layers/footer.js";
 import mailingLayerTemplate from "./layers/mailing.js";
+import guaranteesTemplate from "./layers/guarantees.js";
 import previouslyViewedOffers from "./layers/previously-viewed-offers.js";
 
 //main
@@ -406,6 +407,7 @@ const result =
   toursFilterTemplate +
   previouslyViewedOffers +
   transfersInfoAboutRacesTemplate +
+  guaranteesTemplate +
   footerTemplate;
 
 contentMain.innerHTML = result;

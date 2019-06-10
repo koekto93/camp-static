@@ -122,6 +122,10 @@ export const mailingLayer = _.template(
   require("./../html/layers/mailing.html").default
 );
 
+export const guaranteesLayer = _.template(
+  require("./../html/layers/guarantees.html").default
+);
+
 export const footer = _.template(
   require("./../html/layers/footer.html").default
 );

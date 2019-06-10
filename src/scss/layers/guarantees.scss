@@ -1,0 +1,7 @@
+.l-guarantees {
+  &__content {
+    padding: 44px 55px;
+    @extend %card-border;
+    margin-top: 38px;
+  }
+}

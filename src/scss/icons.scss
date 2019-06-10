@@ -147,9 +147,15 @@
 %download-icon {
   @include svg-icon(24px, 24px, "download", #bfbfbf);
 }
-/* https://blog.teamtreehouse.com/extending-placeholder-selectors-with-sass */
 
-/* <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>
-        <div class="previously-viewed-offers__content-block">
-                <%= mainTopOffers(mainTopOffersData)%>
-        </div> */
+%docs-icon {
+  @include svg-icon(23px, 26px, "docs", #1a1a1a);
+}
+%money-icon {
+  @include svg-icon(31px, 20px, "money", #1a1a1a);
+}
+%umbrella-icon {
+  @include svg-icon(31px, 33px, "umbrella", #1a1a1a);
+}
+
+/* https://blog.teamtreehouse.com/extending-placeholder-selectors-with-sass */

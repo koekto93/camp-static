@@ -250,6 +250,15 @@ body {
   &._download {
     @extend %download-icon;
   }
+  &._money {
+    @extend %money-icon;
+  }
+  &._docs {
+    @extend %docs-icon;
+  }
+  &._umbrella {
+    @extend %umbrella-icon;
+  }
 }
 
 .c-button {
