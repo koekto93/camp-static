@@ -23,6 +23,7 @@
 @import './elements/transfer-info-table-item.scss';
 @import './elements/custom-selector.scss';
 @import './elements/custom-datepicker.scss';
+@import './elements/advertising-fire.scss';
 
 //blocks
 @import './blocks/arrivals-block';
@@ -36,6 +37,7 @@
 @import './blocks/main-top-offers.scss';
 @import './blocks/main-social-block.scss';
 @import './blocks/simple-filter.scss';
+@import './blocks/best-children-holiday.scss';
 
 //layers
 @import './layers/header-layer';
@@ -68,6 +70,7 @@
 //tours
 @import './layers/tours-filter';
 @import './layers/tours-control';
+@import './layers/advertising-point.scss';
 
 //transfers
 @import './layers/transfers-info-about-races';

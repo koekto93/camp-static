@@ -99,6 +99,10 @@ export const innerElementOfInfoCard = _.template(
   require('./../html/elements/inner-element-of-info-card.html').default,
 );
 
+export const advertisingFire = _.template(
+  require(`./../html/blocks/advertising-fire.html`).default,
+);
+
 //----blocks-----
 export const newsBlock = _.template(
   require('./../html/blocks/news-block.html').default,
@@ -243,6 +247,10 @@ export const toursFilter = _.template(
 
 export const toursControl = _.template(
   require('./../html/layers/tours-control.html').default,
+);
+
+export const advertisingPoint = _.template(
+  require(`./../html/layers/advertising-point.html`).default,
 );
 
 //transfers
