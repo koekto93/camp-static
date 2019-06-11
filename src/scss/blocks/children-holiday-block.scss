@@ -5,6 +5,10 @@
   position: relative;
   width: 350px;
 
+  &._background {
+    background-color: rgba(151, 151, 151, 0.18);
+  }
+
   &__tab {
     @include font-regular(11px, normal, center, $white-text-color, 0.9px);
     position: absolute;

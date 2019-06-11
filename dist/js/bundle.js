@@ -17270,7 +17270,7 @@ module.exports = function(module) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-additional-booking\">\r\n  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\r\n  <form>\r\n    <% materialInputData.forEach(function(data) { %> <%= materialInput(data)%>\r\n    <% }); %>\r\n    <p class=\"l-additional-booking__description c-form-hint\">\r\n      Введите номер путевки и фамилию заявителя для бронирования дополнительного\r\n      места или услуг\r\n      <span class=\"c-form-hint__link\">инструкция</span>\r\n    </p>\r\n    <div class=\"l-additional-booking__button display-flex _j-center\">\r\n      <button class=\"c-button\">ОК</button>\r\n    </div>\r\n  </form>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-additional-booking\">\n  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\n  <form>\n    <% materialInputData.forEach(function(data) { %> <%= materialInput(data)%>\n    <% }); %>\n    <p class=\"l-additional-booking__description c-form-hint\">\n      Введите номер путевки и фамилию заявителя для бронирования дополнительного\n      места или услуг\n      <span class=\"c-form-hint__link\">инструкция</span>\n    </p>\n    <div class=\"l-additional-booking__button display-flex _j-center\">\n      <button class=\"c-button\">ОК</button>\n    </div>\n  </form>\n</div>\n");
 
 /***/ }),
 
@@ -17283,7 +17283,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-arrival-block\">\r\n  <div class=\"l-arrival-block__info-section\">\r\n    <div class=\"l-arrival-block__caption\"><%=caption%></div>\r\n    <% arrivalItems.forEach(function(data) { %> <%= arrivalItem(data)%> <% });\r\n    %>\r\n    <div class=\"l-arrival-block__button display-flex _j-center\">\r\n      <button class=\"c-button\">ВСЕ ЗАЕЗДЫ</button>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-arrival-block\">\n  <div class=\"l-arrival-block__info-section\">\n    <div class=\"l-arrival-block__caption\"><%=caption%></div>\n    <% arrivalItems.forEach(function(data) { %> <%= arrivalItem(data)%> <% });\n    %>\n    <div class=\"l-arrival-block__button display-flex _j-center\">\n      <button class=\"c-button\">ВСЕ ЗАЕЗДЫ</button>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17296,7 +17296,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-arrivals-container\">\r\n  <div class=\"l-arrivals-container__headline\">\r\n    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\r\n  </div>\r\n  <% arrivalsBlockData.forEach(function(data) { %> <%= arrivalsBlock(data)%> <%\r\n  }); %>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-arrivals-container\">\n  <div class=\"l-arrivals-container__headline\">\n    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\n  </div>\n  <% arrivalsBlockData.forEach(function(data) { %> <%= arrivalsBlock(data)%> <%\n  }); %>\n</div>\n");
 
 /***/ }),
 
@@ -17309,7 +17309,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- \r\n    изначально обычный фон у таба\r\n    _gradient - устанавливает фон в виде градиента\r\n -->\r\n<div class=\"children-holiday-block\">\r\n    <div class=\"children-holiday-block__tab <%= className%>\">\r\n        <span>лучший детский отдых</span>\r\n    </div>\r\n    <div class=\"children-holiday-block__cards\">\r\n        <% offerCardItemsData.forEach(function(data) { %> <%= offerCardItem(data)%> <% }); %>\r\n    </div>  \r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- \n    изначально обычный фон у таба\n    _gradient - устанавливает фон в виде градиента\n -->\n<div class=\"children-holiday-block <%= blockClassName%>\"\">\n    <div class=\"children-holiday-block__tab <%= className%>\">\n        <span>лучший детский отдых</span>\n    </div>\n    <div class=\"children-holiday-block__cards\">\n        <% offerCardItemsData.forEach(function(data) { %> <%= offerCardItem(data)%> <% }); %>\n    </div>  \n</div>");
 
 /***/ }),
 
@@ -17322,7 +17322,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"important-info-block display-flex _row-wrap _j-between\">\r\n  <% infoSimpleCardsData.forEach(function(data) { %> <%= infoSimpleCard(data)%>\r\n  <% }); %>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"important-info-block display-flex _row-wrap _j-between\">\n  <% infoSimpleCardsData.forEach(function(data) { %> <%= infoSimpleCard(data)%>\n  <% }); %>\n</div>\n");
 
 /***/ }),
 
@@ -17335,7 +17335,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-important-info-container\">\r\n  <div class=\"l-important-info-container__headline\">\r\n    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\r\n  </div>\r\n  <%=importantInfoBlock(importantInfoBlockData)%>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-important-info-container\">\n  <div class=\"l-important-info-container__headline\">\n    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\n  </div>\n  <%=importantInfoBlock(importantInfoBlockData)%>\n</div>\n");
 
 /***/ }),
 
@@ -17348,7 +17348,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"main-social-block display-flex _column _j-center\">\r\n  <h3>Мы в социальных сетях!</h3>\r\n  <div class=\"main-social-block__text\">\r\n    <span\r\n      >Вы всегда можете связаться с нами в соц сетях и узнать самые новые\r\n      новости.</span\r\n    >\r\n  </div>\r\n  <div class=\"main-social-block__icons-block display-flex _j-between\">\r\n    <div class=\"icon _vk\"></div>\r\n    <div class=\"icon _vk\"></div>\r\n    <div class=\"icon _fb\"></div>\r\n    <div class=\"icon _fb\"></div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"main-social-block display-flex _column _j-center\">\n  <h3>Мы в социальных сетях!</h3>\n  <div class=\"main-social-block__text\">\n    <span\n      >Вы всегда можете связаться с нами в соц сетях и узнать самые новые\n      новости.</span\n    >\n  </div>\n  <div class=\"main-social-block__icons-block display-flex _j-between\">\n    <div class=\"icon _vk\"></div>\n    <div class=\"icon _vk\"></div>\n    <div class=\"icon _fb\"></div>\n    <div class=\"icon _fb\"></div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17361,7 +17361,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-top-offers\">\r\n  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\r\n  <div class=\"l-main-top-offers__block display-flex _j-between\">\r\n    <% offerCardItemsData.forEach(function(data) { %> <%= offerCardItem(data)%>\r\n    <% }); %>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-top-offers\">\n  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\n  <div class=\"l-main-top-offers__block display-flex _j-between\">\n    <% offerCardItemsData.forEach(function(data) { %> <%= offerCardItem(data)%>\n    <% }); %>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17374,7 +17374,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-news <%=className%>\">\r\n  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\r\n  <div class=\"l-news__block display-flex <%=blockClassName%>\">\r\n    <% newsItemData.forEach(function(data) { %> <%= newsItem(data)%> <% }); %>\r\n  </div>\r\n  <div class=\"l-news__button display-flex _j-center\">\r\n    <button class=\"c-button\">ВСЕ НОВОСТИ</button>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-news <%=className%>\">\n  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\n  <div class=\"l-news__block display-flex <%=blockClassName%>\">\n    <% newsItemData.forEach(function(data) { %> <%= newsItem(data)%> <% }); %>\n  </div>\n  <div class=\"l-news__button display-flex _j-center\">\n    <button class=\"c-button\">ВСЕ НОВОСТИ</button>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17387,7 +17387,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-simple-filter display-flex _j-center\">\r\n    <ul class=\"c-simple-filter__items-container display-flex\">\r\n        <% items.forEach(function(item) { %> \r\n            <li class=\"c-simple-filter__item <%=item.className%>\">\r\n                <%=item.text%>\r\n            </li>\r\n        <% }); %>\r\n    </ul>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-simple-filter display-flex _j-center\">\n    <ul class=\"c-simple-filter__items-container display-flex\">\n        <% items.forEach(function(item) { %> \n            <li class=\"c-simple-filter__item <%=item.className%>\">\n                <%=item.text%>\n            </li>\n        <% }); %>\n    </ul>\n</div>");
 
 /***/ }),
 
@@ -17400,7 +17400,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-vertical-news display-flex _column\">\r\n  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %> <% if\r\n  (img) { %>\r\n  <div class=\"l-vertical-news__image\">\r\n    <img src=\"uploads/alpaka.jpg\" alt=\"alpaka\" />\r\n  </div>\r\n  <% } %>\r\n  <div class=\"l-vertical-news__block display-flex _column\">\r\n    <% newsItemData.forEach(function(data) { %> <%= newsItem(data)%> <% }); %>\r\n  </div>\r\n  <div class=\"l-vertical-news__button display-flex _j-center\">\r\n    <button class=\"c-button\">ВСЕ НОВОСТИ</button>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-vertical-news display-flex _column\">\n  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %> <% if\n  (img) { %>\n  <div class=\"l-vertical-news__image\">\n    <img src=\"uploads/alpaka.jpg\" alt=\"alpaka\" />\n  </div>\n  <% } %>\n  <div class=\"l-vertical-news__block display-flex _column\">\n    <% newsItemData.forEach(function(data) { %> <%= newsItem(data)%> <% }); %>\n  </div>\n  <div class=\"l-vertical-news__button display-flex _j-center\">\n    <button class=\"c-button\">ВСЕ НОВОСТИ</button>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17413,7 +17413,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-video-reviews\">\r\n  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\r\n  <div class=\"l-video-reviews__content display-flex\">\r\n    <div class=\"l-video-reviews__image\">\r\n      <img src=\"uploads/mother.jpg\" alt=\"mother\" />\r\n    </div>\r\n    <div class=\"l-video-reviews__info-block\">\r\n      <div class=\"l-video-reviews__text-block\">\r\n        <div class=\"l-video-reviews__text\">\r\n          <span\r\n            >Послушайте, что говорят мамы, которые отправили ребенка в лагерь\r\n            впервые: что изменилось к лучшему?</span\r\n          >\r\n        </div>\r\n        <div class=\"l-video-reviews__text\">\r\n          <span>Информация из первых рук, которым вы можете доверять.</span>\r\n        </div>\r\n      </div>\r\n      <div class=\"l-video-reviews__chats-block\">\r\n        <div class=\"l-video-reviews__chats-caption\">\r\n          Получите ссылку на ролик, нажав на удобный мессенджжер\r\n        </div>\r\n        <div class=\"l-video-reviews__chat-icons display-flex\">\r\n          <div class=\"l-video-reviews__chat-item\"></div>\r\n          <div class=\"l-video-reviews__chat-item\"></div>\r\n          <div class=\"l-video-reviews__chat-item\"></div>\r\n          <div class=\"l-video-reviews__chat-item\"></div>\r\n          <div class=\"l-video-reviews__chat-item\"></div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <!-- video reviews start -->\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-video-reviews\">\n  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\n  <div class=\"l-video-reviews__content display-flex\">\n    <div class=\"l-video-reviews__image\">\n      <img src=\"uploads/mother.jpg\" alt=\"mother\" />\n    </div>\n    <div class=\"l-video-reviews__info-block\">\n      <div class=\"l-video-reviews__text-block\">\n        <div class=\"l-video-reviews__text\">\n          <span\n            >Послушайте, что говорят мамы, которые отправили ребенка в лагерь\n            впервые: что изменилось к лучшему?</span\n          >\n        </div>\n        <div class=\"l-video-reviews__text\">\n          <span>Информация из первых рук, которым вы можете доверять.</span>\n        </div>\n      </div>\n      <div class=\"l-video-reviews__chats-block\">\n        <div class=\"l-video-reviews__chats-caption\">\n          Получите ссылку на ролик, нажав на удобный мессенджжер\n        </div>\n        <div class=\"l-video-reviews__chat-icons display-flex\">\n          <div class=\"l-video-reviews__chat-item\"></div>\n          <div class=\"l-video-reviews__chat-item\"></div>\n          <div class=\"l-video-reviews__chat-item\"></div>\n          <div class=\"l-video-reviews__chat-item\"></div>\n          <div class=\"l-video-reviews__chat-item\"></div>\n        </div>\n      </div>\n    </div>\n    <!-- video reviews start -->\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17426,7 +17426,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-advertising-fire display-flex _j-center _a-center\">\r\n    <div class=\"l-advertising-fire__content display-flex _column _j-between\">\r\n        <div class=\"l-advertising-fire__icon display-flex _a-center _j-center\">\r\n            <div class=\"icon _fire\"></div>\r\n        </div>\r\n        <div class=\"l-advertising-fire__text\"><span>Акции/сезонные предложения/многодневные экскурсии</span></div>\r\n    </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-advertising-fire display-flex _j-center _a-center\">\n    <div class=\"l-advertising-fire__content display-flex _column _j-between\">\n        <div class=\"l-advertising-fire__icon display-flex _a-center _j-center\">\n            <div class=\"icon _fire\"></div>\n        </div>\n        <div class=\"l-advertising-fire__text\"><span>Акции/сезонные предложения/многодневные экскурсии</span></div>\n    </div>\n</div>\n");
 
 /***/ }),
 
@@ -17439,7 +17439,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-arrival-item\">\r\n  <div class=\"c-arrival-item__date-block display-flex _row\">\r\n    <span class=\"c-arrival-item__date\">02.02.2019</span>\r\n    <span class=\"c-arrival-item__time\">14:15</span>\r\n  </div>\r\n\r\n  <div class=\"c-arrival-item__place display-flex _column\">\r\n    <span class=\"c-arrival-item__address\"\r\n      >Семейный отдых ДЦ Жемчужина, г. Полоцк</span\r\n    >\r\n    <span class=\"c-arrival-item__city\">адлер</span>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-arrival-item\">\n  <div class=\"c-arrival-item__date-block display-flex _row\">\n    <span class=\"c-arrival-item__date\">02.02.2019</span>\n    <span class=\"c-arrival-item__time\">14:15</span>\n  </div>\n\n  <div class=\"c-arrival-item__place display-flex _column\">\n    <span class=\"c-arrival-item__address\"\n      >Семейный отдых ДЦ Жемчужина, г. Полоцк</span\n    >\n    <span class=\"c-arrival-item__city\">адлер</span>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17452,7 +17452,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- Ожидается передача объекта вида\r\n{\r\n    className: \"_row _a-center ?_circle-icon-border\",\r\n    imgName: \"news\",\r\n    text: \"Важная информация\"\r\n  }\r\n-->\r\n<div class=\"c-caption-with-icon display-flex <%=className%>\">\r\n  <div class=\"c-caption-with-icon__icon display-flex _a-center _j-center\">\r\n    <div class=\"icon _<%=imgName%>\"></div>\r\n  </div>\r\n  <p class=\"c-caption-with-icon__text\"><%=text%></p>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Ожидается передача объекта вида\n{\n    className: \"_row _a-center ?_circle-icon-border\",\n    imgName: \"news\",\n    text: \"Важная информация\"\n  }\n-->\n<div class=\"c-caption-with-icon display-flex <%=className%>\">\n  <div class=\"c-caption-with-icon__icon display-flex _a-center _j-center\">\n    <div class=\"icon _<%=imgName%>\"></div>\n  </div>\n  <p class=\"c-caption-with-icon__text\"><%=text%></p>\n</div>\n");
 
 /***/ }),
 
@@ -17465,7 +17465,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-custom-radio\">\r\n  <input type=\"radio\" class=\"radio\" id=\"radio\" />\r\n  <label for=\"radio\">Я согласен на обработку моих персональных данных</label>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-custom-radio\">\n  <input type=\"radio\" class=\"radio\" id=\"radio\" />\n  <label for=\"radio\">Я согласен на обработку моих персональных данных</label>\n</div>\n");
 
 /***/ }),
 
@@ -17478,7 +17478,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center _j-center\">\r\n  <div class=\"c-header-content__caption <%=className%>\">\r\n    <span>поиск семейного отдыха</span>\r\n  </div>\r\n\r\n  <div\r\n    class=\"c-header-content__content display-flex _column _a-center <%=className%>\"\r\n  >\r\n    <div class=\"c-header-content__selectors display-flex _j-between\">\r\n      <% firstSelectorData.forEach(function(data) { %> <%=\r\n      customSelector(data)%> <% }); %>\r\n    </div>\r\n    <div class=\"c-header-content__selectors display-flex _j-between\">\r\n      <% secondSelectorData.forEach(function(data) { %> <%=\r\n      customSelector(data)%> <% }); %>\r\n    </div>\r\n    <div class=\"c-header-content__button display-flex _j-center\">\r\n      <button class=\"c-button\">НАЙТИ</button>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center _j-center\">\n  <div class=\"c-header-content__caption <%=className%>\">\n    <span>поиск семейного отдыха</span>\n  </div>\n\n  <div\n    class=\"c-header-content__content display-flex _column _a-center <%=className%>\"\n  >\n    <div class=\"c-header-content__selectors display-flex _j-between\">\n      <% firstSelectorData.forEach(function(data) { %> <%=\n      customSelector(data)%> <% }); %>\n    </div>\n    <div class=\"c-header-content__selectors display-flex _j-between\">\n      <% secondSelectorData.forEach(function(data) { %> <%=\n      customSelector(data)%> <% }); %>\n    </div>\n    <div class=\"c-header-content__button display-flex _j-center\">\n      <button class=\"c-button\">НАЙТИ</button>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17491,7 +17491,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center _j-center\">\r\n  <div class=\"c-header-content__caption <%=className%>\">\r\n    <span>Акции/сезонные предложения/<br />многодневные экскурсии</span>\r\n  </div>\r\n\r\n  <div\r\n    class=\"c-header-content__content display-flex _column _a-center <%=className%>\"\r\n  >\r\n    <div class=\"c-header-content__button display-flex _j-center\">\r\n      <button class=\"c-button\">НАЙТИ</button>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center _j-center\">\n  <div class=\"c-header-content__caption <%=className%>\">\n    <span>Акции/сезонные предложения/<br />многодневные экскурсии</span>\n  </div>\n\n  <div\n    class=\"c-header-content__content display-flex _column _a-center <%=className%>\"\n  >\n    <div class=\"c-header-content__button display-flex _j-center\">\n      <button class=\"c-button\">НАЙТИ</button>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17504,7 +17504,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center _j-center\">\r\n  <div class=\"c-header-content__caption <%=className%>\">\r\n    <span>Отдых для вашего ребенка</span>\r\n  </div>\r\n\r\n  <div\r\n    class=\"c-header-content__content display-flex _column _a-center <%=className%>\"\r\n  >\r\n    <div class=\"c-header-content__selectors display-flex _j-between\">\r\n      <% firstSelectorData.forEach(function(data) { %> <%=\r\n      customSelector(data)%> <% }); %>\r\n    </div>\r\n    <div class=\"c-header-content__selectors display-flex _j-between\">\r\n      <% secondSelectorData.forEach(function(data) { %> <%=\r\n      customSelector(data)%> <% }); %>\r\n    </div>\r\n    <div class=\"c-header-content__simple-search\">\r\n      <span>Простой поиск</span>\r\n    </div>\r\n    <div class=\"c-header-content__button display-flex _j-center\">\r\n      <button class=\"c-button\">НАЙТИ</button>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center _j-center\">\n  <div class=\"c-header-content__caption <%=className%>\">\n    <span>Отдых для вашего ребенка</span>\n  </div>\n\n  <div\n    class=\"c-header-content__content display-flex _column _a-center <%=className%>\"\n  >\n    <div class=\"c-header-content__selectors display-flex _j-between\">\n      <% firstSelectorData.forEach(function(data) { %> <%=\n      customSelector(data)%> <% }); %>\n    </div>\n    <div class=\"c-header-content__selectors display-flex _j-between\">\n      <% secondSelectorData.forEach(function(data) { %> <%=\n      customSelector(data)%> <% }); %>\n    </div>\n    <div class=\"c-header-content__simple-search\">\n      <span>Простой поиск</span>\n    </div>\n    <div class=\"c-header-content__button display-flex _j-center\">\n      <button class=\"c-button\">НАЙТИ</button>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17517,7 +17517,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center _j-center\">\r\n  <div class=\"c-header-content__caption <%=className%>\">\r\n    <span>Отдых для вашего ребенка</span>\r\n  </div>\r\n\r\n  <div\r\n    class=\"c-header-content__content display-flex _column _a-center <%=className%>\"\r\n  >\r\n    <div class=\"c-header-content__selectors display-flex _j-between\">\r\n      <% customSelectorData.forEach(function(data) { %> <%=\r\n      customSelector(data)%> <% }); %>\r\n    </div>\r\n    <div class=\"c-header-content__simple-search\">\r\n      <span>Простой поиск</span>\r\n    </div>\r\n    <div class=\"c-header-content__button display-flex _j-center\">\r\n      <button class=\"c-button\">НАЙТИ</button>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center _j-center\">\n  <div class=\"c-header-content__caption <%=className%>\">\n    <span>Отдых для вашего ребенка</span>\n  </div>\n\n  <div\n    class=\"c-header-content__content display-flex _column _a-center <%=className%>\"\n  >\n    <div class=\"c-header-content__selectors display-flex _j-between\">\n      <% customSelectorData.forEach(function(data) { %> <%=\n      customSelector(data)%> <% }); %>\n    </div>\n    <div class=\"c-header-content__simple-search\">\n      <span>Простой поиск</span>\n    </div>\n    <div class=\"c-header-content__button display-flex _j-center\">\n      <button class=\"c-button\">НАЙТИ</button>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17530,7 +17530,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center\">\r\n  <div class=\"c-header-content__caption <%=className%>\">\r\n    <span>льготный отдых</span>\r\n  </div>\r\n  <div class=\"c-header-content__content <%=className%>\">\r\n    <span\r\n      >МОСГОРТУР — организует отдых детей, оказавшихся в трудной жизненной<br />\r\n      ситуации. Дети-сироты получают возможность отдохнуть на море,<br />\r\n      одаренные дети могут бесплатно отдохнуть и развить свои способности<br />\r\n      влагере Орленок. МОСГОРТУР помогает детям провести каникулы с\r\n      пользой</span\r\n    >\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center\">\n  <div class=\"c-header-content__caption <%=className%>\">\n    <span>льготный отдых</span>\n  </div>\n  <div class=\"c-header-content__content <%=className%>\">\n    <span\n      >МОСГОРТУР — организует отдых детей, оказавшихся в трудной жизненной<br />\n      ситуации. Дети-сироты получают возможность отдохнуть на море,<br />\n      одаренные дети могут бесплатно отдохнуть и развить свои способности<br />\n      влагере Орленок. МОСГОРТУР помогает детям провести каникулы с\n      пользой</span\n    >\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17543,7 +17543,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center _j-center\">\r\n  <div class=\"c-header-content__caption <%=className%>\">\r\n    <span\r\n      >МОСГОРТУР: авторские экскурсии по Москве, путешествия по городам России и\r\n      Европе</span\r\n    >\r\n  </div>\r\n\r\n  <div\r\n    class=\"c-header-content__content display-flex _column _a-center <%=className%>\"\r\n  >\r\n    <%=customInput(customInputData)%>\r\n    <div class=\"c-header-content__selectors display-flex _j-between\">\r\n      <% customSelectorData.forEach(function(data) { %> <%=\r\n      customSelector(data)%> <% }); %>\r\n    </div>\r\n    <div class=\"c-header-content__simple-search\">\r\n      <span>Простой поиск</span>\r\n    </div>\r\n    <div class=\"c-header-content__button display-flex _j-center\">\r\n      <button class=\"c-button\">НАЙТИ</button>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center _j-center\">\n  <div class=\"c-header-content__caption <%=className%>\">\n    <span\n      >МОСГОРТУР: авторские экскурсии по Москве, путешествия по городам России и\n      Европе</span\n    >\n  </div>\n\n  <div\n    class=\"c-header-content__content display-flex _column _a-center <%=className%>\"\n  >\n    <%=customInput(customInputData)%>\n    <div class=\"c-header-content__selectors display-flex _j-between\">\n      <% customSelectorData.forEach(function(data) { %> <%=\n      customSelector(data)%> <% }); %>\n    </div>\n    <div class=\"c-header-content__simple-search\">\n      <span>Простой поиск</span>\n    </div>\n    <div class=\"c-header-content__button display-flex _j-center\">\n      <button class=\"c-button\">НАЙТИ</button>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./src/html/elements/content-header-tours-simple.html":
+/*!************************************************************!*\
+  !*** ./src/html/elements/content-header-tours-simple.html ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center _j-center\">\n  <div class=\"c-header-content__caption <%=className%>\">\n    <span>Акции/сезонные предложения/<br />многодневные экскурсии</span>\n  </div>\n\n  <div\n    class=\"c-header-content__content display-flex _column _a-center <%=className%>\"\n  >\n    <div class=\"c-header-content__button display-flex _j-center\">\n      <button class=\"c-button\">НАЙТИ</button>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17556,7 +17569,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center _j-center\">\r\n  <div class=\"c-header-content__caption <%=className%>\">\r\n    <span\r\n      >МОСГОРТУР: авторские экскурсии по Москве, путешествия по городам России и\r\n      Европе</span\r\n    >\r\n  </div>\r\n\r\n  <div\r\n    class=\"c-header-content__content display-flex _column _a-center <%=className%>\"\r\n  >\r\n    <%=customInput(customInputData)%>\r\n    <div class=\"c-header-content__simple-search\">\r\n      <span>Простой поиск</span>\r\n    </div>\r\n    <div class=\"c-header-content__button display-flex _j-center\">\r\n      <button class=\"c-button\">НАЙТИ</button>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center _j-center\">\n  <div class=\"c-header-content__caption <%=className%>\">\n    <span\n      >МОСГОРТУР: авторские экскурсии по Москве, путешествия по городам России и\n      Европе</span\n    >\n  </div>\n\n  <div\n    class=\"c-header-content__content display-flex _column _a-center <%=className%>\"\n  >\n    <%=customInput(customInputData)%>\n    <div class=\"c-header-content__simple-search\">\n      <span>Простой поиск</span>\n    </div>\n    <div class=\"c-header-content__button display-flex _j-center\">\n      <button class=\"c-button\">НАЙТИ</button>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17569,7 +17582,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center _j-center\">\r\n  <div class=\"c-header-content__caption <%=className%>\">\r\n    <span>Узнать информацию о заезде</span>\r\n  </div>\r\n\r\n  <div\r\n    class=\"c-header-content__content display-flex _column _a-center <%=className%>\"\r\n  >\r\n    <div class=\"c-header-content__controls display-flex _j-between _a-end\">\r\n      <%=customInput(customInputData)%> <%=customSelector(customSelectorData)%>\r\n      <%=customDatepicker(customDatepickerData)%>\r\n    </div>\r\n\r\n    <!-- <div class=\"c-header-content__simple-search\">\r\n      <span>Простой поиск</span>\r\n    </div> -->\r\n    <div class=\"c-header-content__button display-flex _j-center\">\r\n      <button class=\"c-button\">НАЙТИ</button>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-header-content display-flex _column _a-center _j-center\">\n  <div class=\"c-header-content__caption <%=className%>\">\n    <span>Узнать информацию о заезде</span>\n  </div>\n\n  <div\n    class=\"c-header-content__content display-flex _column _a-center <%=className%>\"\n  >\n    <div class=\"c-header-content__controls display-flex _j-between _a-end\">\n      <%=customInput(customInputData)%> <%=customSelector(customSelectorData)%>\n      <%=customDatepicker(customDatepickerData)%>\n    </div>\n\n    <!-- <div class=\"c-header-content__simple-search\">\n      <span>Простой поиск</span>\n    </div> -->\n    <div class=\"c-header-content__button display-flex _j-center\">\n      <button class=\"c-button\">НАЙТИ</button>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17582,7 +17595,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-corporate-service-item display-flex _column _a-center\">\r\n  <div class=\"c-corporate-service-item__caption\">\r\n    <span>Музеи</span>\r\n  </div>\r\n  <div class=\"c-corporate-service-item__extra-caption\">\r\n    <span>Текстовая подводка для услуг по туризму</span>\r\n  </div>\r\n\r\n  <div class=\"c-corporate-service-inner-card\">\r\n    <div class=\"c-corporate-service-inner-card__background\"></div>\r\n    <div class=\"c-corporate-service-inner-card__tab\">\r\n      <span>ДЛЯ ДЕТЕЙ</span>\r\n    </div>\r\n    <div class=\"c-corporate-service-inner-card__caption\">\r\n      <span>Музеи — детям!</span>\r\n    </div>\r\n\r\n    <div class=\"c-corporate-service-inner-card__info\">\r\n      <span\r\n        >Бесплатные музеи по карте Москвенок для самых малельникх и самых\r\n        больших детей и их родителей - всей семьей.</span\r\n      >\r\n    </div>\r\n    <div class=\"c-corporate-service-inner-card__lessons display-flex _a-center\">\r\n      <span>824 урока в год</span>\r\n      <div class=\"dot\"></div>\r\n      <span>824 урока в год</span>\r\n    </div>\r\n\r\n    <div class=\"c-corporate-service-inner-card__button display-flex _j-center\">\r\n      <button class=\"c-button\">ПОДРОБНЕЕ</button>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"c-corporate-service-item__button display-flex _j-center\">\r\n    <button class=\"c-button\">ВСЕ ПРЕДЛОЖЕНИЯ</button>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-corporate-service-item display-flex _column _a-center\">\n  <div class=\"c-corporate-service-item__caption\">\n    <span>Музеи</span>\n  </div>\n  <div class=\"c-corporate-service-item__extra-caption\">\n    <span>Текстовая подводка для услуг по туризму</span>\n  </div>\n\n  <div class=\"c-corporate-service-inner-card\">\n    <div class=\"c-corporate-service-inner-card__background\"></div>\n    <div class=\"c-corporate-service-inner-card__tab\">\n      <span>ДЛЯ ДЕТЕЙ</span>\n    </div>\n    <div class=\"c-corporate-service-inner-card__caption\">\n      <span>Музеи — детям!</span>\n    </div>\n\n    <div class=\"c-corporate-service-inner-card__info\">\n      <span\n        >Бесплатные музеи по карте Москвенок для самых малельникх и самых\n        больших детей и их родителей - всей семьей.</span\n      >\n    </div>\n    <div class=\"c-corporate-service-inner-card__lessons display-flex _a-center\">\n      <span>824 урока в год</span>\n      <div class=\"dot\"></div>\n      <span>824 урока в год</span>\n    </div>\n\n    <div class=\"c-corporate-service-inner-card__button display-flex _j-center\">\n      <button class=\"c-button\">ПОДРОБНЕЕ</button>\n    </div>\n  </div>\n\n  <div class=\"c-corporate-service-item__button display-flex _j-center\">\n    <button class=\"c-button\">ВСЕ ПРЕДЛОЖЕНИЯ</button>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17595,7 +17608,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"custom-datepicker display-flex _column _a-start\">\r\n  <div class=\"custom-datepicker__label\"><span><%=labelText %></span></div>\r\n  <input type=\"date\" name=\"dateofbirth\" />\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"custom-datepicker display-flex _column _a-start\">\n  <div class=\"custom-datepicker__label\"><span><%=labelText %></span></div>\n  <input type=\"date\" name=\"dateofbirth\" />\n</div>\n");
 
 /***/ }),
 
@@ -17608,7 +17621,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- _label - включает label -->\r\n<div class=\"custom-input display-flex _column _a-start <%=className %>\">\r\n  <label> <%=labelText %></label>\r\n  <input type=\"text\" name=\"text\" placeholder=\" <%=placeholderText %>\" />\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- _label - включает label -->\n<div class=\"custom-input display-flex _column _a-start <%=className %>\">\n  <label> <%=labelText %></label>\n  <input type=\"text\" name=\"text\" placeholder=\" <%=placeholderText %>\" />\n</div>\n");
 
 /***/ }),
 
@@ -17621,7 +17634,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- \r\n  _sm - 119px\r\n  _md - 170px\r\n  _lg - 180px\r\n  _white - белый цвет\r\n  _simple - темный\r\n-->\r\n<div class=\"select-wrapper display-flex _column _a-start <%=className %>\">\r\n  <div class=\"select-wrapper__label\"><span><%=textLabel %></span></div>\r\n  <div class=\"c-select <%=className %>\">\r\n    <div class=\"c-select__arrow icon <%=arrow %>\"></div>\r\n    <select>\r\n      <option>&nbsp;Все варианты</option>\r\n      <option>&nbsp;Все варианты</option>\r\n      <option>&nbsp;Все варианты</option>\r\n    </select>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- \n  _sm - 119px\n  _md - 170px\n  _lg - 180px\n  _white - белый цвет\n  _simple - темный\n-->\n<div class=\"select-wrapper display-flex _column _a-start <%=className %>\">\n  <div class=\"select-wrapper__label\"><span><%=textLabel %></span></div>\n  <div class=\"c-select <%=className %>\">\n    <div class=\"c-select__arrow icon <%=arrow %>\"></div>\n    <select>\n      <option>&nbsp;Все варианты</option>\n      <option>&nbsp;Все варианты</option>\n      <option>&nbsp;Все варианты</option>\n    </select>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17634,7 +17647,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- \r\n  _separator - разделитель 2-х блоков\r\n  _card-border - обводка карты\r\n -->\r\n<article\r\n  class=\"c-info-double-card display-flex _column _a-center <%=className%>\"\r\n>\r\n  <% innerElementData.forEach(function(data) { %> <%=\r\n  innerElementOfInfoCard(data)%> <% }); %>\r\n</article>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- \n  _separator - разделитель 2-х блоков\n  _card-border - обводка карты\n -->\n<article\n  class=\"c-info-double-card display-flex _column _a-center <%=className%>\"\n>\n  <% innerElementData.forEach(function(data) { %> <%=\n  innerElementOfInfoCard(data)%> <% }); %>\n</article>\n");
 
 /***/ }),
 
@@ -17647,7 +17660,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<article class=\"c-info-list-card display-flex _column _a-center _j-center\">\r\n  <%= innerElementOfInfoCard(innerElementData) %>\r\n  <div class=\"c-info-list-card__description\">\r\n    <p>\r\n      При формировании реестра получателей услуги приоритет отдается:\r\n    </p>\r\n    <ul>\r\n      <li>\r\n        <span>тем, кто раньше подал заявление на получение услуги.</span>\r\n      </li>\r\n      <li>\r\n        <span>тем, кто ранее не получал услугу.</span>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</article>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<article class=\"c-info-list-card display-flex _column _a-center _j-center\">\n  <%= innerElementOfInfoCard(innerElementData) %>\n  <div class=\"c-info-list-card__description\">\n    <p>\n      При формировании реестра получателей услуги приоритет отдается:\n    </p>\n    <ul>\n      <li>\n        <span>тем, кто раньше подал заявление на получение услуги.</span>\n      </li>\n      <li>\n        <span>тем, кто ранее не получал услугу.</span>\n      </li>\n    </ul>\n  </div>\n</article>\n");
 
 /***/ }),
 
@@ -17660,7 +17673,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<article class=\"c-info-simple-card display-flex _column _a-center _j-center\">\r\n  <%= innerElementOfInfoCard(innerElementData) %> <% if(backSide) { %>\r\n  <div\r\n    class=\"c-info-simple-card__back display-flex _column _j-center _a-center\"\r\n  >\r\n    <div class=\"c-info-simple-card__caption\">\r\n      <%= backCaptionText %>\r\n    </div>\r\n    <span class=\"c-info-simple-card__text\"><%= backText %></span>\r\n  </div>\r\n  <% } %>\r\n</article>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<article class=\"c-info-simple-card display-flex _column _a-center _j-center\">\n  <%= innerElementOfInfoCard(innerElementData) %> <% if(backSide) { %>\n  <div\n    class=\"c-info-simple-card__back display-flex _column _j-center _a-center\"\n  >\n    <div class=\"c-info-simple-card__caption\">\n      <%= backCaptionText %>\n    </div>\n    <span class=\"c-info-simple-card__text\"><%= backText %></span>\n  </div>\n  <% } %>\n</article>\n");
 
 /***/ }),
 
@@ -17673,7 +17686,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-inner-element-of-info-card display-flex _column _a-center\">\r\n  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %> <%\r\n  if(description) { %>\r\n  <div class=\"c-inner-element-of-info-card__description\">\r\n    <p><%= descriptionText%></p>\r\n  </div>\r\n  <% } %>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-inner-element-of-info-card display-flex _column _a-center\">\n  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %> <%\n  if(description) { %>\n  <div class=\"c-inner-element-of-info-card__description\">\n    <p><%= descriptionText%></p>\n  </div>\n  <% } %>\n</div>\n");
 
 /***/ }),
 
@@ -17686,7 +17699,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-leader-card display-flex _column \">\r\n  <div class=\"c-leader-card__background\"></div>\r\n\r\n  <div class=\"c-leader-card__caption\">\r\n    <span><%=caption%></span>\r\n  </div>\r\n  <div class=\"c-leader-card__icon display-flex _a-center _j-center\">\r\n    <div class=\"icon _wave\"></div>\r\n  </div>\r\n  <div class=\"c-leader-card__info\">\r\n    <%=info%>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-leader-card display-flex _column \">\n  <div class=\"c-leader-card__background\"></div>\n\n  <div class=\"c-leader-card__caption\">\n    <span><%=caption%></span>\n  </div>\n  <div class=\"c-leader-card__icon display-flex _a-center _j-center\">\n    <div class=\"icon _wave\"></div>\n  </div>\n  <div class=\"c-leader-card__info\">\n    <%=info%>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17699,7 +17712,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-material-input\">\r\n  <input type=\"text\" required />\r\n  <span class=\"c-material-input__bar\"></span>\r\n  <label><%= text%></label>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-material-input\">\n  <input type=\"text\" required />\n  <span class=\"c-material-input__bar\"></span>\n  <label><%= text%></label>\n</div>\n");
 
 /***/ }),
 
@@ -17712,7 +17725,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- Ожидается передача объекта вида\r\n{\r\n    className: \"_row _a-center\",\r\n    date: \"01.02.2019\",\r\n    time: \"14:10\",\r\n    text: \"Результаты распределения квот на отдых 2019\"\r\n  }\r\n-->\r\n<article class=\"c-news-item display-flex <%=className%>\">\r\n    <div class=\"c-news-item__date-block display-flex _column\">\r\n        <span class=\"c-news-item__date\"><%=date%></span>\r\n        <span class=\"c-news-item__time\"><%=time%></span>\r\n    </div>\r\n    <span class=\"c-news-item__text\">\r\n            <%=text%>\r\n    </span>\r\n</article>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Ожидается передача объекта вида\n{\n    className: \"_row _a-center\",\n    date: \"01.02.2019\",\n    time: \"14:10\",\n    text: \"Результаты распределения квот на отдых 2019\"\n  }\n-->\n<article class=\"c-news-item display-flex <%=className%>\">\n    <div class=\"c-news-item__date-block display-flex _column\">\n        <span class=\"c-news-item__date\"><%=date%></span>\n        <span class=\"c-news-item__time\"><%=time%></span>\n    </div>\n    <span class=\"c-news-item__text\">\n            <%=text%>\n    </span>\n</article>");
 
 /***/ }),
 
@@ -17725,7 +17738,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-offer-card-item <%=className%>\">\r\n  <div class=\"c-offer-card-item__image\">\r\n    <img src=\"uploads/alpaka.jpg\" alt=\"cartoon\" />\r\n  </div>\r\n  <div class=\"l-offer-card-item-info\">\r\n    <div class=\"c-offer-card-item__top-info\">\r\n      <div class=\"c-offer-card-item__caption\">\r\n        <span>Пушистое чудо (путешествие на ферму Перуанской Альпаки)</span>\r\n      </div>\r\n      <div class=\"c-offer-card-item__city\"><span>Москва</span></div>\r\n    </div>\r\n    <div class=\"c-offer-card-item__bottom-info\">\r\n      <div class=\"c-offer-card-item__coast\">\r\n        <span>1490 руб.</span>\r\n      </div>\r\n      <div class=\"c-offer-card-item__dots\">\r\n        <span>1</span>\r\n        <span>2</span>\r\n        <span>3</span>\r\n      </div>\r\n      <div\r\n        class=\"c-offer-card-item__age-limit c-offer-card-item__age-limit_bottom c-age-limit display-flex _j-center _a-center\"\r\n      >\r\n        <span>8+</span>\r\n      </div>\r\n    </div>\r\n    <div class=\"c-offer-card-item__for-kids\"><span>ДЛЯ ДЕТЕЙ</span></div>\r\n    <div\r\n      class=\"c-offer-card-item__age-limit c-offer-card-item__age-limit_top c-age-limit display-flex _j-center _a-center\"\r\n    >\r\n      <span>8+</span>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-offer-card-item <%=className%>\">\n  <div class=\"c-offer-card-item__image\">\n    <img src=\"uploads/alpaka.jpg\" alt=\"cartoon\" />\n  </div>\n  <div class=\"l-offer-card-item-info\">\n    <div class=\"c-offer-card-item__top-info\">\n      <div class=\"c-offer-card-item__caption\">\n        <span>Пушистое чудо (путешествие на ферму Перуанской Альпаки)</span>\n      </div>\n      <div class=\"c-offer-card-item__city\"><span>Москва</span></div>\n    </div>\n    <div class=\"c-offer-card-item__bottom-info\">\n      <div class=\"c-offer-card-item__coast\">\n        <span>1490 руб.</span>\n      </div>\n      <div class=\"c-offer-card-item__dots\">\n        <span>1</span>\n        <span>2</span>\n        <span>3</span>\n      </div>\n      <div\n        class=\"c-offer-card-item__age-limit c-offer-card-item__age-limit_bottom c-age-limit display-flex _j-center _a-center\"\n      >\n        <span>8+</span>\n      </div>\n    </div>\n    <div class=\"c-offer-card-item__for-kids\"><span>ДЛЯ ДЕТЕЙ</span></div>\n    <div\n      class=\"c-offer-card-item__age-limit c-offer-card-item__age-limit_top c-age-limit display-flex _j-center _a-center\"\n    >\n      <span>8+</span>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17738,7 +17751,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-pagination\">\r\n    <span class=\"c-pagination__item _active\">1</span>\r\n    <span class=\"c-pagination__item\">2</span>\r\n    <span class=\"c-pagination__item\">3</span>\r\n    <span class=\"c-pagination__item\">4</span>\r\n    <span class=\"c-pagination__item\">5</span>\r\n    <span class=\"c-pagination__item\">...</span>\r\n    <span class=\"c-pagination__item\">15</span>\r\n\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"c-pagination\">\n    <span class=\"c-pagination__item _active\">1</span>\n    <span class=\"c-pagination__item\">2</span>\n    <span class=\"c-pagination__item\">3</span>\n    <span class=\"c-pagination__item\">4</span>\n    <span class=\"c-pagination__item\">5</span>\n    <span class=\"c-pagination__item\">...</span>\n    <span class=\"c-pagination__item\">15</span>\n\n</div>");
 
 /***/ }),
 
@@ -17751,7 +17764,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<article class=\"c-recommendations-card-item\">\r\n  <div\r\n    class=\"c-recommendations-card-item__header display-flex _a-center _j-between\"\r\n  >\r\n    <div class=\"c-recommendations-card-item__date\">\r\n      <span>Сегодня</span>\r\n    </div>\r\n    <div class=\"c-age-limit display-flex _a-center _j-center\">\r\n      <span>8+</span>\r\n    </div>\r\n  </div>\r\n  <div class=\"c-recommendations-card-item__headline\">\r\n    Выставка Евгений Антуфьев и Дмитрий Краснопевцев: Диалог. Когда искусство\r\n    становится частью ландшафта. Часть III, Москва\r\n  </div>\r\n  <div class=\"c-recommendations-card-item__description\">\r\n    Третья и заключительная часть диалогов художника Евгения Антуфьева и\r\n    мастеров прошлого....\r\n  </div>\r\n  <div class=\"c-recommendations-card-item__info-caption-block\">\r\n    <% captions.forEach(function(data) { %>\r\n    <div>\r\n      <%= data.captionWithIcon(data.captionWithIconData)%>\r\n    </div>\r\n    <% }); %>\r\n  </div>\r\n\r\n  <div class=\"c-recommendations-card-item__categories display-flex _j-center\">\r\n    <button>Искусство</button>\r\n    <button>Культура</button>\r\n  </div>\r\n</article>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<article class=\"c-recommendations-card-item\">\n  <div\n    class=\"c-recommendations-card-item__header display-flex _a-center _j-between\"\n  >\n    <div class=\"c-recommendations-card-item__date\">\n      <span>Сегодня</span>\n    </div>\n    <div class=\"c-age-limit display-flex _a-center _j-center\">\n      <span>8+</span>\n    </div>\n  </div>\n  <div class=\"c-recommendations-card-item__headline\">\n    Выставка Евгений Антуфьев и Дмитрий Краснопевцев: Диалог. Когда искусство\n    становится частью ландшафта. Часть III, Москва\n  </div>\n  <div class=\"c-recommendations-card-item__description\">\n    Третья и заключительная часть диалогов художника Евгения Антуфьева и\n    мастеров прошлого....\n  </div>\n  <div class=\"c-recommendations-card-item__info-caption-block\">\n    <% captions.forEach(function(data) { %>\n    <div>\n      <%= data.captionWithIcon(data.captionWithIconData)%>\n    </div>\n    <% }); %>\n  </div>\n\n  <div class=\"c-recommendations-card-item__categories display-flex _j-center\">\n    <button>Искусство</button>\n    <button>Культура</button>\n  </div>\n</article>\n");
 
 /***/ }),
 
@@ -17764,7 +17777,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-transfer-info-table-item display-flex\">\r\n    <div class=\"l-transfer-info-table-item__left-side display-flex\">\r\n        <div class=\"l-transfer-info-table-item__item-info _info\">\r\n            <div class=\"l-transfer-info-table-item__type\">\r\n                <span><%=type%></span>\r\n            </div>\r\n            <div class=\"l-transfer-info-table-item__date display-flex _j-between \">\r\n                <span><%=date%></span>\r\n                <span><%=time%></span>\r\n            </div>\r\n        </div>\r\n        <div class=\"l-transfer-info-table-item__item-info _from\">\r\n            <div class=\"l-transfer-info-table-item__camp\">\r\n                <span>\r\n                        <%=camp%>\r\n                </span>\r\n            </div>\r\n            <div class=\"l-transfer-info-table-item__address\">\r\n                <span>\r\n                        <%=fromAddress%>\r\n                </span>\r\n            </div>\r\n        </div>\r\n        <div class=\"l-transfer-info-table-item__item-info _to\">\r\n            <div class=\"l-transfer-info-table-item__camp\">\r\n                <span>\r\n                    \r\n                </span>\r\n            </div>\r\n            <div class=\"l-transfer-info-table-item__address\">\r\n                <span>\r\n                        <%=toAddress%>\r\n                </span>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    \r\n    <div class=\"c-caption-with-icon__icon display-flex _a-center _j-center\">\r\n        <div class=\"icon _download\"></div>\r\n    </div>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-transfer-info-table-item display-flex\">\n    <div class=\"l-transfer-info-table-item__left-side display-flex\">\n        <div class=\"l-transfer-info-table-item__item-info _info\">\n            <div class=\"l-transfer-info-table-item__type\">\n                <span><%=type%></span>\n            </div>\n            <div class=\"l-transfer-info-table-item__date display-flex _j-between \">\n                <span><%=date%></span>\n                <span><%=time%></span>\n            </div>\n        </div>\n        <div class=\"l-transfer-info-table-item__item-info _from\">\n            <div class=\"l-transfer-info-table-item__camp\">\n                <span>\n                        <%=camp%>\n                </span>\n            </div>\n            <div class=\"l-transfer-info-table-item__address\">\n                <span>\n                        <%=fromAddress%>\n                </span>\n            </div>\n        </div>\n        <div class=\"l-transfer-info-table-item__item-info _to\">\n            <div class=\"l-transfer-info-table-item__camp\">\n                <span>\n                    \n                </span>\n            </div>\n            <div class=\"l-transfer-info-table-item__address\">\n                <span>\n                        <%=toAddress%>\n                </span>\n            </div>\n        </div>\n    </div>\n    \n    <div class=\"c-caption-with-icon__icon display-flex _a-center _j-center\">\n        <div class=\"icon _download\"></div>\n    </div>\n</div>");
 
 /***/ }),
 
@@ -17777,7 +17790,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-advertising-point display-flex _j-center _a-center\">\r\n    <div class=\"l-advertising-point__background\"></div>\r\n    <div class=\"l-advertising-point__content display-flex _j-between\">\r\n        <div class=\"l-advertising-point__icon display-flex _a-center _j-center\">\r\n            <div class=\"icon _pointer\"></div>\r\n        </div>\r\n        <div class=\"l-advertising-point__text\"><span>Акции/сезонные предложения/многодневные экскурсии</span></div>\r\n        <div class=\"l-advertising-point__icon _right display-flex _a-center _j-center\">\r\n            <div class=\"icon _pointer\"></div>\r\n        </div>\r\n    </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-advertising-point display-flex _j-center _a-center\">\n    <div class=\"l-advertising-point__background\"></div>\n    <div class=\"l-advertising-point__content display-flex _j-between\">\n        <div class=\"l-advertising-point__icon display-flex _a-center _j-center\">\n            <div class=\"icon _pointer\"></div>\n        </div>\n        <div class=\"l-advertising-point__text\"><span>Акции/сезонные предложения/многодневные экскурсии</span></div>\n        <div class=\"l-advertising-point__icon _right display-flex _a-center _j-center\">\n            <div class=\"icon _pointer\"></div>\n        </div>\n    </div>\n</div>\n");
 
 /***/ }),
 
@@ -17790,7 +17803,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-family-control\">\r\n  <div class=\"l-family-control__content display-flex _column\">\r\n    <div class=\"l-family-control__selectors display-flex _j-between\">\r\n      <% firstSelectorData.forEach(function(data) { %> <%=\r\n      customSelector(data)%> <% }); %>\r\n    </div>\r\n    <div class=\"l-family-control__selectors display-flex _j-between\">\r\n      <% secondSelectorData.forEach(function(data) { %> <%=\r\n      customSelector(data)%> <% }); %>\r\n      <div class=\"l-family-control__button display-flex _a-end\">\r\n        <button class=\"c-button\">НАЙТИ</button>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-family-control\">\n  <div class=\"l-family-control__content display-flex _column\">\n    <div class=\"l-family-control__selectors display-flex _j-between\">\n      <% firstSelectorData.forEach(function(data) { %> <%=\n      customSelector(data)%> <% }); %>\n    </div>\n    <div class=\"l-family-control__selectors display-flex _j-between\">\n      <% secondSelectorData.forEach(function(data) { %> <%=\n      customSelector(data)%> <% }); %>\n      <div class=\"l-family-control__button display-flex _a-end\">\n        <button class=\"c-button\">НАЙТИ</button>\n      </div>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17803,7 +17816,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-footer\">\r\n  <div class=\"l-footer__content\">\r\n    <div class=\"l-footer__logo\">\r\n      <img width=\"65px\" height=\"65px\" src=\"img/mgt_logo.jpg\" alt=\"mgt_logo\" />\r\n    </div>\r\n    <article class=\"c-links-column\">\r\n      <div class=\"c-links-column__header\"><span>О компании</span></div>\r\n      <div class=\"c-links-column__block\">\r\n        <div class=\"c-links-column__item\">\r\n          <a href=\"#\">Публичный отчет</a>\r\n        </div>\r\n        <div class=\"c-links-column__item\">\r\n          <a href=\"#\">Противодействие коррупции</a>\r\n        </div>\r\n        <div class=\"c-links-column__item\">\r\n          <a href=\"#\">Сведения об образовательной деятельности</a>\r\n        </div>\r\n        <div class=\"c-links-column__item\"><a href=\"#\">Вакансии</a></div>\r\n        <div class=\"c-links-column__item\">\r\n          <a href=\"#\">Мы в реестре тур операторов</a>\r\n        </div>\r\n      </div>\r\n    </article>\r\n    <article class=\"c-links-column\">\r\n      <div class=\"c-links-column__header\"><span>Спецпроекты</span></div>\r\n      <div class=\"c-links-column__block\">\r\n        <div class=\"c-links-column__item\">\r\n          <a href=\"#\">КИДПРО — конференция детского отдыха</a>\r\n        </div>\r\n        <div class=\"c-links-column__item\">\r\n          <a href=\"#\">Инклюзивный отдых</a>\r\n        </div>\r\n        <div class=\"c-links-column__item\">\r\n          <a href=\"#\">Музеи — детям</a>\r\n        </div>\r\n        <div class=\"c-links-column__item\">\r\n          <a href=\"#\">Карта «Музей в подарок»</a>\r\n        </div>\r\n        <div class=\"c-links-column__item\">\r\n          <a href=\"#\">Урок в музее</a>\r\n        </div>\r\n        <div class=\"c-links-column__item\">\r\n          <a href=\"#\">Экскурсионный чат-бот по Москве</a>\r\n        </div>\r\n      </div>\r\n    </article>\r\n    <article class=\"c-links-column\">\r\n      <div class=\"c-links-column__header\">\r\n        <span>Исследования Мосгортура</span>\r\n      </div>\r\n      <div class=\"c-links-column__block\">\r\n        <div class=\"c-links-column__item\">\r\n          <a href=\"#\">Единый рейтинг лагерей</a>\r\n        </div>\r\n        <div class=\"c-links-column__item\">\r\n          <a href=\"#\">Московский стандарт детского отдыха</a>\r\n        </div>\r\n        <div class=\"c-links-column__item\">\r\n          <a href=\"#\">ММузейные исследования</a>\r\n        </div>\r\n      </div>\r\n    </article>\r\n    <article class=\"c-links-column\">\r\n      <div class=\"c-links-column__header\">\r\n        <span>Офисы продаж в МФЦ</span>\r\n      </div>\r\n      <div class=\"c-links-column__block\">\r\n        <div class=\"c-links-column__item\">\r\n          <a href=\"#\">Адреса и телефоны</a>\r\n        </div>\r\n        <div class=\"c-links-column__item-with-icons-block\">\r\n          <span>МОСГОРТУР. Детский отдых</span>\r\n          <div class=\"c-links-column__icons-block\">\r\n            <div>\r\n              <a href=\"#\">\r\n                <div class=\"icon _vk-small\"></div>\r\n              </a>\r\n            </div>\r\n            <div>\r\n              <a href=\"#\">\r\n                <div class=\"icon _ok-small\"></div>\r\n              </a>\r\n            </div>\r\n            <div>\r\n              <a href=\"#\">\r\n                <div class=\"icon _fb-small\"></div>\r\n              </a>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"c-links-column__item-with-icons-block\">\r\n          <span>МОСГОРТУР. Музеи</span>\r\n          <div class=\"c-links-column__icons-block\">\r\n            <div>\r\n              <a href=\"#\">\r\n                <div class=\"icon _vk-small\"></div>\r\n              </a>\r\n            </div>\r\n            <div>\r\n              <a href=\"#\">\r\n                <div class=\"icon _ok-small\"></div>\r\n              </a>\r\n            </div>\r\n            <div>\r\n              <a href=\"#\">\r\n                <div class=\"icon _fb-small\"></div>\r\n              </a>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </article>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-footer\">\n  <div class=\"l-footer__content\">\n    <div class=\"l-footer__logo\">\n      <img width=\"65px\" height=\"65px\" src=\"img/mgt_logo.jpg\" alt=\"mgt_logo\" />\n    </div>\n    <article class=\"c-links-column\">\n      <div class=\"c-links-column__header\"><span>О компании</span></div>\n      <div class=\"c-links-column__block\">\n        <div class=\"c-links-column__item\">\n          <a href=\"#\">Публичный отчет</a>\n        </div>\n        <div class=\"c-links-column__item\">\n          <a href=\"#\">Противодействие коррупции</a>\n        </div>\n        <div class=\"c-links-column__item\">\n          <a href=\"#\">Сведения об образовательной деятельности</a>\n        </div>\n        <div class=\"c-links-column__item\"><a href=\"#\">Вакансии</a></div>\n        <div class=\"c-links-column__item\">\n          <a href=\"#\">Мы в реестре тур операторов</a>\n        </div>\n      </div>\n    </article>\n    <article class=\"c-links-column\">\n      <div class=\"c-links-column__header\"><span>Спецпроекты</span></div>\n      <div class=\"c-links-column__block\">\n        <div class=\"c-links-column__item\">\n          <a href=\"#\">КИДПРО — конференция детского отдыха</a>\n        </div>\n        <div class=\"c-links-column__item\">\n          <a href=\"#\">Инклюзивный отдых</a>\n        </div>\n        <div class=\"c-links-column__item\">\n          <a href=\"#\">Музеи — детям</a>\n        </div>\n        <div class=\"c-links-column__item\">\n          <a href=\"#\">Карта «Музей в подарок»</a>\n        </div>\n        <div class=\"c-links-column__item\">\n          <a href=\"#\">Урок в музее</a>\n        </div>\n        <div class=\"c-links-column__item\">\n          <a href=\"#\">Экскурсионный чат-бот по Москве</a>\n        </div>\n      </div>\n    </article>\n    <article class=\"c-links-column\">\n      <div class=\"c-links-column__header\">\n        <span>Исследования Мосгортура</span>\n      </div>\n      <div class=\"c-links-column__block\">\n        <div class=\"c-links-column__item\">\n          <a href=\"#\">Единый рейтинг лагерей</a>\n        </div>\n        <div class=\"c-links-column__item\">\n          <a href=\"#\">Московский стандарт детского отдыха</a>\n        </div>\n        <div class=\"c-links-column__item\">\n          <a href=\"#\">ММузейные исследования</a>\n        </div>\n      </div>\n    </article>\n    <article class=\"c-links-column\">\n      <div class=\"c-links-column__header\">\n        <span>Офисы продаж в МФЦ</span>\n      </div>\n      <div class=\"c-links-column__block\">\n        <div class=\"c-links-column__item\">\n          <a href=\"#\">Адреса и телефоны</a>\n        </div>\n        <div class=\"c-links-column__item-with-icons-block\">\n          <span>МОСГОРТУР. Детский отдых</span>\n          <div class=\"c-links-column__icons-block\">\n            <div>\n              <a href=\"#\">\n                <div class=\"icon _vk-small\"></div>\n              </a>\n            </div>\n            <div>\n              <a href=\"#\">\n                <div class=\"icon _ok-small\"></div>\n              </a>\n            </div>\n            <div>\n              <a href=\"#\">\n                <div class=\"icon _fb-small\"></div>\n              </a>\n            </div>\n          </div>\n        </div>\n        <div class=\"c-links-column__item-with-icons-block\">\n          <span>МОСГОРТУР. Музеи</span>\n          <div class=\"c-links-column__icons-block\">\n            <div>\n              <a href=\"#\">\n                <div class=\"icon _vk-small\"></div>\n              </a>\n            </div>\n            <div>\n              <a href=\"#\">\n                <div class=\"icon _ok-small\"></div>\n              </a>\n            </div>\n            <div>\n              <a href=\"#\">\n                <div class=\"icon _fb-small\"></div>\n              </a>\n            </div>\n          </div>\n        </div>\n      </div>\n    </article>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17816,7 +17829,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-guarantees\">\r\n  <div class=\"l-guarantees__content display-flex _a-start _j-between\">\r\n    <% captions.forEach(function(data) { %> <%= captionWithIcon(data)%> <% });\r\n    %>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-guarantees\">\n  <div class=\"l-guarantees__content display-flex _a-start _j-between\">\n    <% captions.forEach(function(data) { %> <%= captionWithIcon(data)%> <% });\n    %>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17829,7 +17842,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"header-section <%=className%>\">\r\n  <section class=\"header-content display-flex _column\">\r\n    <div class=\"header-content__top display-flex _a-center \">\r\n      <div class=\"header-content__first-logo-wrapper\">\r\n        <img\r\n          class=\"header-content__logo\"\r\n          src=\"uploads/mgt.png\"\r\n          alt=\"mgt_logo\"\r\n        />\r\n      </div>\r\n      <div class=\"header-content__vertical-bar\"></div>\r\n      <div class=\"header-content__second-logo-wrapper\">\r\n        <img\r\n          class=\"header-content__logo\"\r\n          src=\"uploads/depkult.png\"\r\n          alt=\"depkult_logo\"\r\n        />\r\n      </div>\r\n      <div class=\"header-content__contact-info display-flex _column\">\r\n        <span>8 800 301 17 70</span>\r\n        <span>8 - 20 ежедневно </span>\r\n      </div>\r\n      <nav class=\"header-content__navigation-wrapper display-flex _a-center\">\r\n        <ul class=\"header-content__navigation display-flex\">\r\n          <li><a href=\"#\">льготный отдых</a></li>\r\n          <li><a href=\"#\">заезды</a></li>\r\n          <li><a href=\"#\">детский отдых</a></li>\r\n          <li><a href=\"#\">семейный отдых</a></li>\r\n          <li><a href=\"#\">экскурсии</a></li>\r\n        </ul>\r\n      </nav>\r\n      <div class=\"header-content__control display-flex _a-center\">\r\n        <div\r\n          class=\"header-content__icon-wrapper display-flex _a-center _j-center\"\r\n        >\r\n          <div class=\"icon _search\"></div>\r\n        </div>\r\n        <div\r\n          class=\"header-content__icon-wrapper display-flex _a-center _j-center\"\r\n        >\r\n          <div class=\"icon _burger\"></div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"header-content__bottom display-flex _column _a-center\">\r\n      <%=contentItem(contentItemData) %>\r\n    </div>\r\n  </section>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"header-section <%=className%>\">\n  <section class=\"header-content display-flex _column\">\n    <div class=\"header-content__top display-flex _a-center \">\n      <div class=\"header-content__first-logo-wrapper\">\n        <img\n          class=\"header-content__logo\"\n          src=\"uploads/mgt.png\"\n          alt=\"mgt_logo\"\n        />\n      </div>\n      <div class=\"header-content__vertical-bar\"></div>\n      <div class=\"header-content__second-logo-wrapper\">\n        <img\n          class=\"header-content__logo\"\n          src=\"uploads/depkult.png\"\n          alt=\"depkult_logo\"\n        />\n      </div>\n      <div class=\"header-content__contact-info display-flex _column\">\n        <span>8 800 301 17 70</span>\n        <span>8 - 20 ежедневно </span>\n      </div>\n      <nav class=\"header-content__navigation-wrapper display-flex _a-center\">\n        <ul class=\"header-content__navigation display-flex\">\n          <li><a href=\"#\">льготный отдых</a></li>\n          <li><a href=\"#\">заезды</a></li>\n          <li><a href=\"#\">детский отдых</a></li>\n          <li><a href=\"#\">семейный отдых</a></li>\n          <li><a href=\"#\">экскурсии</a></li>\n        </ul>\n      </nav>\n      <div class=\"header-content__control display-flex _a-center\">\n        <div\n          class=\"header-content__icon-wrapper display-flex _a-center _j-center\"\n        >\n          <div class=\"icon _search\"></div>\n        </div>\n        <div\n          class=\"header-content__icon-wrapper display-flex _a-center _j-center\"\n        >\n          <div class=\"icon _burger\"></div>\n        </div>\n      </div>\n    </div>\n    <div class=\"header-content__bottom display-flex _column _a-center\">\n      <%=contentItem(contentItemData) %>\n    </div>\n  </section>\n</div>\n");
 
 /***/ }),
 
@@ -17842,7 +17855,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-kids-filter\">\r\n  <div class=\"l-kids-filter__content display-flex _column _j-center\">\r\n    <%= simpleFilter(filterData)%>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-kids-filter\">\n  <div class=\"l-kids-filter__content display-flex _column _j-center\">\n    <%= simpleFilter(filterData)%>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17855,7 +17868,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-mailing\">\r\n  <div class=\"l-mailing__content\">\r\n    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\r\n    <div class=\"l-mailing__content-block display-flex\">\r\n      <div class=\"l-mailing__description\">\r\n        <span\r\n          >Присылаем раз в неделю в мессенджер или на почту подборку мероприятий\r\n          по выбранным критериям. Подпишитесь, чтобы быть в курсе эксклюзивных\r\n          событий для москвичей</span\r\n        >\r\n      </div>\r\n      <div class=\"l-mailing__controls-block display-flex _column\">\r\n        <div class=\"l-mailing__control-input display-flex\">\r\n          <%= materialInput(materialInputData) %>\r\n\r\n          <div class=\"l-mailing__button\">\r\n            <button class=\"c-button\">ПОДПИСАТЬСЯ</button>\r\n          </div>\r\n        </div>\r\n        <%= castomRadio() %>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-mailing\">\n  <div class=\"l-mailing__content\">\n    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\n    <div class=\"l-mailing__content-block display-flex\">\n      <div class=\"l-mailing__description\">\n        <span\n          >Присылаем раз в неделю в мессенджер или на почту подборку мероприятий\n          по выбранным критериям. Подпишитесь, чтобы быть в курсе эксклюзивных\n          событий для москвичей</span\n        >\n      </div>\n      <div class=\"l-mailing__controls-block display-flex _column\">\n        <div class=\"l-mailing__control-input display-flex\">\n          <%= materialInput(materialInputData) %>\n\n          <div class=\"l-mailing__button\">\n            <button class=\"c-button\">ПОДПИСАТЬСЯ</button>\n          </div>\n        </div>\n        <%= castomRadio() %>\n      </div>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17868,7 +17881,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-about-mosgortur\">\r\n  <div class=\"l-about-mosgortur__content\">\r\n    <div class=\"l-about-mosgortur__headline\">\r\n      <span\r\n        >МОСГОРТУР — крупнейший туроператор детского развивающего отдыха в\r\n        Москве</span\r\n      >\r\n    </div>\r\n    <div class=\"l-about-mosgortur__info-block display-flex\">\r\n      <div class=\"l-about-mosgortur__text-block\">\r\n        <div class=\"l-about-mosgortur__text\">\r\n          <span\r\n            >Осуществляет контроль качества оплаченных услуг по отдыху детей,\r\n            предоставляемых оздоровительными учреждениями, а также выполнение\r\n            ими требований государственного стандарта по детскому отдыху;</span\r\n          >\r\n        </div>\r\n        <div class=\"l-about-mosgortur__stats\">\r\n          <div class=\"l-about-mosgortur__stat-item\">\r\n            <div class=\"l-about-mosgortur__stat-headline\">\r\n              <span>50 000</span>\r\n            </div>\r\n            <div class=\"l-about-mosgortur__stat-text\">\r\n              <span>детей ежегодно отдыхают с МОСГОРТУРом</span>\r\n            </div>\r\n          </div>\r\n          <div class=\"l-about-mosgortur__stat-item\">\r\n            <div class=\"l-about-mosgortur__stat-headline\">\r\n              <span>400+</span>\r\n            </div>\r\n            <div class=\"l-about-mosgortur__stat-text\">\r\n              <span>верифицированных лагерей-партнеров</span>\r\n            </div>\r\n          </div>\r\n          <div class=\"l-about-mosgortur__stat-item\">\r\n            <div class=\"l-about-mosgortur__stat-headline\">\r\n              <span>400+</span>\r\n            </div>\r\n            <div class=\"l-about-mosgortur__stat-text\">\r\n              <span>верифицированных лагерей-партнеров</span>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"l-about-mosgortur__offers-content\">\r\n        <div class=\"l-about-mosgortur__offers-block display-flex\">\r\n          <% offerCardItemsData.forEach(function(data) { %> <%=\r\n          offerCardItem(data)%> <% }); %>\r\n        </div>\r\n        <div class=\"l-about-mosgortur__button display-flex _j-center\">\r\n          <button class=\"c-button\">ВСЕ ПРЕДЛОЖЕНИЯ</button>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-about-mosgortur\">\n  <div class=\"l-about-mosgortur__content\">\n    <div class=\"l-about-mosgortur__headline\">\n      <span\n        >МОСГОРТУР — крупнейший туроператор детского развивающего отдыха в\n        Москве</span\n      >\n    </div>\n    <div class=\"l-about-mosgortur__info-block display-flex\">\n      <div class=\"l-about-mosgortur__text-block\">\n        <div class=\"l-about-mosgortur__text\">\n          <span\n            >Осуществляет контроль качества оплаченных услуг по отдыху детей,\n            предоставляемых оздоровительными учреждениями, а также выполнение\n            ими требований государственного стандарта по детскому отдыху;</span\n          >\n        </div>\n        <div class=\"l-about-mosgortur__stats\">\n          <div class=\"l-about-mosgortur__stat-item\">\n            <div class=\"l-about-mosgortur__stat-headline\">\n              <span>50 000</span>\n            </div>\n            <div class=\"l-about-mosgortur__stat-text\">\n              <span>детей ежегодно отдыхают с МОСГОРТУРом</span>\n            </div>\n          </div>\n          <div class=\"l-about-mosgortur__stat-item\">\n            <div class=\"l-about-mosgortur__stat-headline\">\n              <span>400+</span>\n            </div>\n            <div class=\"l-about-mosgortur__stat-text\">\n              <span>верифицированных лагерей-партнеров</span>\n            </div>\n          </div>\n          <div class=\"l-about-mosgortur__stat-item\">\n            <div class=\"l-about-mosgortur__stat-headline\">\n              <span>400+</span>\n            </div>\n            <div class=\"l-about-mosgortur__stat-text\">\n              <span>верифицированных лагерей-партнеров</span>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"l-about-mosgortur__offers-content\">\n        <div class=\"l-about-mosgortur__offers-block display-flex\">\n          <% offerCardItemsData.forEach(function(data) { %> <%=\n          offerCardItem(data)%> <% }); %>\n        </div>\n        <div class=\"l-about-mosgortur__button display-flex _j-center\">\n          <button class=\"c-button\">ВСЕ ПРЕДЛОЖЕНИЯ</button>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17881,7 +17894,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-corporate-services\">\r\n  <div class=\"l-main-corporate-services__content\">\r\n    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\r\n    <div>\r\n      <div class=\"l-main-corporate-services__content-block\">\r\n        <div\r\n          class=\"l-main-corporate-services__extra-caption display-flex _a-end _j-between\"\r\n        >\r\n          <div class=\"l-main-corporate-services__extra-caption-text\">\r\n            <span\r\n              >Текстовая подводвка с информацией о том какие корпоративные\r\n              услуги оказывает МГТ</span\r\n            >\r\n          </div>\r\n          <div class=\"l-main-corporate-services__button display-flex _j-end\">\r\n            <button class=\"c-button\">ВСЕ ПРЕДЛОЖЕНИЯ</button>\r\n          </div>\r\n        </div>\r\n        <div class=\"l-main-corporate-services__cards display-flex _j-between\">\r\n          <% corporateServiceItemData.forEach(function(data) { %> <%=\r\n          corporateServiceItem(data)%> <% }); %>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-corporate-services\">\n  <div class=\"l-main-corporate-services__content\">\n    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\n    <div>\n      <div class=\"l-main-corporate-services__content-block\">\n        <div\n          class=\"l-main-corporate-services__extra-caption display-flex _a-end _j-between\"\n        >\n          <div class=\"l-main-corporate-services__extra-caption-text\">\n            <span\n              >Текстовая подводвка с информацией о том какие корпоративные\n              услуги оказывает МГТ</span\n            >\n          </div>\n          <div class=\"l-main-corporate-services__button display-flex _j-end\">\n            <button class=\"c-button\">ВСЕ ПРЕДЛОЖЕНИЯ</button>\n          </div>\n        </div>\n        <div class=\"l-main-corporate-services__cards display-flex _j-between\">\n          <% corporateServiceItemData.forEach(function(data) { %> <%=\n          corporateServiceItem(data)%> <% }); %>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17894,7 +17907,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-first-composite\">\r\n  <div class=\"l-main-first-composite__content <%=className%>\">\r\n    <%= importantInfoContainer(importantInfoContainerData)%> <%=\r\n    arrivalsContainer(arrivalsContainerData)%>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-first-composite\">\n  <div class=\"l-main-first-composite__content <%=className%>\">\n    <%= importantInfoContainer(importantInfoContainerData)%> <%=\n    arrivalsContainer(arrivalsContainerData)%>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17907,7 +17920,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-layer-with-offers\">\r\n  <div\r\n    class=\"l-main-layer-with-offers__content display-flex _row-wrap _j-between\"\r\n  >\r\n    <% offerCardItemsData.forEach(function(data) { %> <%= offerCardItem(data)%>\r\n    <% }); %>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-layer-with-offers\">\n  <div\n    class=\"l-main-layer-with-offers__content display-flex _row-wrap _j-between\"\n  >\n    <% offerCardItemsData.forEach(function(data) { %> <%= offerCardItem(data)%>\n    <% }); %>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17920,7 +17933,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-leader\">\r\n  <div class=\"l-main-leader__content\"></div>\r\n  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\r\n  <div class=\"l-main-leader__block-content\">\r\n    <div class=\"l-main-leader__description\">\r\n      <span\r\n        >Текстовая подводвка с информацией о том какие корпоративные услуги\r\n        оказывает МГТ</span\r\n      >\r\n    </div>\r\n    <div class=\"l-main-leader__cards display-flex _j-between\">\r\n      <% leaderCardData.forEach(function(data) { %> <%= leaderCard(data)%> <%\r\n      }); %>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-leader\">\n  <div class=\"l-main-leader__content\"></div>\n  <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\n  <div class=\"l-main-leader__block-content\">\n    <div class=\"l-main-leader__description\">\n      <span\n        >Текстовая подводвка с информацией о том какие корпоративные услуги\n        оказывает МГТ</span\n      >\n    </div>\n    <div class=\"l-main-leader__cards display-flex _j-between\">\n      <% leaderCardData.forEach(function(data) { %> <%= leaderCard(data)%> <%\n      }); %>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17933,7 +17946,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-news-block\">\r\n  <div class=\"l-main-news-block__content\">\r\n    <%= newsBlock(newsBlockData)%>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-news-block\">\n  <div class=\"l-main-news-block__content\">\n    <%= newsBlock(newsBlockData)%>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17946,7 +17959,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"main-our-camps\">\r\n  <div class=\"main-our-camps__content\">\r\n    <h3>НАШИ ЛАГЕРЯ</h3>\r\n    <div class=\"main-our-camps__carousel display-flex _a-center _j-between\">\r\n      <div class=\"main-our-camps__img _eagle\">\r\n        <img src=\"uploads/eagle.png\" alt=\"eagle\" />\r\n      </div>\r\n      <div class=\"main-our-camps__img _mdc\">\r\n        <img src=\"uploads/mdc.png\" alt=\"mdc\" />\r\n      </div>\r\n      <div class=\"main-our-camps__img _eagle\">\r\n        <img src=\"uploads/eagle.png\" alt=\"eagle\" />\r\n      </div>\r\n      <div class=\"main-our-camps__img _mdc\">\r\n        <img src=\"uploads/mdc.png\" alt=\"mdc\" />\r\n      </div>\r\n      <div class=\"main-our-camps__img _eagle\">\r\n        <img src=\"uploads/eagle.png\" alt=\"eagle\" />\r\n      </div>\r\n      <div class=\"main-our-camps__img _mdc\">\r\n        <img src=\"uploads/mdc.png\" alt=\"mdc\" />\r\n      </div>\r\n      <div\r\n        class=\"main-our-camps__carousel__icon display-flex _a-center _j-center\"\r\n      >\r\n        <div class=\"icon _arrow\"></div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"main-our-camps\">\n  <div class=\"main-our-camps__content\">\n    <h3>НАШИ ЛАГЕРЯ</h3>\n    <div class=\"main-our-camps__carousel display-flex _a-center _j-between\">\n      <div class=\"main-our-camps__img _eagle\">\n        <img src=\"uploads/eagle.png\" alt=\"eagle\" />\n      </div>\n      <div class=\"main-our-camps__img _mdc\">\n        <img src=\"uploads/mdc.png\" alt=\"mdc\" />\n      </div>\n      <div class=\"main-our-camps__img _eagle\">\n        <img src=\"uploads/eagle.png\" alt=\"eagle\" />\n      </div>\n      <div class=\"main-our-camps__img _mdc\">\n        <img src=\"uploads/mdc.png\" alt=\"mdc\" />\n      </div>\n      <div class=\"main-our-camps__img _eagle\">\n        <img src=\"uploads/eagle.png\" alt=\"eagle\" />\n      </div>\n      <div class=\"main-our-camps__img _mdc\">\n        <img src=\"uploads/mdc.png\" alt=\"mdc\" />\n      </div>\n      <div\n        class=\"main-our-camps__carousel__icon display-flex _a-center _j-center\"\n      >\n        <div class=\"icon _arrow\"></div>\n      </div>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17959,7 +17972,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-second-composite\">\r\n  <div class=\"l-main-second-composite__content display-flex _j-between\">\r\n    <div class=\"l-main-second-composite__left-side\">\r\n      <%= verticalNewsBlock(verticalNewsBlockData)%>\r\n    </div>\r\n    <div class=\"l-main-second-composite__right-side\">\r\n      <%= videoReview(videoReviewData)%> <%= mainTopOffers(mainTopOffersData)%>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-second-composite\">\n  <div class=\"l-main-second-composite__content display-flex _j-between\">\n    <div class=\"l-main-second-composite__left-side\">\n      <%= verticalNewsBlock(verticalNewsBlockData)%>\n    </div>\n    <div class=\"l-main-second-composite__right-side\">\n      <%= videoReview(videoReviewData)%> <%= mainTopOffers(mainTopOffersData)%>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17972,7 +17985,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-third-composite\">\r\n  <div class=\"l-main-third-composite__content display-flex _j-between\">\r\n    <div class=\"l-main-third-composite__left-side\">\r\n      <div class=\"l-main-third-composite__offers display-flex\">\r\n        <%= mainTopOffers(mainTopOffersData)%>\r\n      </div>\r\n\r\n      <div class=\"l-main-third-composite__button display-flex _j-center\">\r\n        <button class=\"c-button\">ВСЕ ПРЕДЛОЖЕНИЯ</button>\r\n      </div>\r\n    </div>\r\n    <div class=\"l-main-third-composite__right-side\">\r\n      <%= mainSocialBlock()%>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-third-composite\">\n  <div class=\"l-main-third-composite__content display-flex _j-between\">\n    <div class=\"l-main-third-composite__left-side\">\n      <div class=\"l-main-third-composite__offers display-flex\">\n        <%= mainTopOffers(mainTopOffersData)%>\n      </div>\n\n      <div class=\"l-main-third-composite__button display-flex _j-center\">\n        <button class=\"c-button\">ВСЕ ПРЕДЛОЖЕНИЯ</button>\n      </div>\n    </div>\n    <div class=\"l-main-third-composite__right-side\">\n      <%= mainSocialBlock()%>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -17985,7 +17998,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-offers-child-holiday-composite-layer\">\r\n    <div\r\n        class=\"l-offers-child-holiday-composite-layer__content display-flex _j-between\"\r\n    >\r\n        <div class=\"l-offers-child-holiday-composite-layer__left-side\">\r\n            <% if(topOffersData.caption) { %> <%= topOffersData.captionWithIcon(topOffersData.captionWithIconData) %> <% } %>\r\n            <div class=\"l-offers-child-holiday-composite-layer__left-cards-block display-flex _row-wrap _j-between\">\r\n                <% topOffersData.offerCardItemsData.forEach(function(data) { %> <%= topOffersData.offerCardItem(data)%>\r\n                <% }); %>\r\n            </div>\r\n            <%= pagination()%>\r\n            \r\n        </div>\r\n        <div class=\"l-offers-child-holiday-composite-layer__right-side\">\r\n            <%= childrenHolidayBlock(childrenHolidayData)%> \r\n                \r\n        </div>    \r\n    </div>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-offers-child-holiday-composite-layer\">\n    <div\n        class=\"l-offers-child-holiday-composite-layer__content display-flex _j-between\"\n    >\n        <div class=\"l-offers-child-holiday-composite-layer__left-side\">\n            <% if(topOffersData.caption) { %> <%= topOffersData.captionWithIcon(topOffersData.captionWithIconData) %> <% } %>\n            <div class=\"l-offers-child-holiday-composite-layer__left-cards-block display-flex _row-wrap _j-between\">\n                <% topOffersData.offerCardItemsData.forEach(function(data) { %> <%= topOffersData.offerCardItem(data)%>\n                <% }); %>\n            </div>\n            <%= pagination()%>\n            \n        </div>\n        <div class=\"l-offers-child-holiday-composite-layer__right-side\">\n            <%= childrenHolidayBlock(childrenHolidayData)%> \n                \n        </div>    \n    </div>\n</div>");
 
 /***/ }),
 
@@ -17998,7 +18011,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"previously-viewed-offers\">\r\n    <div class=\"previously-viewed-offers__content\">\r\n            <%= mainTopOffers(mainTopOffersData) %>\r\n    </div>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"previously-viewed-offers\">\n    <div class=\"previously-viewed-offers__content\">\n            <%= mainTopOffers(mainTopOffersData) %>\n    </div>\n</div>");
 
 /***/ }),
 
@@ -18011,7 +18024,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-preparation-for-trip\">\r\n    <div class=\"l-preparation-for-trip__content display-flex\">\r\n      <section class=\"l-preparation-for-trip__image\"></section>\r\n      <section class=\"l-preparation-for-trip__info\">\r\n        <div class=\"l-preparation-for-trip__caption\">\r\n          <span>Что делать после получения путевки</span>\r\n        </div>\r\n        <div class=\"l-preparation-for-trip__description\">\r\n          <p>\r\n            Пора готовиться к отдыху? Узнайте, что взять с собой, как\r\n            происходит адаптация у детей и что вас ждет на отдыхе.\r\n          </p>\r\n        </div>\r\n        <div class=\"l-preparation-for-trip__links-block display-flex _column\">\r\n          <article class=\"c-preparation-link-item\">\r\n            <a href=\"#\">Как подготовиться к поездке</a>\r\n          </article>\r\n          <article class=\"c-preparation-link-item\">\r\n            <a href=\"#\">Мифы о лагере</a>\r\n          </article>\r\n          <article class=\"c-preparation-link-item\">\r\n            <a href=\"#\">Что взять в чемодан?</a>\r\n          </article>\r\n        </div>\r\n      </section>\r\n    </div>\r\n  </div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-preparation-for-trip\">\n    <div class=\"l-preparation-for-trip__content display-flex\">\n      <section class=\"l-preparation-for-trip__image\"></section>\n      <section class=\"l-preparation-for-trip__info\">\n        <div class=\"l-preparation-for-trip__caption\">\n          <span>Что делать после получения путевки</span>\n        </div>\n        <div class=\"l-preparation-for-trip__description\">\n          <p>\n            Пора готовиться к отдыху? Узнайте, что взять с собой, как\n            происходит адаптация у детей и что вас ждет на отдыхе.\n          </p>\n        </div>\n        <div class=\"l-preparation-for-trip__links-block display-flex _column\">\n          <article class=\"c-preparation-link-item\">\n            <a href=\"#\">Как подготовиться к поездке</a>\n          </article>\n          <article class=\"c-preparation-link-item\">\n            <a href=\"#\">Мифы о лагере</a>\n          </article>\n          <article class=\"c-preparation-link-item\">\n            <a href=\"#\">Что взять в чемодан?</a>\n          </article>\n        </div>\n      </section>\n    </div>\n  </div>");
 
 /***/ }),
 
@@ -18024,7 +18037,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-first-composite\">\r\n  <div class=\"l-main-first-composite__content <%=className%>\">\r\n    <%= importantInfoContainer(importantInfoContainerData)%> <%=\r\n    additionalBookingBlock(additionalBookingBlockData)%>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-main-first-composite\">\n  <div class=\"l-main-first-composite__content <%=className%>\">\n    <%= importantInfoContainer(importantInfoContainerData)%> <%=\n    additionalBookingBlock(additionalBookingBlockData)%>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -18037,7 +18050,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-frequently-questions\">\r\n  <div class=\"l-frequently-questions__content\">\r\n    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\r\n    <section\r\n      class=\"l-frequently-questions__questions-block display-flex _j-between\"\r\n    >\r\n      <% cardItems.forEach(function(item) { %> <%= infoDoubleCard(item)%> <% });\r\n      %>\r\n    </section>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-frequently-questions\">\n  <div class=\"l-frequently-questions__content\">\n    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\n    <section\n      class=\"l-frequently-questions__questions-block display-flex _j-between\"\n    >\n      <% cardItems.forEach(function(item) { %> <%= infoDoubleCard(item)%> <% });\n      %>\n    </section>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -18050,7 +18063,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-social-news-block\">\r\n  <div class=\"l-social-news-block__content\">\r\n    <%= newsBlock(newsBlockData)%>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-social-news-block\">\n  <div class=\"l-social-news-block__content\">\n    <%= newsBlock(newsBlockData)%>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -18063,7 +18076,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-social-quota-allocation display-flex _column _j-center _a-center\">\r\n    <div class=\"l-social-quota-allocation__content \">\r\n        <div class=\"l-social-quota-allocation__background\"></div>\r\n        <div class=\"l-social-quota-allocation__caption\"><span>Распределение квот в 2019 г.</span></div>\r\n        <div class=\"l-social-quota-allocation__icon display-flex _a-center _j-center\">\r\n            <div class=\"icon _wave\"></div>\r\n        </div>\r\n        <div class=\"l-social-quota-allocation__text\"><span>Приоритеты и принцип справделивости</span></div>\r\n    </div>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-social-quota-allocation display-flex _column _j-center _a-center\">\n    <div class=\"l-social-quota-allocation__content \">\n        <div class=\"l-social-quota-allocation__background\"></div>\n        <div class=\"l-social-quota-allocation__caption\"><span>Распределение квот в 2019 г.</span></div>\n        <div class=\"l-social-quota-allocation__icon display-flex _a-center _j-center\">\n            <div class=\"icon _wave\"></div>\n        </div>\n        <div class=\"l-social-quota-allocation__text\"><span>Приоритеты и принцип справделивости</span></div>\n    </div>\n</div>");
 
 /***/ }),
 
@@ -18076,7 +18089,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-recommendations\">\r\n  <div class=\"l-recommendations__content\">\r\n    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\r\n  </div>\r\n  <div\r\n    class=\"l-recommendations__recommendations-block display-flex _row _j-between\"\r\n  >\r\n    <% recommendCardsData.forEach(function(data) { %> <%=\r\n    recommendCardItem(data)%> <% }); %>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-recommendations\">\n  <div class=\"l-recommendations__content\">\n    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\n  </div>\n  <div\n    class=\"l-recommendations__recommendations-block display-flex _row _j-between\"\n  >\n    <% recommendCardsData.forEach(function(data) { %> <%=\n    recommendCardItem(data)%> <% }); %>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -18089,7 +18102,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-useful-links\">\r\n  <div class=\"l-useful-links__content\">\r\n    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\r\n    <div class=\"l-useful-links__links-block display-flex _row\">\r\n      <% linkTexts.forEach(function(texts) { %>\r\n      <section class=\"l-useful-links__links-column\">\r\n        <% texts.forEach(function(text) { %>\r\n        <div class=\"c-link-item\">\r\n          <a href=\"#\"><%= text%></a>\r\n        </div>\r\n        <% }); %>\r\n      </section>\r\n      <% }); %>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-useful-links\">\n  <div class=\"l-useful-links__content\">\n    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\n    <div class=\"l-useful-links__links-block display-flex _row\">\n      <% linkTexts.forEach(function(texts) { %>\n      <section class=\"l-useful-links__links-column\">\n        <% texts.forEach(function(text) { %>\n        <div class=\"c-link-item\">\n          <a href=\"#\"><%= text%></a>\n        </div>\n        <% }); %>\n      </section>\n      <% }); %>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -18102,7 +18115,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-wellness-company\">\r\n  <div class=\"l-wellness-company__content\">\r\n    <h1>Летняя оздоровительная кампания — 2019</h1>\r\n    <section class=\"l-wellness-company__stage\">\r\n      <% stages.forEach(function(data) { %>\r\n      <article>\r\n        <h3><%= data.captionText%></h3>\r\n        <div\r\n          class=\"l-wellness-company__cards-container display-flex _row _j-between\"\r\n        >\r\n          <% data.cardItems.forEach(function(item) { %> <%=\r\n          data.infoDoubleCard(item)%> <% }); %> <% if(data.listCard) { %> <%=\r\n          data.infoListCard(data.listCardData) %> <% } %>\r\n        </div>\r\n      </article>\r\n      <% }); %>\r\n    </section>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-wellness-company\">\n  <div class=\"l-wellness-company__content\">\n    <h1>Летняя оздоровительная кампания — 2019</h1>\n    <section class=\"l-wellness-company__stage\">\n      <% stages.forEach(function(data) { %>\n      <article>\n        <h3><%= data.captionText%></h3>\n        <div\n          class=\"l-wellness-company__cards-container display-flex _row _j-between\"\n        >\n          <% data.cardItems.forEach(function(item) { %> <%=\n          data.infoDoubleCard(item)%> <% }); %> <% if(data.listCard) { %> <%=\n          data.infoListCard(data.listCardData) %> <% } %>\n        </div>\n      </article>\n      <% }); %>\n    </section>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./src/html/layers/tours-composite-layer.html":
+/*!****************************************************!*\
+  !*** ./src/html/layers/tours-composite-layer.html ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-tours-composite-layer\">\n  <div class=\"l-tours-composite-layer__content display-flex _j-between\">\n    <div class=\"l-tours-composite-layer__left-side\">\n      <% if(topOffersData.caption) { %> <%=\n      topOffersData.captionWithIcon(topOffersData.captionWithIconData) %> <% }\n      %>\n      <div\n        class=\"l-tours-composite-layer__left-cards-block display-flex _row-wrap _j-between\"\n      >\n        <% topOffersData.offerCardItemsData.forEach(function(data) { %> <%=\n        topOffersData.offerCardItem(data)%> <% }); %>\n      </div>\n      <%= pagination()%>\n    </div>\n    <div class=\"l-tours-composite-layer__right-side\">\n      <%= childrenHolidayBlock(childrenHolidayData)%>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -18115,7 +18141,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-tours-control\">\r\n  <div class=\"l-tours-control__content display-flex _j-between\">\r\n    <% customSelectorData.forEach(function(data) { %> <%= customSelector(data)%>\r\n    <% }); %>\r\n\r\n    <div class=\"l-tours-control__button display-flex _a-end\">\r\n      <button class=\"c-button\">НАЙТИ</button>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-tours-control\">\n  <div class=\"l-tours-control__content display-flex _j-between\">\n    <% customSelectorData.forEach(function(data) { %> <%= customSelector(data)%>\n    <% }); %>\n\n    <div class=\"l-tours-control__button display-flex _a-end\">\n      <button class=\"c-button\">НАЙТИ</button>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -18128,7 +18154,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-tours-filter-composite-layer\">\r\n    <div\r\n        class=\"l-tours-filter-composite-layer__content display-flex _j-between\"\r\n    >\r\n        <div class=\"l-tours-filter-composite-layer__left-side\">\r\n            <% if(topOffersData.caption) { %> <%= topOffersData.captionWithIcon(topOffersData.captionWithIconData) %> <% } %>\r\n            <div class=\"l-tours-filter-composite-layer__left-cards-block display-flex _row-wrap _j-between\">\r\n                <% topOffersData.offerCardItemsData.forEach(function(data) { %> <%= topOffersData.offerCardItem(data)%>\r\n                <% }); %>\r\n            </div>\r\n            <%= pagination()%>\r\n            \r\n        </div>\r\n        <div class=\"l-tours-filter-composite-layer__right-side\">\r\n            <%= advertisingFire()%> \r\n            <%= childrenHolidayBlock(childrenHolidayData)%> \r\n               \r\n        </div>    \r\n    </div>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-tours-filter-composite-layer\">\n    <div\n        class=\"l-tours-filter-composite-layer__content display-flex _j-between\"\n    >\n        <div class=\"l-tours-filter-composite-layer__left-side\">\n            <% if(topOffersData.caption) { %> <%= topOffersData.captionWithIcon(topOffersData.captionWithIconData) %> <% } %>\n            <div class=\"l-tours-filter-composite-layer__left-cards-block display-flex _row-wrap _j-between\">\n                <% topOffersData.offerCardItemsData.forEach(function(data) { %> <%= topOffersData.offerCardItem(data)%>\n                <% }); %>\n            </div>\n            <%= pagination()%>\n            \n        </div>\n        <div class=\"l-tours-filter-composite-layer__right-side\">\n            <%= advertisingFire()%> \n            <%= childrenHolidayBlock(childrenHolidayData)%> \n               \n        </div>    \n    </div>\n</div>");
 
 /***/ }),
 
@@ -18141,7 +18167,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-tours-filter\">\r\n    <div class=\"l-tours-filter__content display-flex _column _j-center\">\r\n        <%= simpleFilter(firstFilterData)%>\r\n        <%= simpleFilter(secondFilterData)%>\r\n        <div class=\"l-tours-filter__tabs-filter display-flex _j-center\">\r\n            <span class=\"l-tours-filter__tab-item _active\">до 2 000 руб/чел</span>\r\n            <span class=\"l-tours-filter__tab-item\">до 5 000 руб/чел</span>\r\n            <span class=\"l-tours-filter__tab-item\">до 10 000 руб/чел</span>\r\n            <span class=\"l-tours-filter__tab-item\">до 15 000 руб/чел</span>\r\n        </div>\r\n    </div>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-tours-filter\">\n    <div class=\"l-tours-filter__content display-flex _column _j-center\">\n        <%= simpleFilter(firstFilterData)%>\n        <%= simpleFilter(secondFilterData)%>\n        <div class=\"l-tours-filter__tabs-filter display-flex _j-center\">\n            <span class=\"l-tours-filter__tab-item _active\">до 2 000 руб/чел</span>\n            <span class=\"l-tours-filter__tab-item\">до 5 000 руб/чел</span>\n            <span class=\"l-tours-filter__tab-item\">до 10 000 руб/чел</span>\n            <span class=\"l-tours-filter__tab-item\">до 15 000 руб/чел</span>\n        </div>\n    </div>\n</div>");
 
 /***/ }),
 
@@ -18154,7 +18180,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-transfers-empty-result-search\">\r\n    <div class=\"l-transfers-empty-result-search__content display-flex _a-center _j-center\">\r\n        <h3>Увы, по этому запросу ничего не найдено</h3>\r\n    </div>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-transfers-empty-result-search\">\n    <div class=\"l-transfers-empty-result-search__content display-flex _a-center _j-center\">\n        <h3>Увы, по этому запросу ничего не найдено</h3>\n    </div>\n</div>");
 
 /***/ }),
 
@@ -18167,7 +18193,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-transfers-info-about-races\">\r\n    <div class=\"l-transfers-info-about-races__content\">\r\n        <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\r\n\r\n        <div class=\"l-transfers-info-about-races__table\">\r\n            <div class=\"l-transfers-info-about-races__table-head display-flex\">\r\n                <span class=\"l-transfers-info-about-races__head-item\"></span>\r\n                <span class=\"l-transfers-info-about-races__head-item\">ОТКУДА</span>\r\n                <span class=\"l-transfers-info-about-races__head-item\">КУДА</span>\r\n            </div>\r\n            <div class=\"l-transfers-info-about-races__table-content\">\r\n                <!-- Строка таблицы -->\r\n                <% transferInfoTableItemData.forEach(function(data) { %> <%= transferInfoTableItem(data)%> <% }); %>\r\n                <!-- Строка таблицы -->\r\n            </div>\r\n        </div>\r\n\r\n    </div>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-transfers-info-about-races\">\n    <div class=\"l-transfers-info-about-races__content\">\n        <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\n\n        <div class=\"l-transfers-info-about-races__table\">\n            <div class=\"l-transfers-info-about-races__table-head display-flex\">\n                <span class=\"l-transfers-info-about-races__head-item\"></span>\n                <span class=\"l-transfers-info-about-races__head-item\">ОТКУДА</span>\n                <span class=\"l-transfers-info-about-races__head-item\">КУДА</span>\n            </div>\n            <div class=\"l-transfers-info-about-races__table-content\">\n                <!-- Строка таблицы -->\n                <% transferInfoTableItemData.forEach(function(data) { %> <%= transferInfoTableItem(data)%> <% }); %>\n                <!-- Строка таблицы -->\n            </div>\n        </div>\n\n    </div>\n</div>");
 
 /***/ }),
 
@@ -18175,7 +18201,7 @@ __webpack_require__.r(__webpack_exports__);
 /*!**************************!*\
   !*** ./src/js/common.js ***!
   \**************************/
-/*! exports provided: captionWithIcon, customSelector, customDatepicker, transferInfoTableItem, corporateServiceItem, castomRadio, leaderCard, offerCardItem, contentHeaderMain, contentHeaderTours, contentHeaderToursBig, contentHeaderTransfers, contentHeaderKids, contentHeaderKidsBig, contentHeaderFamily, contentHeaderFamilyBig, customInput, recommendCardItem, materialInput, newsItem, arrivalItem, infoSimpleCard, infoDoubleCard, infoListCard, innerElementOfInfoCard, advertisingFire, pagination, newsBlock, verticalNewsBlock, arrivalsBlock, arrivalsContainer, importantInfoContainer, importantInfoBlock, additionalBookingBlock, videoReview, mainTopOffers, mainSocialBlock, simpleFilter, childrenHolidayBlock, headerLayer, mailingLayer, guaranteesLayer, footer, previouslyViewedOffers, offersChildHolidayCompositeLayer, mainNewsLayer, mainFirstCompositeLayer, mainSecondCompositeLayer, mainThirdCompositeLayer, mainAboutMosgorturLayer, mainLayerWithOffers, mainLeader, mainCorporateServices, mainOurCamps, socialNewsLayer, socialFirstCompositeLayer, socialWellnessСompanyLayer, socialUsefulLinksLayer, socialFrequentlyQuestionsLayer, socialRecommendationsLayer, socialAfterReceivingTheVoucher, socialQuotaAllocation, toursFilter, toursControl, advertisingPoint, transfersInfoAboutRaces, transfersEmptyResultSearch, familyControl, kidsFilter, toursFilterCompositeLayer */
+/*! exports provided: captionWithIcon, customSelector, customDatepicker, transferInfoTableItem, corporateServiceItem, castomRadio, leaderCard, offerCardItem, contentHeaderMain, contentHeaderTours, contentHeaderToursBig, contentHeaderToursSimple, contentHeaderTransfers, contentHeaderKids, contentHeaderKidsBig, contentHeaderFamily, contentHeaderFamilyBig, customInput, recommendCardItem, materialInput, newsItem, arrivalItem, infoSimpleCard, infoDoubleCard, infoListCard, innerElementOfInfoCard, advertisingFire, pagination, newsBlock, verticalNewsBlock, arrivalsBlock, arrivalsContainer, importantInfoContainer, importantInfoBlock, additionalBookingBlock, videoReview, mainTopOffers, mainSocialBlock, simpleFilter, childrenHolidayBlock, headerLayer, mailingLayer, guaranteesLayer, footer, previouslyViewedOffers, offersChildHolidayCompositeLayer, mainNewsLayer, mainFirstCompositeLayer, mainSecondCompositeLayer, mainThirdCompositeLayer, mainAboutMosgorturLayer, mainLayerWithOffers, mainLeader, mainCorporateServices, mainOurCamps, socialNewsLayer, socialFirstCompositeLayer, socialWellnessСompanyLayer, socialUsefulLinksLayer, socialFrequentlyQuestionsLayer, socialRecommendationsLayer, socialAfterReceivingTheVoucher, socialQuotaAllocation, toursFilter, toursControl, advertisingPoint, toursCompositeLayer, transfersInfoAboutRaces, transfersEmptyResultSearch, familyControl, kidsFilter, toursFilterCompositeLayer */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18191,6 +18217,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "contentHeaderMain", function() { return contentHeaderMain; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "contentHeaderTours", function() { return contentHeaderTours; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "contentHeaderToursBig", function() { return contentHeaderToursBig; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "contentHeaderToursSimple", function() { return contentHeaderToursSimple; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "contentHeaderTransfers", function() { return contentHeaderTransfers; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "contentHeaderKids", function() { return contentHeaderKids; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "contentHeaderKidsBig", function() { return contentHeaderKidsBig; });
@@ -18245,6 +18272,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "toursFilter", function() { return toursFilter; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "toursControl", function() { return toursControl; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "advertisingPoint", function() { return advertisingPoint; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "toursCompositeLayer", function() { return toursCompositeLayer; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "transfersInfoAboutRaces", function() { return transfersInfoAboutRaces; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "transfersEmptyResultSearch", function() { return transfersEmptyResultSearch; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "familyControl", function() { return familyControl; });
@@ -18252,293 +18280,301 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "toursFilterCompositeLayer", function() { return toursFilterCompositeLayer; });
 //-----elements-----
 const captionWithIcon = _.template(
-  __webpack_require__(/*! ./../html/elements/caption-with-icon.html */ "./src/html/elements/caption-with-icon.html").default
+  __webpack_require__(/*! ./../html/elements/caption-with-icon.html */ "./src/html/elements/caption-with-icon.html").default,
 );
 
 const customSelector = _.template(
-  __webpack_require__(/*! ./../html/elements/custom-selector.html */ "./src/html/elements/custom-selector.html").default
+  __webpack_require__(/*! ./../html/elements/custom-selector.html */ "./src/html/elements/custom-selector.html").default,
 );
 
 const customDatepicker = _.template(
-  __webpack_require__(/*! ./../html/elements/custom-datepicker.html */ "./src/html/elements/custom-datepicker.html").default
+  __webpack_require__(/*! ./../html/elements/custom-datepicker.html */ "./src/html/elements/custom-datepicker.html").default,
 );
 
 const transferInfoTableItem = _.template(
-  __webpack_require__(/*! ./../html/elements/transfer-info-table-item.html */ "./src/html/elements/transfer-info-table-item.html").default
+  __webpack_require__(/*! ./../html/elements/transfer-info-table-item.html */ "./src/html/elements/transfer-info-table-item.html").default,
 );
 
 const corporateServiceItem = _.template(
-  __webpack_require__(/*! ./../html/elements/corporate-service-item.html */ "./src/html/elements/corporate-service-item.html").default
+  __webpack_require__(/*! ./../html/elements/corporate-service-item.html */ "./src/html/elements/corporate-service-item.html").default,
 );
 
 const castomRadio = _.template(
-  __webpack_require__(/*! ./../html/elements/castom-radio.html */ "./src/html/elements/castom-radio.html").default
+  __webpack_require__(/*! ./../html/elements/castom-radio.html */ "./src/html/elements/castom-radio.html").default,
 );
 
 const leaderCard = _.template(
-  __webpack_require__(/*! ./../html/elements/leader-card.html */ "./src/html/elements/leader-card.html").default
+  __webpack_require__(/*! ./../html/elements/leader-card.html */ "./src/html/elements/leader-card.html").default,
 );
 
 const offerCardItem = _.template(
-  __webpack_require__(/*! ./../html/elements/offer-card-item.html */ "./src/html/elements/offer-card-item.html").default
+  __webpack_require__(/*! ./../html/elements/offer-card-item.html */ "./src/html/elements/offer-card-item.html").default,
 );
 
 const contentHeaderMain = _.template(
-  __webpack_require__(/*! ./../html/elements/content-header-main.html */ "./src/html/elements/content-header-main.html").default
+  __webpack_require__(/*! ./../html/elements/content-header-main.html */ "./src/html/elements/content-header-main.html").default,
 );
 
 const contentHeaderTours = _.template(
-  __webpack_require__(/*! ./../html/elements/content-header-tours.html */ "./src/html/elements/content-header-tours.html").default
+  __webpack_require__(/*! ./../html/elements/content-header-tours.html */ "./src/html/elements/content-header-tours.html").default,
 );
 
 const contentHeaderToursBig = _.template(
-  __webpack_require__(/*! ./../html/elements/content-header-tours-big.html */ "./src/html/elements/content-header-tours-big.html").default
+  __webpack_require__(/*! ./../html/elements/content-header-tours-big.html */ "./src/html/elements/content-header-tours-big.html").default,
+);
+
+const contentHeaderToursSimple = _.template(
+  __webpack_require__(/*! ./../html/elements/content-header-tours-simple.html */ "./src/html/elements/content-header-tours-simple.html").default,
 );
 
 const contentHeaderTransfers = _.template(
-  __webpack_require__(/*! ./../html/elements/content-header-transfers.html */ "./src/html/elements/content-header-transfers.html").default
+  __webpack_require__(/*! ./../html/elements/content-header-transfers.html */ "./src/html/elements/content-header-transfers.html").default,
 );
 
 const contentHeaderKids = _.template(
-  __webpack_require__(/*! ./../html/elements/content-header-kids.html */ "./src/html/elements/content-header-kids.html").default
+  __webpack_require__(/*! ./../html/elements/content-header-kids.html */ "./src/html/elements/content-header-kids.html").default,
 );
 
 const contentHeaderKidsBig = _.template(
-  __webpack_require__(/*! ./../html/elements/content-header-kids-big.html */ "./src/html/elements/content-header-kids-big.html").default
+  __webpack_require__(/*! ./../html/elements/content-header-kids-big.html */ "./src/html/elements/content-header-kids-big.html").default,
 );
 
 const contentHeaderFamily = _.template(
-  __webpack_require__(/*! ./../html/elements/content-header-family.html */ "./src/html/elements/content-header-family.html").default
+  __webpack_require__(/*! ./../html/elements/content-header-family.html */ "./src/html/elements/content-header-family.html").default,
 );
 
 const contentHeaderFamilyBig = _.template(
-  __webpack_require__(/*! ./../html/elements/content-header-family-big.html */ "./src/html/elements/content-header-family-big.html").default
+  __webpack_require__(/*! ./../html/elements/content-header-family-big.html */ "./src/html/elements/content-header-family-big.html").default,
 );
 
 const customInput = _.template(
-  __webpack_require__(/*! ./../html/elements/custom-input.html */ "./src/html/elements/custom-input.html").default
+  __webpack_require__(/*! ./../html/elements/custom-input.html */ "./src/html/elements/custom-input.html").default,
 );
 
 const recommendCardItem = _.template(
-  __webpack_require__(/*! ./../html/elements/recommend-card-item.html */ "./src/html/elements/recommend-card-item.html").default
+  __webpack_require__(/*! ./../html/elements/recommend-card-item.html */ "./src/html/elements/recommend-card-item.html").default,
 );
 
 const materialInput = _.template(
-  __webpack_require__(/*! ./../html/elements/material-input.html */ "./src/html/elements/material-input.html").default
+  __webpack_require__(/*! ./../html/elements/material-input.html */ "./src/html/elements/material-input.html").default,
 );
 
 const newsItem = _.template(
-  __webpack_require__(/*! ./../html/elements/news-item.html */ "./src/html/elements/news-item.html").default
+  __webpack_require__(/*! ./../html/elements/news-item.html */ "./src/html/elements/news-item.html").default,
 );
 
 const arrivalItem = _.template(
-  __webpack_require__(/*! ./../html/elements/arrival-item.html */ "./src/html/elements/arrival-item.html").default
+  __webpack_require__(/*! ./../html/elements/arrival-item.html */ "./src/html/elements/arrival-item.html").default,
 );
 
 const infoSimpleCard = _.template(
-  __webpack_require__(/*! ./../html/elements/info-simple-card.html */ "./src/html/elements/info-simple-card.html").default
+  __webpack_require__(/*! ./../html/elements/info-simple-card.html */ "./src/html/elements/info-simple-card.html").default,
 );
 
 const infoDoubleCard = _.template(
-  __webpack_require__(/*! ./../html/elements/info-double-card.html */ "./src/html/elements/info-double-card.html").default
+  __webpack_require__(/*! ./../html/elements/info-double-card.html */ "./src/html/elements/info-double-card.html").default,
 );
 
 const infoListCard = _.template(
-  __webpack_require__(/*! ./../html/elements/info-list-card.html */ "./src/html/elements/info-list-card.html").default
+  __webpack_require__(/*! ./../html/elements/info-list-card.html */ "./src/html/elements/info-list-card.html").default,
 );
 
 const innerElementOfInfoCard = _.template(
-  __webpack_require__(/*! ./../html/elements/inner-element-of-info-card.html */ "./src/html/elements/inner-element-of-info-card.html").default
+  __webpack_require__(/*! ./../html/elements/inner-element-of-info-card.html */ "./src/html/elements/inner-element-of-info-card.html").default,
 );
 
 const advertisingFire = _.template(
-  __webpack_require__(/*! ./../html/elements/advertising-fire.html */ "./src/html/elements/advertising-fire.html").default
+  __webpack_require__(/*! ./../html/elements/advertising-fire.html */ "./src/html/elements/advertising-fire.html").default,
 );
 
 const pagination = _.template(
-  __webpack_require__(/*! ./../html/elements/pagination.html */ "./src/html/elements/pagination.html").default
+  __webpack_require__(/*! ./../html/elements/pagination.html */ "./src/html/elements/pagination.html").default,
 );
 
 //----blocks-----
 const newsBlock = _.template(
-  __webpack_require__(/*! ./../html/blocks/news-block.html */ "./src/html/blocks/news-block.html").default
+  __webpack_require__(/*! ./../html/blocks/news-block.html */ "./src/html/blocks/news-block.html").default,
 );
 
 const verticalNewsBlock = _.template(
-  __webpack_require__(/*! ./../html/blocks/vertical-news-block.html */ "./src/html/blocks/vertical-news-block.html").default
+  __webpack_require__(/*! ./../html/blocks/vertical-news-block.html */ "./src/html/blocks/vertical-news-block.html").default,
 );
 
 const arrivalsBlock = _.template(
-  __webpack_require__(/*! ./../html/blocks/arrivals-block.html */ "./src/html/blocks/arrivals-block.html").default
+  __webpack_require__(/*! ./../html/blocks/arrivals-block.html */ "./src/html/blocks/arrivals-block.html").default,
 );
 
 const arrivalsContainer = _.template(
-  __webpack_require__(/*! ./../html/blocks/arrivals-container.html */ "./src/html/blocks/arrivals-container.html").default
+  __webpack_require__(/*! ./../html/blocks/arrivals-container.html */ "./src/html/blocks/arrivals-container.html").default,
 );
 
 const importantInfoContainer = _.template(
-  __webpack_require__(/*! ./../html/blocks/important-info-container.html */ "./src/html/blocks/important-info-container.html").default
+  __webpack_require__(/*! ./../html/blocks/important-info-container.html */ "./src/html/blocks/important-info-container.html").default,
 );
 
 const importantInfoBlock = _.template(
-  __webpack_require__(/*! ./../html/blocks/important-info-block.html */ "./src/html/blocks/important-info-block.html").default
+  __webpack_require__(/*! ./../html/blocks/important-info-block.html */ "./src/html/blocks/important-info-block.html").default,
 );
 
 const additionalBookingBlock = _.template(
-  __webpack_require__(/*! ./../html/blocks/additional-booking.html */ "./src/html/blocks/additional-booking.html").default
+  __webpack_require__(/*! ./../html/blocks/additional-booking.html */ "./src/html/blocks/additional-booking.html").default,
 );
 
 const videoReview = _.template(
-  __webpack_require__(/*! ./../html/blocks/video-review.html */ "./src/html/blocks/video-review.html").default
+  __webpack_require__(/*! ./../html/blocks/video-review.html */ "./src/html/blocks/video-review.html").default,
 );
 
 const mainTopOffers = _.template(
-  __webpack_require__(/*! ./../html/blocks/main-top-offers.html */ "./src/html/blocks/main-top-offers.html").default
+  __webpack_require__(/*! ./../html/blocks/main-top-offers.html */ "./src/html/blocks/main-top-offers.html").default,
 );
 
 const mainSocialBlock = _.template(
-  __webpack_require__(/*! ./../html/blocks/main-social-block.html */ "./src/html/blocks/main-social-block.html").default
+  __webpack_require__(/*! ./../html/blocks/main-social-block.html */ "./src/html/blocks/main-social-block.html").default,
 );
 
 const simpleFilter = _.template(
-  __webpack_require__(/*! ./../html/blocks/simple-filter.html */ "./src/html/blocks/simple-filter.html").default
+  __webpack_require__(/*! ./../html/blocks/simple-filter.html */ "./src/html/blocks/simple-filter.html").default,
 );
 
 const childrenHolidayBlock = _.template(
-  __webpack_require__(/*! ./../html/blocks/children-holiday-block.html */ "./src/html/blocks/children-holiday-block.html").default
+  __webpack_require__(/*! ./../html/blocks/children-holiday-block.html */ "./src/html/blocks/children-holiday-block.html").default,
 );
 
 //----layers-----
 
 const headerLayer = _.template(
-  __webpack_require__(/*! ./../html/layers/header-layer.html */ "./src/html/layers/header-layer.html").default
+  __webpack_require__(/*! ./../html/layers/header-layer.html */ "./src/html/layers/header-layer.html").default,
 );
 
 const mailingLayer = _.template(
-  __webpack_require__(/*! ./../html/layers/mailing.html */ "./src/html/layers/mailing.html").default
+  __webpack_require__(/*! ./../html/layers/mailing.html */ "./src/html/layers/mailing.html").default,
 );
 
 const guaranteesLayer = _.template(
-  __webpack_require__(/*! ./../html/layers/guarantees.html */ "./src/html/layers/guarantees.html").default
+  __webpack_require__(/*! ./../html/layers/guarantees.html */ "./src/html/layers/guarantees.html").default,
 );
 
 const footer = _.template(
-  __webpack_require__(/*! ./../html/layers/footer.html */ "./src/html/layers/footer.html").default
+  __webpack_require__(/*! ./../html/layers/footer.html */ "./src/html/layers/footer.html").default,
 );
 
 const previouslyViewedOffers = _.template(
-  __webpack_require__(/*! ./../html/layers/previously-viewed-offers.html */ "./src/html/layers/previously-viewed-offers.html").default
+  __webpack_require__(/*! ./../html/layers/previously-viewed-offers.html */ "./src/html/layers/previously-viewed-offers.html").default,
 );
 
 const offersChildHolidayCompositeLayer = _.template(
-  __webpack_require__(/*! ./../html/layers/offers-child-holiday-composite-layer.html */ "./src/html/layers/offers-child-holiday-composite-layer.html").default
+  __webpack_require__(/*! ./../html/layers/offers-child-holiday-composite-layer.html */ "./src/html/layers/offers-child-holiday-composite-layer.html").default,
 );
 
 //----main
 const mainNewsLayer = _.template(
-  __webpack_require__(/*! ./../html/layers/main-news.html */ "./src/html/layers/main-news.html").default
+  __webpack_require__(/*! ./../html/layers/main-news.html */ "./src/html/layers/main-news.html").default,
 );
 
 const mainFirstCompositeLayer = _.template(
-  __webpack_require__(/*! ./../html/layers/main-first-composite-layer.html */ "./src/html/layers/main-first-composite-layer.html").default
+  __webpack_require__(/*! ./../html/layers/main-first-composite-layer.html */ "./src/html/layers/main-first-composite-layer.html").default,
 );
 
 const mainSecondCompositeLayer = _.template(
-  __webpack_require__(/*! ./../html/layers/main-second-composite-layer.html */ "./src/html/layers/main-second-composite-layer.html").default
+  __webpack_require__(/*! ./../html/layers/main-second-composite-layer.html */ "./src/html/layers/main-second-composite-layer.html").default,
 );
 
 const mainThirdCompositeLayer = _.template(
-  __webpack_require__(/*! ./../html/layers/main-third-composite-layer.html */ "./src/html/layers/main-third-composite-layer.html").default
+  __webpack_require__(/*! ./../html/layers/main-third-composite-layer.html */ "./src/html/layers/main-third-composite-layer.html").default,
 );
 
 const mainAboutMosgorturLayer = _.template(
-  __webpack_require__(/*! ./../html/layers/main-about-mosgortur.html */ "./src/html/layers/main-about-mosgortur.html").default
+  __webpack_require__(/*! ./../html/layers/main-about-mosgortur.html */ "./src/html/layers/main-about-mosgortur.html").default,
 );
 
 const mainLayerWithOffers = _.template(
-  __webpack_require__(/*! ./../html/layers/main-layer-with-offers.html */ "./src/html/layers/main-layer-with-offers.html").default
+  __webpack_require__(/*! ./../html/layers/main-layer-with-offers.html */ "./src/html/layers/main-layer-with-offers.html").default,
 );
 
 const mainLeader = _.template(
-  __webpack_require__(/*! ./../html/layers/main-leader.html */ "./src/html/layers/main-leader.html").default
+  __webpack_require__(/*! ./../html/layers/main-leader.html */ "./src/html/layers/main-leader.html").default,
 );
 
 const mainCorporateServices = _.template(
-  __webpack_require__(/*! ./../html/layers/main-corporate-services.html */ "./src/html/layers/main-corporate-services.html").default
+  __webpack_require__(/*! ./../html/layers/main-corporate-services.html */ "./src/html/layers/main-corporate-services.html").default,
 );
 
 const mainOurCamps = _.template(
-  __webpack_require__(/*! ./../html/layers/main-our-camps.html */ "./src/html/layers/main-our-camps.html").default
+  __webpack_require__(/*! ./../html/layers/main-our-camps.html */ "./src/html/layers/main-our-camps.html").default,
 );
 
 //social
 const socialNewsLayer = _.template(
-  __webpack_require__(/*! ./../html/layers/social-news.html */ "./src/html/layers/social-news.html").default
+  __webpack_require__(/*! ./../html/layers/social-news.html */ "./src/html/layers/social-news.html").default,
 );
 
 const socialFirstCompositeLayer = _.template(
-  __webpack_require__(/*! ./../html/layers/social-first-composite-layer.html */ "./src/html/layers/social-first-composite-layer.html").default
+  __webpack_require__(/*! ./../html/layers/social-first-composite-layer.html */ "./src/html/layers/social-first-composite-layer.html").default,
 );
 
 const socialWellnessСompanyLayer = _.template(
-  __webpack_require__(/*! ./../html/layers/social-wellness-company.html */ "./src/html/layers/social-wellness-company.html").default
+  __webpack_require__(/*! ./../html/layers/social-wellness-company.html */ "./src/html/layers/social-wellness-company.html").default,
 );
 
 const socialUsefulLinksLayer = _.template(
-  __webpack_require__(/*! ./../html/layers/social-useful-links.html */ "./src/html/layers/social-useful-links.html").default
+  __webpack_require__(/*! ./../html/layers/social-useful-links.html */ "./src/html/layers/social-useful-links.html").default,
 );
 
 const socialFrequentlyQuestionsLayer = _.template(
-  __webpack_require__(/*! ./../html/layers/social-frequently-questions.html */ "./src/html/layers/social-frequently-questions.html").default
+  __webpack_require__(/*! ./../html/layers/social-frequently-questions.html */ "./src/html/layers/social-frequently-questions.html").default,
 );
 
 const socialRecommendationsLayer = _.template(
-  __webpack_require__(/*! ./../html/layers/social-recommendations.html */ "./src/html/layers/social-recommendations.html").default
+  __webpack_require__(/*! ./../html/layers/social-recommendations.html */ "./src/html/layers/social-recommendations.html").default,
 );
 
 const socialAfterReceivingTheVoucher = _.template(
-  __webpack_require__(/*! ./../html/layers/social-after-receiving-the-voucher.html */ "./src/html/layers/social-after-receiving-the-voucher.html").default
+  __webpack_require__(/*! ./../html/layers/social-after-receiving-the-voucher.html */ "./src/html/layers/social-after-receiving-the-voucher.html").default,
 );
 
 const socialQuotaAllocation = _.template(
-  __webpack_require__(/*! ./../html/layers/social-quota-allocation.html */ "./src/html/layers/social-quota-allocation.html").default
+  __webpack_require__(/*! ./../html/layers/social-quota-allocation.html */ "./src/html/layers/social-quota-allocation.html").default,
 );
 
 //tours
 const toursFilter = _.template(
-  __webpack_require__(/*! ./../html/layers/tours-filter.html */ "./src/html/layers/tours-filter.html").default
+  __webpack_require__(/*! ./../html/layers/tours-filter.html */ "./src/html/layers/tours-filter.html").default,
 );
 
 const toursControl = _.template(
-  __webpack_require__(/*! ./../html/layers/tours-control.html */ "./src/html/layers/tours-control.html").default
+  __webpack_require__(/*! ./../html/layers/tours-control.html */ "./src/html/layers/tours-control.html").default,
 );
 
 const advertisingPoint = _.template(
-  __webpack_require__(/*! ./../html/layers/advertising-point.html */ "./src/html/layers/advertising-point.html").default
+  __webpack_require__(/*! ./../html/layers/advertising-point.html */ "./src/html/layers/advertising-point.html").default,
+);
+
+const toursCompositeLayer = _.template(
+  __webpack_require__(/*! ./../html/layers/tours-composite-layer.html */ "./src/html/layers/tours-composite-layer.html").default,
 );
 
 //transfers
 const transfersInfoAboutRaces = _.template(
-  __webpack_require__(/*! ./../html/layers/transfers-info-about-races.html */ "./src/html/layers/transfers-info-about-races.html").default
+  __webpack_require__(/*! ./../html/layers/transfers-info-about-races.html */ "./src/html/layers/transfers-info-about-races.html").default,
 );
 
 const transfersEmptyResultSearch = _.template(
-  __webpack_require__(/*! ./../html/layers/transfers-empty-result-search.html */ "./src/html/layers/transfers-empty-result-search.html").default
+  __webpack_require__(/*! ./../html/layers/transfers-empty-result-search.html */ "./src/html/layers/transfers-empty-result-search.html").default,
 );
 
 //family
 const familyControl = _.template(
-  __webpack_require__(/*! ./../html/layers/family-control.html */ "./src/html/layers/family-control.html").default
+  __webpack_require__(/*! ./../html/layers/family-control.html */ "./src/html/layers/family-control.html").default,
 );
 
 //kids
 const kidsFilter = _.template(
-  __webpack_require__(/*! ./../html/layers/kids-filter.html */ "./src/html/layers/kids-filter.html").default
+  __webpack_require__(/*! ./../html/layers/kids-filter.html */ "./src/html/layers/kids-filter.html").default,
 );
 
 //tours filter
 const toursFilterCompositeLayer = _.template(
-  __webpack_require__(/*! ./../html/layers/tours-filter-composite-layer.html */ "./src/html/layers/tours-filter-composite-layer.html").default
+  __webpack_require__(/*! ./../html/layers/tours-filter-composite-layer.html */ "./src/html/layers/tours-filter-composite-layer.html").default,
 );
 
 
@@ -18582,13 +18618,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _layers_social_quota_allocation_js__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./layers/social-quota-allocation.js */ "./src/js/layers/social-quota-allocation.js");
 /* harmony import */ var _layers_tours_filter_js__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./layers/tours-filter.js */ "./src/js/layers/tours-filter.js");
 /* harmony import */ var _layers_tours_control_js__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./layers/tours-control.js */ "./src/js/layers/tours-control.js");
-/* harmony import */ var _layers_transfers_info_about_races_js__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./layers/transfers-info-about-races.js */ "./src/js/layers/transfers-info-about-races.js");
-/* harmony import */ var _layers_transfers_empty_result_search_js__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./layers/transfers-empty-result-search.js */ "./src/js/layers/transfers-empty-result-search.js");
-/* harmony import */ var _layers_family_control_js__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./layers/family-control.js */ "./src/js/layers/family-control.js");
-/* harmony import */ var _layers_kids_filter_js__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./layers/kids-filter.js */ "./src/js/layers/kids-filter.js");
-/* harmony import */ var _layers_tours_filter_composite_layer_js__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./layers/tours-filter-composite-layer.js */ "./src/js/layers/tours-filter-composite-layer.js");
+/* harmony import */ var _layers_tours_composite_layer_js__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./layers/tours-composite-layer.js */ "./src/js/layers/tours-composite-layer.js");
+/* harmony import */ var _layers_transfers_info_about_races_js__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./layers/transfers-info-about-races.js */ "./src/js/layers/transfers-info-about-races.js");
+/* harmony import */ var _layers_transfers_empty_result_search_js__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./layers/transfers-empty-result-search.js */ "./src/js/layers/transfers-empty-result-search.js");
+/* harmony import */ var _layers_family_control_js__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./layers/family-control.js */ "./src/js/layers/family-control.js");
+/* harmony import */ var _layers_kids_filter_js__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./layers/kids-filter.js */ "./src/js/layers/kids-filter.js");
+/* harmony import */ var _layers_tours_filter_composite_layer_js__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./layers/tours-filter-composite-layer.js */ "./src/js/layers/tours-filter-composite-layer.js");
 
-const path = "./../html/includes/";
+const path = './../html/includes/';
 
 
 
@@ -18626,6 +18663,7 @@ const path = "./../html/includes/";
 
 
 
+
 //transfers
 
 
@@ -18638,351 +18676,27 @@ const path = "./../html/includes/";
 //tours filter
 
 
-const header = document.body.querySelector(".header");
-const content = document.body.querySelector(".content");
-const footer = document.body.querySelector(".footer");
+const header = document.body.querySelector('.header');
+const content = document.body.querySelector('.content');
+const footer = document.body.querySelector('.footer');
 
-/* -------------------- Вставка блоков ---------------------- */
+//-----Сборка main страницы
+header.innerHTML = Object(_layers_header_layer_js__WEBPACK_IMPORTED_MODULE_2__["default"])('main');
+const result =
+  _layers_main_news_js__WEBPACK_IMPORTED_MODULE_9__["default"] +
+  _layers_main_first_composite_layer_js__WEBPACK_IMPORTED_MODULE_10__["default"] +
+  _layers_main_second_composite_layer_js__WEBPACK_IMPORTED_MODULE_11__["default"] +
+  _layers_main_about_mosgortur_js__WEBPACK_IMPORTED_MODULE_12__["default"] +
+  _layers_main_layer_with_offers_js__WEBPACK_IMPORTED_MODULE_13__["default"] +
+  _layers_mailing_js__WEBPACK_IMPORTED_MODULE_4__["default"] +
+  _layers_main_leader_js__WEBPACK_IMPORTED_MODULE_14__["default"] +
+  _layers_main_third_composite_layer_js__WEBPACK_IMPORTED_MODULE_15__["default"] +
+  _layers_main_corporate_services_js__WEBPACK_IMPORTED_MODULE_16__["default"] +
+  _layers_main_our_camps_js__WEBPACK_IMPORTED_MODULE_17__["default"];
 
-//----- DONE! Вставка блока с видеоотзывами
-const videoReviewData = {
-  caption: true,
-  captionWithIcon: _common_js__WEBPACK_IMPORTED_MODULE_1__["captionWithIcon"],
-  captionWithIconData: {
-    className: "_row _a-center",
-    imgName: "video",
-    text: "Видеоотзывы"
-  }
-};
-const videoReviewContainer = document.createElement("div");
-videoReviewContainer.innerHTML = Object(_common_js__WEBPACK_IMPORTED_MODULE_1__["videoReview"])(videoReviewData);
-//content.appendChild(videoReviewContainer);
-
-//---- DONE!Вставка блока с предложением у которого 3 состояния
-const offerCardItemData = {
-  className: "_state-1"
-  /* caption: true,
-  captionWithIcon,
-  captionWithIconData: {
-    className: '_row _a-center',
-    imgName: 'video',
-    text: 'Видеоотзывы',
-  }, */
-};
-const offerCardItemContainer = document.createElement("div");
-offerCardItemContainer.innerHTML = Object(_common_js__WEBPACK_IMPORTED_MODULE_1__["offerCardItem"])(offerCardItemData);
-//content.appendChild(offerCardItemContainer);
-
-//-------- Вставка блока с новостями
-const newsBlockData = {
-  className: "_with-caption _button", //для главного блока
-  blockClassName: "_row _j-between", //для блока news__block
-  //caption
-  caption: true,
-  captionWithIcon: _common_js__WEBPACK_IMPORTED_MODULE_1__["captionWithIcon"],
-  captionWithIconData: {
-    className: "_row _a-center",
-    width: "23px",
-    height: "15px",
-    imgName: "news",
-    text: "Важная информация"
-  },
-  //newsItem
-  newsItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["newsItem"],
-  newsItemData: [
-    {
-      className: "_row",
-      date: "01.02.2019",
-      time: "14:10",
-      text: "Результаты распределения квот на отдых 2019"
-    },
-    {
-      className: "_row",
-      date: "01.02.2019",
-      time: "14:10",
-      text: "Результаты распределения квот на отдых 2019"
-    },
-    {
-      className: "_row",
-      date: "01.02.2019",
-      time: "14:10",
-      text: "Результаты распределения квот на отдых 2019"
-    }
-  ]
-};
-
-//const newsContainer = document.createElement('div');
-//newsContainer.innerHTML = newsBlock(newsBlockData);
-
-//-------- Вставка блока с вертикальными новостями и картинкой
-const verticalNewsBlockData = {
-  className: "_with-caption", //для главного блока
-  blockClassName: "_row _j-between", //для блока news__block
-  //img
-  img: true,
-  //caption
-  caption: true,
-  captionWithIcon: _common_js__WEBPACK_IMPORTED_MODULE_1__["captionWithIcon"],
-  captionWithIconData: {
-    className: "_row _a-center",
-    width: "23px",
-    height: "15px",
-    imgName: "news",
-    text: "Важная информация"
-  },
-  //newsItem
-  newsItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["newsItem"],
-  newsItemData: [
-    {
-      className: "_row",
-      date: "01.02.2019",
-      time: "14:10",
-      text: "Результаты распределения квот на отдых 2019"
-    },
-    {
-      className: "_row",
-      date: "01.02.2019",
-      time: "14:10",
-      text: "Результаты распределения квот на отдых 2019"
-    },
-    {
-      className: "_row",
-      date: "01.02.2019",
-      time: "14:10",
-      text: "Результаты распределения квот на отдых 2019"
-    }
-  ]
-};
-//const verticalNewsContainer = document.createElement('div');
-//verticalNewsContainer.innerHTML = verticalNewsBlock(verticalNewsBlockData);
-
-//-------- DONE! Вставка блока с заездами
-const arrivalsContainerData = {
-  className: "", //для главного блока
-  blockClassName: "_row _j-between", //для блока news__block
-  //caption
-  caption: true,
-  captionWithIcon: _common_js__WEBPACK_IMPORTED_MODULE_1__["captionWithIcon"],
-  captionWithIconData: {
-    className: "_row _a-center",
-    width: "32px",
-    height: "16px",
-    imgName: "car",
-    text: "информация о заездах сегодня"
-  },
-
-  //arrivalsBlock
-  arrivalsBlock: _common_js__WEBPACK_IMPORTED_MODULE_1__["arrivalsBlock"],
-  arrivalsBlockData: [
-    {
-      caption: "ЗАЕЗДЫ —20–27 ИЮНЯ 2019",
-      arrivalItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["arrivalItem"],
-      arrivalItems: [
-        {
-          className: "_column",
-          date: "01.02.2019",
-          time: "14:10",
-          address: "Результаты распределения квот на отдых 2019",
-          city: "адлер"
-        },
-        {
-          className: "_column",
-          date: "01.02.2019",
-          time: "14:10",
-          address: "Результаты распределения квот на отдых 2019",
-          city: "адлер"
-        }
-      ]
-    },
-    {
-      caption: "ВЫЕЗДЫ —20–27 ИЮНЯ 2019",
-      arrivalItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["arrivalItem"],
-      arrivalItems: [
-        {
-          className: "_column",
-          date: "01.02.2019",
-          time: "14:10",
-          address: "Результаты распределения квот на отдых 2019",
-          city: "адлер"
-        },
-        {
-          className: "_column",
-          date: "01.02.2019",
-          time: "14:10",
-          address: "Результаты распределения квот на отдых 2019",
-          city: "адлер"
-        }
-      ]
-    }
-  ]
-};
-
-//const arrivalsWrapper = document.createElement('div');
-//arrivalsWrapper.innerHTML = arrivalsContainer(arrivalsContainerData);
-
-//------- DONE! Вставка блока с важной информацией
-const importantInfoBlockData = {
-  infoSimpleCard: _common_js__WEBPACK_IMPORTED_MODULE_1__["infoSimpleCard"],
-  infoSimpleCardsData: [
-    {
-      innerElementOfInfoCard: _common_js__WEBPACK_IMPORTED_MODULE_1__["innerElementOfInfoCard"],
-      innerElementData: {
-        caption: true,
-        captionWithIcon: _common_js__WEBPACK_IMPORTED_MODULE_1__["captionWithIcon"],
-        captionWithIconData: {
-          className: "_column _a-center _circle-icon-border",
-          imgName: "respect",
-          text: "Как получить льготу"
-        },
-        description: false
-      },
-      backSide: true, //включает и выключает обратную сторону карточки при наведении
-      backCaptionText: "Как получить льготу",
-      backText:
-        "Заявление о предоставлении услуг отдыха и оздоровления может подать родитель (иной законный представитель) или доверенное лицо на совершение действий в период проведения заявочной кампании."
-    },
-    {
-      innerElementOfInfoCard: _common_js__WEBPACK_IMPORTED_MODULE_1__["innerElementOfInfoCard"],
-      innerElementData: {
-        caption: true,
-        captionWithIcon: _common_js__WEBPACK_IMPORTED_MODULE_1__["captionWithIcon"],
-        captionWithIconData: {
-          className: "_column _a-center _circle-icon-border",
-          imgName: "sun",
-          text: "Квоты на отдых и оздоровление в 2019 году"
-        },
-        description: false
-      },
-      backSide: false //включает и выключает обратную сторону карточки при наведении
-    },
-    {
-      innerElementOfInfoCard: _common_js__WEBPACK_IMPORTED_MODULE_1__["innerElementOfInfoCard"],
-      innerElementData: {
-        caption: true,
-        captionWithIcon: _common_js__WEBPACK_IMPORTED_MODULE_1__["captionWithIcon"],
-        captionWithIconData: {
-          className: "_column _a-center _circle-icon-border",
-          imgName: "wallet",
-          text: "Порядок выплаты частичной компенсации"
-        },
-        description: false
-      },
-      backSide: false //включает и выключает обратную сторону карточки при наведении
-    },
-    {
-      innerElementOfInfoCard: _common_js__WEBPACK_IMPORTED_MODULE_1__["innerElementOfInfoCard"],
-      innerElementData: {
-        caption: true,
-        captionWithIcon: _common_js__WEBPACK_IMPORTED_MODULE_1__["captionWithIcon"],
-        captionWithIconData: {
-          className: "_column _a-center _circle-icon-border",
-          imgName: "people",
-          text: "Список льготных категорий"
-        },
-        description: false
-      },
-      backSide: false //включает и выключает обратную сторону карточки при наведении
-    },
-    {
-      innerElementOfInfoCard: _common_js__WEBPACK_IMPORTED_MODULE_1__["innerElementOfInfoCard"],
-      innerElementData: {
-        caption: true,
-        captionWithIcon: _common_js__WEBPACK_IMPORTED_MODULE_1__["captionWithIcon"],
-        captionWithIconData: {
-          className: "_column _a-center _circle-icon-border",
-          imgName: "lodge",
-          text: "Бесплатные путевки в Орленок для одаренных детей"
-        },
-        description: false
-      },
-      backSide: false //включает и выключает обратную сторону карточки при наведении
-    },
-    {
-      innerElementOfInfoCard: _common_js__WEBPACK_IMPORTED_MODULE_1__["innerElementOfInfoCard"],
-      innerElementData: {
-        caption: true,
-        captionWithIcon: _common_js__WEBPACK_IMPORTED_MODULE_1__["captionWithIcon"],
-        captionWithIconData: {
-          className: "_column _a-center _circle-icon-border",
-          imgName: "blanks",
-          text:
-            "Постановление Правительства Москвы № 56-ПП «Об организации отдыха и оздоровления детей, находящихся в трудной жизненной ситуации» (в актуальной редакции от 18 октября 2018 г.)"
-        },
-        description: false
-      },
-      backSide: false //включает и выключает обратную сторону карточки при наведении
-    }
-  ]
-};
-
-//const importantInfoWrapper = document.createElement('div');
-//importantInfoWrapper.innerHTML = importantInfoBlock(importantInfoBlockData);
-
-//------- DONE! Вставка блока с этапами заявочной компании
-//content.innerHTML = wellnessСompanyLayerTemplate;
-
-//------ DONE! Блок бронирования дополнительных услуг и мест
-const additionalBookingBlockData = {
-  caption: true,
-  captionWithIcon: _common_js__WEBPACK_IMPORTED_MODULE_1__["captionWithIcon"],
-  captionWithIconData: {
-    className: "_column _a-center",
-    imgName: "calendar",
-    text: "Бронирование дополнительных мест и услуг"
-  },
-  description: false,
-  materialInput: _common_js__WEBPACK_IMPORTED_MODULE_1__["materialInput"],
-  materialInputData: [{ text: "Номер путевки" }, { text: "Фамилия заявителя" }]
-};
-//const additionalBookingBlockWrapper = document.createElement('div');
-/* additionalBookingBlockWrapper.innerHTML = additionalBookingBlock(
-  additionalBookingBlockData,
-); */
-
-//------- DONE! Блок ответа на частые вопросы
-//content.innerHTML = frequentlyQuestionsLayerTemplate;
-
-// ----- DONE! Вставка блока полезных ссылок
-//content.innerHTML = usefulLinksLayerTemplate;
-
-//------ DONE! Вставка блока рекомендаций
-//content.innerHTML = recommendationsLayerTemplate;
-
-//Вставка шапки пиздец!
-//content.innerHTML = headerLayerTemplate;
-
-//content.innerHTML = result;
-
-//content.appendChild(newsContainer);
-
-//content.appendChild(verticalNewsContainer);
-
-//content.appendChild(arrivalsWrapper);
-
-//content.appendChild(importantInfoWrapper);
-
-//content.appendChild(wellnessСompanyWrapper);
-
-//content.appendChild(additionalBookingBlockWrapper);
-
-//Сборка main страницы
-/* const result =
-  headerLayerTemplate +
-  mainNewsLayerTemplate +
-  mainFirstCompositeLayerTemplate +
-  mainSecondCompositeLayerTemplate +
-  mainAboutMosgorturLayerTemplate +
-  mainLayerWithOffersTemplate +
-  mailingLayerTemplate +
-  mainLeaderTemplate +
-  mainThirdCompositeLayerTemplate +
-  mainCorporateServicesTemplate +
-  mainOurCampsTemplate +
-  footerTemplate; */
-
-//Сборка страницы social
-/* const result =
-  headerLayerTemplate +
+//---- Сборка страницы social
+/* header.innerHTML = getTemplate("social");
+const result =
   socialFirstCompositeLayerTemplate +
   socialNewsLayerTemplate +
   socialWellnessСompanyLayerTemplate +
@@ -18990,29 +18704,349 @@ const additionalBookingBlockData = {
   socialQuotaAllocationTemplate +
   socialAfterReceivingTheVoucherTemplate +
   socialFrequentlyQuestionsLayerTemplate +
-  socialRecommendationsLayerTemplate +
-  footerTemplate; */
+  socialRecommendationsLayerTemplate; */
 
-/* const result =
-  getTemplate("toursBig") +
-  advertisingPointTemplate +
-  offersChildHolidayCompositeTemplate +
+//---- сборка страницы tours
+/* header.innerHTML = getTemplate('tours');
+const result =
   toursFilterTemplate +
-  previouslyViewedOffers +
-  transfersInfoAboutRacesTemplate +
-  kidsFilterTemplate +
-  footerTemplate; */
+  toursCompositeLayerTemplate +
+  mailingLayerTemplate +
+  guaranteesTemplate +
+  previouslyViewedOffers; */
 
-//Сборка страницы transfers с таблицей
+//---- сборка страницы tours-filter
+/* header.innerHTML = getTemplate('toursBig');
+const result =
+  toursFilterCompositeLayerTemplate +
+  mailingLayerTemplate +
+  previouslyViewedOffers;
+ */
+
+//---- сборка страницыTours + search results
+/* header.innerHTML = getTemplate('toursSimple');
+const result =
+  toursControlTemplate +
+  offersChildHolidayCompositeTemplate +
+  mailingLayerTemplate +
+  previouslyViewedOffers; */
+
+//---- сборка страницы Family vacation
+/* 
+header.innerHTML = getTemplate('familyBig');
+const result =
+  toursFilterCompositeLayerTemplate +
+  mailingLayerTemplate +
+  guaranteesTemplate +
+  previouslyViewedOffers; */
+
+//---- сборка страницы Family vacation + search results
+/* header.innerHTML = getTemplate('family');
+const result =
+  familyControlTemplate +
+  offersChildHolidayCompositeTemplate +
+  mailingLayerTemplate +
+  previouslyViewedOffers; */
+
+//---- сборка страницы Kids vacation
+/* header.innerHTML = getTemplate('kids');
+const result =
+  kidsFilterTemplate +
+  toursFilterCompositeLayerTemplate +
+  mailingLayerTemplate +
+  guaranteesTemplate +
+  previouslyViewedOffers; */
+
+//---- сборка страницы Kids vacation - filters
+/* header.innerHTML = getTemplate('kidsBig');
+const result =
+  kidsFilterTemplate +
+  toursFilterCompositeLayerTemplate +
+  mailingLayerTemplate +
+  guaranteesTemplate +
+  previouslyViewedOffers; */
+
+//---- сборка страницы Kids vacation + search results
+/* header.innerHTML = getTemplate('kids');
+const result =
+  familyControlTemplate +
+  offersChildHolidayCompositeTemplate +
+  mailingLayerTemplate +
+  previouslyViewedOffers; */
+
+//---- Сборка страницы transfers с таблицей
 //header.innerHTML = getTemplate("transfers");
 //const result = transfersInfoAboutRacesTemplate + previouslyViewedOffers;
 
 //---- Сборка страницы transfers с нулевым результатом поиска
-header.innerHTML = Object(_layers_header_layer_js__WEBPACK_IMPORTED_MODULE_2__["default"])("transfers");
-const result = _layers_transfers_empty_result_search_js__WEBPACK_IMPORTED_MODULE_29__["default"] + _layers_previously_viewed_offers_js__WEBPACK_IMPORTED_MODULE_6__["default"];
+//header.innerHTML = getTemplate("transfers");
+//const result = transfersEmptyResultSearchTemplate + previouslyViewedOffers;
 
 content.innerHTML = result;
 footer.innerHTML = _layers_footer_js__WEBPACK_IMPORTED_MODULE_3__["default"];
+
+/* -------------------- Вставка блоков ---------------------- */
+
+/* //----- DONE! Вставка блока с видеоотзывами
+const videoReviewData = {
+  caption: true,
+  captionWithIcon,
+  captionWithIconData: {
+    className: '_row _a-center',
+    imgName: 'video',
+    text: 'Видеоотзывы',
+  },
+};
+
+
+//-------- Вставка блока с новостями
+const newsBlockData = {
+  className: '_with-caption _button', //для главного блока
+  blockClassName: '_row _j-between', //для блока news__block
+  //caption
+  caption: true,
+  captionWithIcon,
+  captionWithIconData: {
+    className: '_row _a-center',
+    width: '23px',
+    height: '15px',
+    imgName: 'news',
+    text: 'Важная информация',
+  },
+  //newsItem
+  newsItem,
+  newsItemData: [
+    {
+      className: '_row',
+      date: '01.02.2019',
+      time: '14:10',
+      text: 'Результаты распределения квот на отдых 2019',
+    },
+    {
+      className: '_row',
+      date: '01.02.2019',
+      time: '14:10',
+      text: 'Результаты распределения квот на отдых 2019',
+    },
+    {
+      className: '_row',
+      date: '01.02.2019',
+      time: '14:10',
+      text: 'Результаты распределения квот на отдых 2019',
+    },
+  ],
+};
+
+//-------- Вставка блока с вертикальными новостями и картинкой
+const verticalNewsBlockData = {
+  className: '_with-caption', //для главного блока
+  blockClassName: '_row _j-between', //для блока news__block
+  //img
+  img: true,
+  //caption
+  caption: true,
+  captionWithIcon,
+  captionWithIconData: {
+    className: '_row _a-center',
+    width: '23px',
+    height: '15px',
+    imgName: 'news',
+    text: 'Важная информация',
+  },
+  //newsItem
+  newsItem,
+  newsItemData: [
+    {
+      className: '_row',
+      date: '01.02.2019',
+      time: '14:10',
+      text: 'Результаты распределения квот на отдых 2019',
+    },
+    {
+      className: '_row',
+      date: '01.02.2019',
+      time: '14:10',
+      text: 'Результаты распределения квот на отдых 2019',
+    },
+    {
+      className: '_row',
+      date: '01.02.2019',
+      time: '14:10',
+      text: 'Результаты распределения квот на отдых 2019',
+    },
+  ],
+};
+
+//-------- DONE! Вставка блока с заездами
+const arrivalsContainerData = {
+  className: '', //для главного блока
+  blockClassName: '_row _j-between', //для блока news__block
+  //caption
+  caption: true,
+  captionWithIcon,
+  captionWithIconData: {
+    className: '_row _a-center',
+    width: '32px',
+    height: '16px',
+    imgName: 'car',
+    text: 'информация о заездах сегодня',
+  },
+
+  //arrivalsBlock
+  arrivalsBlock,
+  arrivalsBlockData: [
+    {
+      caption: 'ЗАЕЗДЫ —20–27 ИЮНЯ 2019',
+      arrivalItem,
+      arrivalItems: [
+        {
+          className: '_column',
+          date: '01.02.2019',
+          time: '14:10',
+          address: 'Результаты распределения квот на отдых 2019',
+          city: 'адлер',
+        },
+        {
+          className: '_column',
+          date: '01.02.2019',
+          time: '14:10',
+          address: 'Результаты распределения квот на отдых 2019',
+          city: 'адлер',
+        },
+      ],
+    },
+    {
+      caption: 'ВЫЕЗДЫ —20–27 ИЮНЯ 2019',
+      arrivalItem,
+      arrivalItems: [
+        {
+          className: '_column',
+          date: '01.02.2019',
+          time: '14:10',
+          address: 'Результаты распределения квот на отдых 2019',
+          city: 'адлер',
+        },
+        {
+          className: '_column',
+          date: '01.02.2019',
+          time: '14:10',
+          address: 'Результаты распределения квот на отдых 2019',
+          city: 'адлер',
+        },
+      ],
+    },
+  ],
+};
+
+//------- DONE! Вставка блока с важной информацией
+const importantInfoBlockData = {
+  infoSimpleCard,
+  infoSimpleCardsData: [
+    {
+      innerElementOfInfoCard,
+      innerElementData: {
+        caption: true,
+        captionWithIcon,
+        captionWithIconData: {
+          className: '_column _a-center _circle-icon-border',
+          imgName: 'respect',
+          text: 'Как получить льготу',
+        },
+        description: false,
+      },
+      backSide: true, //включает и выключает обратную сторону карточки при наведении
+      backCaptionText: 'Как получить льготу',
+      backText:
+        'Заявление о предоставлении услуг отдыха и оздоровления может подать родитель (иной законный представитель) или доверенное лицо на совершение действий в период проведения заявочной кампании.',
+    },
+    {
+      innerElementOfInfoCard,
+      innerElementData: {
+        caption: true,
+        captionWithIcon,
+        captionWithIconData: {
+          className: '_column _a-center _circle-icon-border',
+          imgName: 'sun',
+          text: 'Квоты на отдых и оздоровление в 2019 году',
+        },
+        description: false,
+      },
+      backSide: false, //включает и выключает обратную сторону карточки при наведении
+    },
+    {
+      innerElementOfInfoCard,
+      innerElementData: {
+        caption: true,
+        captionWithIcon,
+        captionWithIconData: {
+          className: '_column _a-center _circle-icon-border',
+          imgName: 'wallet',
+          text: 'Порядок выплаты частичной компенсации',
+        },
+        description: false,
+      },
+      backSide: false, //включает и выключает обратную сторону карточки при наведении
+    },
+    {
+      innerElementOfInfoCard,
+      innerElementData: {
+        caption: true,
+        captionWithIcon,
+        captionWithIconData: {
+          className: '_column _a-center _circle-icon-border',
+          imgName: 'people',
+          text: 'Список льготных категорий',
+        },
+        description: false,
+      },
+      backSide: false, //включает и выключает обратную сторону карточки при наведении
+    },
+    {
+      innerElementOfInfoCard,
+      innerElementData: {
+        caption: true,
+        captionWithIcon,
+        captionWithIconData: {
+          className: '_column _a-center _circle-icon-border',
+          imgName: 'lodge',
+          text: 'Бесплатные путевки в Орленок для одаренных детей',
+        },
+        description: false,
+      },
+      backSide: false, //включает и выключает обратную сторону карточки при наведении
+    },
+    {
+      innerElementOfInfoCard,
+      innerElementData: {
+        caption: true,
+        captionWithIcon,
+        captionWithIconData: {
+          className: '_column _a-center _circle-icon-border',
+          imgName: 'blanks',
+          text:
+            'Постановление Правительства Москвы № 56-ПП «Об организации отдыха и оздоровления детей, находящихся в трудной жизненной ситуации» (в актуальной редакции от 18 октября 2018 г.)',
+        },
+        description: false,
+      },
+      backSide: false, //включает и выключает обратную сторону карточки при наведении
+    },
+  ],
+};
+
+//------ DONE! Блок бронирования дополнительных услуг и мест
+const additionalBookingBlockData = {
+  caption: true,
+  captionWithIcon,
+  captionWithIconData: {
+    className: '_column _a-center',
+    imgName: 'calendar',
+    text: 'Бронирование дополнительных мест и услуг',
+  },
+  description: false,
+  materialInput,
+  materialInputData: [{ text: 'Номер путевки' }, { text: 'Фамилия заявителя' }],
+};
+ */
 
 
 /***/ }),
@@ -19197,193 +19231,200 @@ __webpack_require__.r(__webpack_exports__);
 
 const data = {
   main: {
-    className: "_main",
+    className: '_main',
     contentItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["contentHeaderMain"],
     contentItemData: {
-      className: "_main _border-bottom"
-    }
+      className: '_main _border-bottom',
+    },
   },
   social: {
-    className: "_main",
+    className: '_main',
     contentItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["contentHeaderMain"],
     contentItemData: {
-      className: "_main _border-bottom"
-    }
+      className: '_main _border-bottom',
+    },
+  },
+  toursSimple: {
+    className: '_tours',
+    contentItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["contentHeaderToursSimple"],
+    contentItemData: {
+      className: '_tours',
+    },
   },
   tours: {
-    className: "_tours",
+    className: '_tours',
     contentItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["contentHeaderTours"],
     contentItemData: {
-      className: "_tours",
+      className: '_tours',
       customInput: _common_js__WEBPACK_IMPORTED_MODULE_1__["customInput"],
       customInputData: {
-        className: "",
-        labelText: "",
-        placeholderText: "Поиск услуги"
-      }
-    }
+        className: '',
+        labelText: '',
+        placeholderText: 'Поиск услуги',
+      },
+    },
   },
   toursBig: {
-    className: "_tours-big",
+    className: '_tours-big',
     contentItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["contentHeaderToursBig"],
     contentItemData: {
-      className: "_tours-big",
+      className: '_tours-big',
       customSelector: _common_js__WEBPACK_IMPORTED_MODULE_1__["customSelector"],
       customSelectorData: [
         {
-          arrow: "_white-arrow",
-          className: "_white _lg",
-          textLabel: "Продолжительность"
+          arrow: '_white-arrow',
+          className: '_white _lg',
+          textLabel: 'Продолжительность',
         },
         {
-          arrow: "_white-arrow",
-          className: "_white _lg",
-          textLabel: "Аудитория"
+          arrow: '_white-arrow',
+          className: '_white _lg',
+          textLabel: 'Аудитория',
         },
-        { arrow: "_white-arrow", className: "_white _lg", textLabel: "Регион" },
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Регион' },
         {
-          arrow: "_white-arrow",
-          className: "_white _lg",
-          textLabel: "Стоимость"
+          arrow: '_white-arrow',
+          className: '_white _lg',
+          textLabel: 'Стоимость',
         },
-        { arrow: "_white-arrow", className: "_white _lg", textLabel: "Акции" }
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Акции' },
       ],
       customInput: _common_js__WEBPACK_IMPORTED_MODULE_1__["customInput"],
       customInputData: {
-        className: "",
-        labelText: "",
-        placeholderText: "Поиск услуги"
-      }
-    }
+        className: '',
+        labelText: '',
+        placeholderText: 'Поиск услуги',
+      },
+    },
   },
   transfers: {
-    className: "_transfers",
+    className: '_transfers',
     contentItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["contentHeaderTransfers"],
     contentItemData: {
-      className: "_transfers",
+      className: '_transfers',
       customSelector: _common_js__WEBPACK_IMPORTED_MODULE_1__["customSelector"],
       customSelectorData: {
-        arrow: "_white-arrow",
-        className: "_white _md",
-        textLabel: "Продолжительность"
+        arrow: '_white-arrow',
+        className: '_white _md',
+        textLabel: 'Продолжительность',
       },
       customInput: _common_js__WEBPACK_IMPORTED_MODULE_1__["customInput"],
       customInputData: {
-        className: "_label",
-        labelText: "Название лагеря",
-        placeholderText: "Все лагеря"
+        className: '_label',
+        labelText: 'Название лагеря',
+        placeholderText: 'Все лагеря',
       },
       customDatepicker: _common_js__WEBPACK_IMPORTED_MODULE_1__["customDatepicker"],
       customDatepickerData: {
-        labelText: "Даты"
-      }
-    }
+        labelText: 'Даты',
+      },
+    },
   },
   kids: {
-    className: "_kids",
+    className: '_kids',
     contentItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["contentHeaderKids"],
     contentItemData: {
-      className: "_kids",
+      className: '_kids',
       customSelector: _common_js__WEBPACK_IMPORTED_MODULE_1__["customSelector"],
       customSelectorData: [
-        { arrow: "_white-arrow", className: "_white _lg", textLabel: "Тип" },
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Тип' },
         {
-          arrow: "_white-arrow",
-          className: "_white _lg",
-          textLabel: "Направление"
+          arrow: '_white-arrow',
+          className: '_white _lg',
+          textLabel: 'Направление',
         },
         {
-          arrow: "_white-arrow",
-          className: "_white _lg",
-          textLabel: "Месяц заезда"
+          arrow: '_white-arrow',
+          className: '_white _lg',
+          textLabel: 'Месяц заезда',
         },
-        { arrow: "_white-arrow", className: "_white _sm", textLabel: "Кол-во" }
-      ]
-    }
+        { arrow: '_white-arrow', className: '_white _sm', textLabel: 'Кол-во' },
+      ],
+    },
   },
   kidsBig: {
-    className: "_kids-big",
+    className: '_kids-big',
     contentItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["contentHeaderKidsBig"],
     contentItemData: {
-      className: "_kids-big",
+      className: '_kids-big',
       customSelector: _common_js__WEBPACK_IMPORTED_MODULE_1__["customSelector"],
       firstSelectorData: [
-        { arrow: "_white-arrow", className: "_white _lg", textLabel: "Тип" },
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Тип' },
         {
-          arrow: "_white-arrow",
-          className: "_white _lg",
-          textLabel: "Направление"
+          arrow: '_white-arrow',
+          className: '_white _lg',
+          textLabel: 'Направление',
         },
         {
-          arrow: "_white-arrow",
-          className: "_white _lg",
-          textLabel: "Месяц заезда"
+          arrow: '_white-arrow',
+          className: '_white _lg',
+          textLabel: 'Месяц заезда',
         },
-        { arrow: "_white-arrow", className: "_white _sm", textLabel: "Кол-во" }
+        { arrow: '_white-arrow', className: '_white _sm', textLabel: 'Кол-во' },
       ],
       secondSelectorData: [
-        { arrow: "_white-arrow", className: "_white _lg", textLabel: "Лагерь" },
-        { arrow: "_white-arrow", className: "_white _lg", textLabel: "Смена" },
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Лагерь' },
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Смена' },
         {
-          arrow: "_white-arrow",
-          className: "_white _lg",
-          textLabel: "Тематика"
-        }
-      ]
-    }
+          arrow: '_white-arrow',
+          className: '_white _lg',
+          textLabel: 'Тематика',
+        },
+      ],
+    },
   },
   familyBig: {
-    className: "_family-big",
+    className: '_family-big',
     contentItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["contentHeaderFamilyBig"],
     contentItemData: {
-      className: "_family-big",
+      className: '_family-big',
       customSelector: _common_js__WEBPACK_IMPORTED_MODULE_1__["customSelector"],
       firstSelectorData: [
-        { arrow: "_white-arrow", className: "_white _lg", textLabel: "Страна" },
-        { arrow: "_white-arrow", className: "_white _lg", textLabel: "Регион" },
-        { arrow: "_white-arrow", className: "_white _lg", textLabel: "Отель" },
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Страна' },
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Регион' },
+        { arrow: '_white-arrow', className: '_white _lg', textLabel: 'Отель' },
         {
-          arrow: "_white-arrow",
-          className: "_white _sm",
-          textLabel: "Дата въезда"
+          arrow: '_white-arrow',
+          className: '_white _sm',
+          textLabel: 'Дата въезда',
         },
         {
-          arrow: "_white-arrow",
-          className: "_white _sm",
-          textLabel: "Дата выезда"
-        }
+          arrow: '_white-arrow',
+          className: '_white _sm',
+          textLabel: 'Дата выезда',
+        },
       ],
       secondSelectorData: [
         {
-          arrow: "_white-arrow",
-          className: "_white _lg",
-          textLabel: "Отдыхающих"
+          arrow: '_white-arrow',
+          className: '_white _lg',
+          textLabel: 'Отдыхающих',
         },
         {
-          arrow: "_white-arrow",
-          className: "_white _lg",
-          textLabel: "Питание"
+          arrow: '_white-arrow',
+          className: '_white _lg',
+          textLabel: 'Питание',
         },
         {
-          arrow: "_white-arrow",
-          className: "_white _sm",
-          textLabel: "Цена от"
+          arrow: '_white-arrow',
+          className: '_white _sm',
+          textLabel: 'Цена от',
         },
         {
-          arrow: "_white-arrow",
-          className: "_white _sm",
-          textLabel: "Цена до"
-        }
-      ]
-    }
+          arrow: '_white-arrow',
+          className: '_white _sm',
+          textLabel: 'Цена до',
+        },
+      ],
+    },
   },
   family: {
-    className: "_family",
+    className: '_family',
     contentItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["contentHeaderFamily"],
     contentItemData: {
-      className: "_family"
-    }
-  }
+      className: '_family',
+    },
+  },
 };
 
 //передать можно
@@ -20064,36 +20105,37 @@ __webpack_require__.r(__webpack_exports__);
 
 /*  <span class='result-marker'></span><span class='result-count'>20<span> */
 const topOffersData = {
-  className: "", //для главного блока
-  blockClassName: "_row _j-between", //для блока news__block
+  className: '', //для главного блока
+  blockClassName: '_row _j-between', //для блока news__block
   //caption
   caption: true,
   captionWithIcon: _common_js__WEBPACK_IMPORTED_MODULE_1__["captionWithIcon"],
   captionWithIconData: {
-    className: "_row _a-center",
-    imgName: "search",
-    text: "Найдено"
+    className: '_row _a-center',
+    imgName: 'search',
+    text: 'Найдено',
   },
 
   offerCardItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["offerCardItem"],
   offerCardItemsData: [
-    { className: "_state-2" },
-    { className: "_state-2" },
-    { className: "_state-2" },
-    { className: "_state-2" },
-    { className: "_state-2" },
-    { className: "_state-2" }
-  ]
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+  ],
 };
 
 const childrenHolidayData = {
-  className: "",
+  blockClassName: '',
+  className: '',
   offerCardItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["offerCardItem"],
   offerCardItemsData: [
-    { className: "_state-2" },
-    { className: "_state-2" },
-    { className: "_state-2" }
-  ]
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+  ],
 };
 
 const data = {
@@ -20101,7 +20143,7 @@ const data = {
   topOffersData,
   childrenHolidayData,
   childrenHolidayBlock: _common_js__WEBPACK_IMPORTED_MODULE_1__["childrenHolidayBlock"],
-  pagination: _common_js__WEBPACK_IMPORTED_MODULE_1__["pagination"]
+  pagination: _common_js__WEBPACK_IMPORTED_MODULE_1__["pagination"],
 };
 
 const template = Object(_common_js__WEBPACK_IMPORTED_MODULE_1__["offersChildHolidayCompositeLayer"])(data);
@@ -20937,6 +20979,75 @@ const template = Object(_common_js__WEBPACK_IMPORTED_MODULE_1__["socialWellness�
 
 /***/ }),
 
+/***/ "./src/js/layers/tours-composite-layer.js":
+/*!************************************************!*\
+  !*** ./src/js/layers/tours-composite-layer.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _common_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common.js */ "./src/js/common.js");
+
+
+
+
+/*  <span class='result-marker'></span><span class='result-count'>20<span> */
+const topOffersData = {
+  className: '', //для главного блока
+  blockClassName: '_row _j-between', //для блока news__block
+  //caption
+  caption: true,
+  captionWithIcon: _common_js__WEBPACK_IMPORTED_MODULE_1__["captionWithIcon"],
+  captionWithIconData: {
+    className: '_row _a-center',
+    imgName: 'fire-small',
+    text: 'Лучшие предложения месяца',
+  },
+
+  offerCardItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["offerCardItem"],
+  offerCardItemsData: [
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+  ],
+};
+
+const childrenHolidayData = {
+  blockClassName: '_background',
+  className: '_gradient',
+  offerCardItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["offerCardItem"],
+  offerCardItemsData: [
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+  ],
+};
+
+const data = {
+  offerCardItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["offerCardItem"],
+  topOffersData,
+  childrenHolidayData,
+  childrenHolidayBlock: _common_js__WEBPACK_IMPORTED_MODULE_1__["childrenHolidayBlock"],
+  pagination: _common_js__WEBPACK_IMPORTED_MODULE_1__["pagination"],
+};
+
+const template = Object(_common_js__WEBPACK_IMPORTED_MODULE_1__["toursCompositeLayer"])(data);
+
+/* harmony default export */ __webpack_exports__["default"] = (template);
+
+
+/***/ }),
+
 /***/ "./src/js/layers/tours-control.js":
 /*!****************************************!*\
   !*** ./src/js/layers/tours-control.js ***!
@@ -21002,38 +21113,39 @@ __webpack_require__.r(__webpack_exports__);
 
 /*  <span class='result-marker'></span><span class='result-count'>20<span> */
 const topOffersData = {
-  className: "", //для главного блока
-  blockClassName: "_row _j-between", //для блока news__block
+  className: '', //для главного блока
+  blockClassName: '_row _j-between', //для блока news__block
   //caption
   caption: true,
   captionWithIcon: _common_js__WEBPACK_IMPORTED_MODULE_1__["captionWithIcon"],
   captionWithIconData: {
-    className: "_row _a-center",
-    imgName: "like",
-    text: "Лучшие предложения месяца"
+    className: '_row _a-center',
+    imgName: 'like',
+    text: 'Лучшие предложения месяца',
   },
 
   offerCardItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["offerCardItem"],
   offerCardItemsData: [
-    { className: "_state-2" },
-    { className: "_state-2" },
-    { className: "_state-2" },
-    { className: "_state-2" },
-    { className: "_state-2" },
-    { className: "_state-2" },
-    { className: "_state-2" },
-    { className: "_state-2" }
-  ]
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+  ],
 };
 
 const childrenHolidayData = {
-  className: "_gradient",
+  blockClassName: '',
+  className: '_gradient',
   offerCardItem: _common_js__WEBPACK_IMPORTED_MODULE_1__["offerCardItem"],
   offerCardItemsData: [
-    { className: "_state-2" },
-    { className: "_state-2" },
-    { className: "_state-2" }
-  ]
+    { className: '_state-2' },
+    { className: '_state-2' },
+    { className: '_state-2' },
+  ],
 };
 
 const data = {
@@ -21042,7 +21154,7 @@ const data = {
   advertisingFire: _common_js__WEBPACK_IMPORTED_MODULE_1__["advertisingFire"],
   childrenHolidayBlock: _common_js__WEBPACK_IMPORTED_MODULE_1__["childrenHolidayBlock"],
   childrenHolidayData,
-  pagination: _common_js__WEBPACK_IMPORTED_MODULE_1__["pagination"]
+  pagination: _common_js__WEBPACK_IMPORTED_MODULE_1__["pagination"],
 };
 
 const template = Object(_common_js__WEBPACK_IMPORTED_MODULE_1__["toursFilterCompositeLayer"])(data);

@@ -1,10 +1,9 @@
 import _ from 'lodash';
 
 import {
-  toursFilterCompositeLayer,
+  toursCompositeLayer,
   captionWithIcon,
   offerCardItem,
-  advertisingFire,
   childrenHolidayBlock,
   pagination,
 } from '../common.js';
@@ -18,7 +17,7 @@ const topOffersData = {
   captionWithIcon,
   captionWithIconData: {
     className: '_row _a-center',
-    imgName: 'like',
+    imgName: 'fire-small',
     text: 'Лучшие предложения месяца',
   },
 
@@ -36,10 +35,11 @@ const topOffersData = {
 };
 
 const childrenHolidayData = {
-  blockClassName: '',
+  blockClassName: '_background',
   className: '_gradient',
   offerCardItem,
   offerCardItemsData: [
+    { className: '_state-2' },
     { className: '_state-2' },
     { className: '_state-2' },
     { className: '_state-2' },
@@ -49,12 +49,11 @@ const childrenHolidayData = {
 const data = {
   offerCardItem,
   topOffersData,
-  advertisingFire,
-  childrenHolidayBlock,
   childrenHolidayData,
+  childrenHolidayBlock,
   pagination,
 };
 
-const template = toursFilterCompositeLayer(data);
+const template = toursCompositeLayer(data);
 
 export default template;
