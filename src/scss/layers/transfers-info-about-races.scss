@@ -3,6 +3,10 @@
     padding-top: 54px;
   }
 
+  &__table {
+    margin-top: 22px;
+  }
+
   &__table-head {
     @include font-bold(13px, normal, start, #8e8e93, 0.1px);
     width: 85%;

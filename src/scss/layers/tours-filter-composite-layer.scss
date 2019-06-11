@@ -1,0 +1,21 @@
+.l-tours-filter-composite-layer {
+  &__content {
+    padding: 40px 0 30px;
+  }
+  &__left-side {
+    margin-right: 9px;
+  }
+  &__left-cards-block {
+    margin: 26px 0 12px;
+    & > div {
+      margin-bottom: 20px;
+    }
+  }
+  &__right-side {
+    margin-top: 45px;
+
+    & > div:first-child {
+      margin-bottom: 37px;
+    }
+  }
+}

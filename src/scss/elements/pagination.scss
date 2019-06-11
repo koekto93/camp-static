@@ -1,0 +1,14 @@
+.c-pagination {
+  @include font-regular(12px, normal, center);
+  padding-top: 30px;
+  border-top: 1px solid #1a1a1a;
+
+  &__item {
+    padding: 3px 8px;
+
+    &._active {
+      color: $white-text-color;
+      background-color: #1a1a1a;
+    }
+  }
+}

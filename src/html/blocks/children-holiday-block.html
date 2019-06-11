@@ -1,0 +1,12 @@
+<!-- 
+    изначально обычный фон у таба
+    _gradient - устанавливает фон в виде градиента
+ -->
+<div class="children-holiday-block">
+    <div class="children-holiday-block__tab <%= className%>">
+        <span>лучший детский отдых</span>
+    </div>
+    <div class="children-holiday-block__cards">
+        <% offerCardItemsData.forEach(function(data) { %> <%= offerCardItem(data)%> <% }); %>
+    </div>  
+</div>

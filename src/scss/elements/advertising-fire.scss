@@ -1,0 +1,10 @@
+.l-advertising-fire {
+  width: 350px;
+  height: 330px;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, #fad961, #f76b1c);
+  &__text {
+    @include font-intro(25px, 1.4, center);
+    margin-top: 18px;
+  }
+}

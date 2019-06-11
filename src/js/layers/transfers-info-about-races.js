@@ -2,7 +2,7 @@ import _ from "lodash";
 
 import {
   transfersInfoAboutRaces,
-  simpleFilter,
+  captionWithIcon,
   transferInfoTableItem
 } from "../common.js";
 
@@ -51,6 +51,14 @@ const transferInfoTableItemData = [
 
 const data = {
   //caption
+  //caption
+  caption: true,
+  captionWithIcon,
+  captionWithIconData: {
+    className: "_row _a-center",
+    imgName: "car",
+    text: "информация о заездах сегодня"
+  },
   transferInfoTableItem,
   transferInfoTableItemData
 };

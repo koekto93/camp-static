@@ -8,6 +8,10 @@
     1, 2, 3
   ]
 }; %>
+
 <%= _.template(require('./../elements/first-page-part.html').default)(data) %>
-<div class="content-container content-container__main"></div>
+<header class="header"></header>
+<div class="content"></div>
+<footer class="footer"></footer>
+
 <%= _.template(require('./../elements/second-page-part.html').default)(data) %>

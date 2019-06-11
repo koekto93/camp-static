@@ -1,0 +1,20 @@
+<div class="l-tours-filter-composite-layer">
+    <div
+        class="l-tours-filter-composite-layer__content display-flex _j-between"
+    >
+        <div class="l-tours-filter-composite-layer__left-side">
+            <% if(topOffersData.caption) { %> <%= topOffersData.captionWithIcon(topOffersData.captionWithIconData) %> <% } %>
+            <div class="l-tours-filter-composite-layer__left-cards-block display-flex _row-wrap _j-between">
+                <% topOffersData.offerCardItemsData.forEach(function(data) { %> <%= topOffersData.offerCardItem(data)%>
+                <% }); %>
+            </div>
+            <%= pagination()%>
+            
+        </div>
+        <div class="l-tours-filter-composite-layer__right-side">
+            <%= advertisingFire()%> 
+            <%= childrenHolidayBlock(childrenHolidayData)%> 
+               
+        </div>    
+    </div>
+</div>

@@ -1,0 +1,27 @@
+.l-advertising-point {
+  height: 153px;
+  position: relative;
+  &__content {
+    width: 680px;
+  }
+  &__background::after {
+    content: "";
+    background: url("../../uploads/bg.jpg");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+  &__text {
+    @include font-intro(25px, 1.24, center, #ffd8d1);
+  }
+
+  &__icon {
+    &._right {
+      transform: scale(-1, 1);
+    }
+  }
+}

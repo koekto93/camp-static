@@ -5,7 +5,7 @@ $white-text-color: #f7f7f7;
 $mailing-bg-color: #69268c;
 $mailing-text-color: #fad100;
 
-$image_dir: '../img/';
+$image_dir: "../img/";
 
 body {
   width: 1280px;
@@ -21,9 +21,9 @@ body {
     flex: 0 0 auto;
   }
 
-  header,
-  .content-container > div,
-  footer {
+  header > div,
+  .content > div,
+  footer > div {
     width: 100%;
     padding: 0 105px;
     margin: 0 auto;
@@ -48,10 +48,10 @@ body {
   width: $width;
   height: $height;
   background-color: $color;
-  -webkit-mask-image: url($image_dir+$name+'.svg');
+  -webkit-mask-image: url($image_dir+$name+".svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100%;
-  mask-image: url($image_dir+$name+'.svg');
+  mask-image: url($image_dir+$name+".svg");
   mask-repeat: no-repeat;
   mask-size: 100%;
 }
@@ -264,6 +264,15 @@ body {
   }
   &._umbrella {
     @extend %umbrella-icon;
+  }
+  &._pointer {
+    @extend %pointer-icon;
+  }
+  &._fire {
+    @extend %fire-icon;
+  }
+  &._fire-small {
+    @extend %fire-small-icon;
   }
 }
 

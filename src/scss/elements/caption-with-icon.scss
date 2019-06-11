@@ -22,6 +22,19 @@
       margin-bottom: 13px;
     }
   }
+  &__text {
+    //доделать
+    & .result-marker {
+      width: 5px;
+      height: 5px;
+      padding: 5px;
+      border-radius: 2.5px;
+      background-color: #9b9b9b;
+    }
+    & .result-count {
+      color: #9b9b9b;
+    }
+  }
 }
 
 //---- Заголовок блока конец
