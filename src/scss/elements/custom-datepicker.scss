@@ -1,6 +1,6 @@
 .custom-datepicker {
   & [type='date'] {
-    background: transparent url('../../img/calendar.svg') 93% 50% no-repeat;
+    background: transparent url('../img/calendar.svg') 93% 50% no-repeat;
   }
   & [type='date']::-webkit-inner-spin-button {
     display: none;

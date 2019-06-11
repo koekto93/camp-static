@@ -17868,7 +17868,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-mailing\">\n  <div class=\"l-mailing__content\">\n    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\n    <div class=\"l-mailing__content-block display-flex\">\n      <div class=\"l-mailing__description\">\n        <span\n          >Присылаем раз в неделю в мессенджер или на почту подборку мероприятий\n          по выбранным критериям. Подпишитесь, чтобы быть в курсе эксклюзивных\n          событий для москвичей</span\n        >\n      </div>\n      <div class=\"l-mailing__controls-block display-flex _column\">\n        <div class=\"l-mailing__control-input display-flex\">\n          <%= materialInput(materialInputData) %>\n\n          <div class=\"l-mailing__button\">\n            <button class=\"c-button\">ПОДПИСАТЬСЯ</button>\n          </div>\n        </div>\n        <%= castomRadio() %>\n      </div>\n    </div>\n  </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"l-mailing display-flex _j-center\">\n  <div class=\"l-mailing__content\">\n    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>\n    <div class=\"l-mailing__content-block display-flex\">\n      <div class=\"l-mailing__description\">\n        <span\n          >Присылаем раз в неделю в мессенджер или на почту подборку мероприятий\n          по выбранным критериям. Подпишитесь, чтобы быть в курсе эксклюзивных\n          событий для москвичей</span\n        >\n      </div>\n      <div class=\"l-mailing__controls-block display-flex _column\">\n        <div class=\"l-mailing__control-input display-flex\">\n          <%= materialInput(materialInputData) %>\n\n          <div class=\"l-mailing__button\">\n            <button class=\"c-button\">ПОДПИСАТЬСЯ</button>\n          </div>\n        </div>\n        <%= castomRadio() %>\n      </div>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -18695,7 +18695,7 @@ const result =
   _layers_main_our_camps_js__WEBPACK_IMPORTED_MODULE_17__["default"];
 
 //---- Сборка страницы social
-/* header.innerHTML = getTemplate("social");
+/* header.innerHTML = getTemplate('social');
 const result =
   socialFirstCompositeLayerTemplate +
   socialNewsLayerTemplate +
@@ -18720,8 +18720,7 @@ const result =
 const result =
   toursFilterCompositeLayerTemplate +
   mailingLayerTemplate +
-  previouslyViewedOffers;
- */
+  previouslyViewedOffers; */
 
 //---- сборка страницыTours + search results
 /* header.innerHTML = getTemplate('toursSimple');
@@ -18732,8 +18731,7 @@ const result =
   previouslyViewedOffers; */
 
 //---- сборка страницы Family vacation
-/* 
-header.innerHTML = getTemplate('familyBig');
+/* header.innerHTML = getTemplate('familyBig');
 const result =
   toursFilterCompositeLayerTemplate +
   mailingLayerTemplate +
@@ -18775,12 +18773,12 @@ const result =
   previouslyViewedOffers; */
 
 //---- Сборка страницы transfers с таблицей
-//header.innerHTML = getTemplate("transfers");
-//const result = transfersInfoAboutRacesTemplate + previouslyViewedOffers;
+/* header.innerHTML = getTemplate('transfers');
+const result = transfersInfoAboutRacesTemplate + previouslyViewedOffers; */
 
-//---- Сборка страницы transfers с нулевым результатом поиска
-//header.innerHTML = getTemplate("transfers");
-//const result = transfersEmptyResultSearchTemplate + previouslyViewedOffers;
+//---- Сборка страницы transfers empty
+/* header.innerHTML = getTemplate('transfers');
+const result = transfersEmptyResultSearchTemplate + previouslyViewedOffers; */
 
 content.innerHTML = result;
 footer.innerHTML = _layers_footer_js__WEBPACK_IMPORTED_MODULE_3__["default"];
@@ -19187,18 +19185,18 @@ const data = {
   captionWithIcon: _common_js__WEBPACK_IMPORTED_MODULE_1__["captionWithIcon"],
   captions: [
     {
-      className: '_column _a-center',
+      className: '_column _a-center _circle-icon-border',
       imgName: 'umbrella',
       text:
         'Безопасность в пути:<br> расширенное страхование<br> включено в стоимость',
     },
     {
-      className: '_column _a-center',
+      className: '_column _a-center _circle-icon-border',
       imgName: 'docs',
       text: 'Более 200 экскурсий <br> от 50 партнеров — выбор есть!',
     },
     {
-      className: '_column _a-center',
+      className: '_column _a-center _circle-icon-border',
       imgName: 'money',
       text:
         'Защита от невыезда:<br> возвращаем 100% стоимости <br> путевки при отказе',

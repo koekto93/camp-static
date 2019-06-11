@@ -82,7 +82,7 @@ const result =
   mainOurCampsTemplate;
 
 //---- Сборка страницы social
-/* header.innerHTML = getTemplate("social");
+/* header.innerHTML = getTemplate('social');
 const result =
   socialFirstCompositeLayerTemplate +
   socialNewsLayerTemplate +
@@ -107,8 +107,7 @@ const result =
 const result =
   toursFilterCompositeLayerTemplate +
   mailingLayerTemplate +
-  previouslyViewedOffers;
- */
+  previouslyViewedOffers; */
 
 //---- сборка страницыTours + search results
 /* header.innerHTML = getTemplate('toursSimple');
@@ -119,8 +118,7 @@ const result =
   previouslyViewedOffers; */
 
 //---- сборка страницы Family vacation
-/* 
-header.innerHTML = getTemplate('familyBig');
+/* header.innerHTML = getTemplate('familyBig');
 const result =
   toursFilterCompositeLayerTemplate +
   mailingLayerTemplate +
@@ -162,12 +160,12 @@ const result =
   previouslyViewedOffers; */
 
 //---- Сборка страницы transfers с таблицей
-//header.innerHTML = getTemplate("transfers");
-//const result = transfersInfoAboutRacesTemplate + previouslyViewedOffers;
+/* header.innerHTML = getTemplate('transfers');
+const result = transfersInfoAboutRacesTemplate + previouslyViewedOffers; */
 
-//---- Сборка страницы transfers с нулевым результатом поиска
-//header.innerHTML = getTemplate("transfers");
-//const result = transfersEmptyResultSearchTemplate + previouslyViewedOffers;
+//---- Сборка страницы transfers empty
+/* header.innerHTML = getTemplate('transfers');
+const result = transfersEmptyResultSearchTemplate + previouslyViewedOffers; */
 
 content.innerHTML = result;
 footer.innerHTML = footerTemplate;

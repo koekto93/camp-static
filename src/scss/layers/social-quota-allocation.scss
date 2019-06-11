@@ -7,8 +7,8 @@
   }
 
   &__background::after {
-    content: "";
-    background: url("../../uploads/bg.jpg");
+    content: '';
+    background: url('../uploads/bg.jpg');
     opacity: 0.5;
     top: 0;
     left: 0;
