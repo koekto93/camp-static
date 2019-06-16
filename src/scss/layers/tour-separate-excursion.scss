@@ -1,0 +1,109 @@
+.l-tour-separate-excursion {
+  &__content {
+    margin-top: 27px;
+  }
+  &__header {
+    width: 709px;
+    @include font-intro(28px, 1.14);
+  }
+
+  &__button {
+    & > button {
+      width: 170px;
+      text-align: center;
+    }
+  }
+
+  &__common-info {
+    margin-top: 25px;
+    padding-bottom: 23px;
+    @extend %border-bottom;
+    & > .c-caption-with-icon {
+      @include font-regular(13px);
+      align-items: flex-start;
+      margin-right: 10px;
+      & .c-caption-with-icon__icon {
+        padding-top: 4px;
+      }
+    }
+  }
+
+  &__question {
+    @include font-regular(13px);
+    @include set-link-color(#e16a49);
+    text-decoration: underline;
+    text-decoration-color: #e16a49;
+  }
+
+  &__place-description {
+    width: 890px;
+    margin-top: 29px;
+    @include font-regular(16px, 1.5);
+    & > span:first-child {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__image-block {
+    width: 890px;
+    height: 791px;
+    padding: 66px 63px 60px 62px;
+    background-color: #1a1a1a;
+    margin-right: 26px;
+
+    & img {
+      max-width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__main-image {
+    width: 764px;
+    height: 514px;
+    margin-bottom: 32px;
+    overflow: hidden;
+  }
+
+  &__second-image {
+    width: 191px;
+    height: 119px;
+    overflow: hidden;
+  }
+
+  &__image-control {
+    width: 64px;
+    height: 32px;
+    border-radius: 6px;
+    border: solid 1px #e3775b;
+    padding: 9px 0;
+    cursor: pointer;
+
+    & .left-arrow-icon {
+      transform: scale(-1, 1);
+    }
+
+    & .right-arrow-icon {
+      margin-left: 15px;
+      border-right: 2px solid #979797;
+    }
+  }
+
+  &__additional-items-block {
+    width: 889px;
+    margin-top: 38px;
+    & > div {
+      @extend %border-bottom;
+    }
+
+    & > div:first-child {
+      border-top: 1px solid rgba(151, 151, 151, 0.18);
+    }
+  }
+
+  &__additional-item {
+    padding: 14px 0;
+    & .icon {
+      transform: rotate(90deg);
+    }
+  }
+}

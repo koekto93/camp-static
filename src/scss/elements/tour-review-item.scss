@@ -1,0 +1,19 @@
+.c-tour-review {
+  width: 307px;
+
+  &__description {
+    @include font-regular(13px, 1.31);
+    margin-bottom: 14px;
+  }
+  &__photo {
+    width: 40px;
+    height: 40px;
+    border: solid 1px #979797;
+    border-radius: 20px;
+    margin-right: 12px;
+  }
+
+  &__about-reviewer {
+    @include font-regular(14px, normal, start, #666666);
+  }
+}

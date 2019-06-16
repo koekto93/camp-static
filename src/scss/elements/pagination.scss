@@ -5,10 +5,15 @@
 
   &__item {
     padding: 3px 8px;
+    cursor: pointer;
 
     &._active {
       color: $white-text-color;
       background-color: #1a1a1a;
     }
+  }
+  &__item:hover {
+    color: $white-text-color;
+    background-color: #1a1a1a;
   }
 }

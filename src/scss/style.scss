@@ -7,7 +7,7 @@
 @import './elements/recommend-card-item';
 @import './elements/material-input';
 @import './elements/leader-card';
-
+@import './elements/tour-review-item';
 @import './elements/caption-with-icon.scss';
 @import './elements/news-item.scss';
 @import './elements/info-simple-card.scss';
@@ -16,7 +16,6 @@
 @import './elements/inner-element-of-info-card.scss';
 @import './elements/content-header.scss';
 @import './elements/custom-input.scss';
-
 @import './elements/castom-radio.scss';
 @import './elements/offer-card-item.scss';
 @import './elements/corporate-service-item.scss';
@@ -42,6 +41,7 @@
 @import './blocks/children-holiday-block.scss';
 
 //layers
+@import './layers/header';
 @import './layers/header-layer';
 @import './layers/mailing';
 @import './layers/footer';
@@ -88,3 +88,9 @@
 
 //tours filter
 @import './layers/tours-filter-composite-layer';
+
+//tour page
+@import './layers/tour-reviews';
+@import './layers/available-dates';
+@import './layers/tour-separate-excursion';
+@import './layers/tour-composite-layer';

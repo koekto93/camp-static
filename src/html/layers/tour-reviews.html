@@ -1,0 +1,9 @@
+<div class="l-tour-reviews">
+  <div class="l-tour-reviews__content">
+    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>
+    <div class="l-tour-reviews__content-block display-flex _j-between">
+      <% tourReviewData.forEach(function(data) { %> <%= tourReviewItem(data)%>
+      <% }); %>
+    </div>
+  </div>
+</div>

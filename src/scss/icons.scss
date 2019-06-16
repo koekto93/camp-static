@@ -14,6 +14,10 @@
   @include svg-icon(32px, 16px, 'car', #1a1a1a);
 }
 
+%small-car-icon {
+  @include svg-icon(10px, 10px, 'car', #1a1a1a);
+}
+
 %house-icon {
   @include svg-icon(32px, 23px, 'house', #1a1a1a);
 }
@@ -28,6 +32,10 @@
 
 %people-icon {
   @include svg-icon(40px, 25px, 'people', #1a1a1a);
+}
+
+%small-people-icon {
+  @include svg-icon(11px, 11px, 'people', #1a1a1a);
 }
 
 %respect-icon {
@@ -54,6 +62,10 @@
   @include svg-icon(24px, 22px, 'empty-calendar', #1a1a1a);
 }
 
+%small-empty-calendar-icon {
+  @include svg-icon(17px, 17px, 'empty-calendar', #1a1a1a);
+}
+
 %done-icon {
   @include svg-icon(21px, 21px, 'done', #1a1a1a);
 }
@@ -64,6 +76,10 @@
 
 %calendar-icon {
   @include svg-icon(21px, 21px, 'calendar', #1a1a1a);
+}
+
+%small-calendar-icon {
+  @include svg-icon(10px, 10px, 'calendar', #1a1a1a);
 }
 
 %question-icon {
@@ -146,9 +162,18 @@
   @include svg-icon(16px, 16px, 'arrow', #e16a49);
 }
 
+%small-simple-arrow-icon {
+  @include svg-icon(10px, 10px, 'arrow', #e16a49);
+}
+
 %like-icon {
   @include svg-icon(17px, 18px, 'like', #1a1a1a);
 }
+
+%small-like-icon {
+  @include svg-icon(10px, 10px, 'like', #1a1a1a);
+}
+
 %eye-icon {
   @include svg-icon(23px, 21px, 'eye', #1a1a1a);
 }
@@ -159,15 +184,23 @@
 %docs-icon {
   @include svg-icon(23px, 26px, 'docs', #1a1a1a);
 }
+
 %money-icon {
   @include svg-icon(31px, 20px, 'money', #1a1a1a);
 }
+
 %umbrella-icon {
   @include svg-icon(31px, 33px, 'umbrella', #1a1a1a);
 }
+
+%small-umbrella-icon {
+  @include svg-icon(10px, 10px, 'umbrella', #1a1a1a);
+}
+
 %pointer-icon {
   @include svg-icon(46px, 28px, 'pointer', #1a1a1a);
 }
+
 %fire-icon {
   @include svg-icon(39px, 45px, 'fire', #1a1a1a);
 }

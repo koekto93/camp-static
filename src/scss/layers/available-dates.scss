@@ -1,0 +1,67 @@
+.l-available-dates {
+  &__content {
+    width: 889px;
+    margin-top: 51px;
+  }
+
+  &__result {
+    @include font-bold(20px, normal, start, #1b1e2d);
+  }
+
+  &__accept-block {
+    margin-top: 35px;
+  }
+
+  &__control-buttons-block {
+    width: 290px;
+
+    & > button {
+      height: 36px;
+      width: 137px;
+      text-align: center;
+      border: 1px solid #e3775b;
+      background-color: #e3775b;
+      color: $white-text-color;
+    }
+
+    & > button:hover {
+      background-color: transparent;
+      color: $text-color;
+    }
+  }
+}
+
+.c-available-date-row {
+  padding: 30px 0;
+  @extend %border-bottom;
+  &__date {
+    @include font-bold(20px, normal, start, #1b1e2d);
+    flex-basis: 40%;
+  }
+  &__price {
+    @include font-regular(20px, normal, start, #1b1e2d);
+
+    &._sale {
+      text-decoration: line-through;
+      margin-left: 18px;
+    }
+  }
+
+  &__count {
+    width: 159px;
+  }
+  &__control {
+    width: 29px;
+    height: 29px;
+    border-radius: 14.5px;
+    background-color: #1a1a1a;
+    color: $white-text-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &._disable {
+      background-color: #d8d8d8;
+    }
+  }
+}

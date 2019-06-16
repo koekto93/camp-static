@@ -5,7 +5,7 @@ $white-text-color: #f7f7f7;
 $mailing-bg-color: #69268c;
 $mailing-text-color: #fad100;
 
-$image_dir: "../img/";
+$image_dir: '../img/';
 
 body {
   width: 1280px;
@@ -13,7 +13,7 @@ body {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  .content-container {
+  .content {
     flex: 1 0 auto;
   }
 
@@ -27,6 +27,10 @@ body {
     width: 100%;
     padding: 0 105px;
     margin: 0 auto;
+  }
+
+  .content {
+    margin-top: 80px;
   }
 }
 
@@ -48,10 +52,10 @@ body {
   width: $width;
   height: $height;
   background-color: $color;
-  -webkit-mask-image: url($image_dir+$name+".svg");
+  -webkit-mask-image: url($image_dir+$name+'.svg');
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100%;
-  mask-image: url($image_dir+$name+".svg");
+  mask-image: url($image_dir+$name+'.svg');
   mask-repeat: no-repeat;
   mask-size: 100%;
 }
@@ -145,6 +149,9 @@ body {
   &._car {
     @extend %car-icon;
   }
+  &._small-car {
+    @extend %small-car-icon;
+  }
   &._house {
     @extend %house-icon;
   }
@@ -156,6 +163,9 @@ body {
   }
   &._people {
     @extend %people-icon;
+  }
+  &._small-people {
+    @extend %small-people-icon;
   }
   &._respect {
     @extend %respect-icon;
@@ -169,6 +179,10 @@ body {
   &._empty-calendar {
     @extend %empty-calendar-icon;
   }
+  &._small-empty-calendar {
+    @extend %small-empty-calendar-icon;
+  }
+
   &._done {
     @extend %done-icon;
   }
@@ -177,6 +191,9 @@ body {
   }
   &._calendar {
     @extend %calendar-icon;
+  }
+  &._small-calendar {
+    @extend %small-calendar-icon;
   }
   &._question {
     @extend %question-icon;
@@ -247,8 +264,14 @@ body {
   &._simple-arrow {
     @extend %simple-arrow-icon;
   }
+  &._small-simple-arrow {
+    @extend %small-simple-arrow-icon;
+  }
   &._like {
     @extend %like-icon;
+  }
+  &._small-like {
+    @extend %small-like-icon;
   }
   &._eye {
     @extend %eye-icon;
@@ -264,6 +287,9 @@ body {
   }
   &._umbrella {
     @extend %umbrella-icon;
+  }
+  &._small-umbrella {
+    @extend %small-umbrella-icon;
   }
   &._pointer {
     @extend %pointer-icon;
@@ -284,6 +310,11 @@ body {
   width: 100%;
   cursor: pointer;
   background: transparent;
+}
+
+.c-button:hover {
+  background-color: #e3775b;
+  color: $white-text-color;
 }
 
 //возратное ограничение

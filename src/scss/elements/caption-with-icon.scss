@@ -1,6 +1,6 @@
 //---- Заголовок блока начало
 .c-caption-with-icon {
-  @include font-intro(15x, 1.25, center);
+  @include font-intro(15px, 1.25, center);
 
   //Стили для получения бордера-круга в блоке важной информации
   &._circle-icon-border {

@@ -1,15 +1,15 @@
-.header-section {
+.header-bottom-section {
   height: 373px;
   padding-top: 20px;
 
   &._main {
-    background-image: url("../uploads/main.png");
+    background-image: url('../uploads/main.png');
     .header-content__bottom {
       margin-top: 80px;
     }
   }
   &._tours {
-    background-image: url("../uploads/tours.png");
+    background-image: url('../uploads/tours.png');
     .header-content__caption {
       width: 771px;
     }
@@ -19,7 +19,7 @@
   }
   &._tours-big {
     height: 450px;
-    background-image: url("../uploads/tours.png");
+    background-image: url('../uploads/tours.png');
     background-size: cover;
     .header-content__caption {
       width: 771px;
@@ -29,7 +29,7 @@
     }
   }
   &._transfers {
-    background-image: url("../uploads/transfers.png");
+    background-image: url('../uploads/transfers.png');
     .header-content__bottom {
       margin-top: 73px;
     }
@@ -37,19 +37,19 @@
   &._family-big {
     height: 450px;
     background-size: cover;
-    background-image: url("../uploads/family vacation.png");
+    background-image: url('../uploads/family vacation.png');
     .header-content__bottom {
       margin-top: 58px;
     }
   }
   &._family {
-    background-image: url("../uploads/family vacation.png");
+    background-image: url('../uploads/family vacation.png');
     .header-content__bottom {
       margin-top: 94px;
     }
   }
   &._kids {
-    background-image: url("../uploads/kids.png");
+    background-image: url('../uploads/kids.png');
     .header-content__bottom {
       margin-top: 58px;
     }
@@ -57,7 +57,7 @@
   &._kids-big {
     height: 450px;
     background-size: cover;
-    background-image: url("../uploads/kids.png");
+    background-image: url('../uploads/kids.png');
     .header-content__bottom {
       margin-top: 58px;
     }
@@ -67,61 +67,6 @@
 .header-content {
   $head-content-font-color: #bfbfbf;
   color: $head-content-font-color;
-
-  &__first-logo-wrapper {
-    @extend %image-wrapper;
-    width: 109px;
-    height: 40px;
-  }
-
-  &__vertical-bar {
-    @include vertical-bar(25px, rgba(247, 247, 247, 0.29));
-    margin: 0 15px;
-  }
-
-  &__second-logo-wrapper {
-    @extend %image-wrapper;
-    width: 144px;
-    height: 40px;
-    margin-right: 36px;
-  }
-
-  &__logo {
-    width: 100%;
-    height: 100%;
-  }
-
-  &__contact-info {
-    @include font-regular(12px, normal, start, $head-content-font-color);
-    margin-right: 36px;
-
-    & > span:first-child {
-      margin-bottom: 12px;
-    }
-  }
-
-  &__navigation-wrapper {
-    margin-right: 20px;
-  }
-  &__navigation {
-    @include set-link-color($head-content-font-color);
-    @include font-bold(14px, normal, start, $head-content-font-color, 1px);
-
-    & > li a:hover {
-      color: $white-text-color;
-    }
-
-    & > li:not(:last-child) {
-      margin-right: 18px;
-    }
-  }
-
-  &__icon-wrapper {
-    width: 50px;
-    height: 28px;
-    cursor: pointer;
-    border-left: 1px solid #4a4a4a;
-  }
 
   &__caption {
     @include font-intro(28px, normal, center, $white-text-color);

@@ -1,0 +1,14 @@
+<div class="tour-composite-layer">
+  <div class="tour-composite-layer__content display-flex _j-between">
+    <div class="tour-composite-layer__recomment-block">
+      <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>
+      <div
+        class="tour-composite-layer__recomment-items display-flex _j-between"
+      >
+        <% offerCardItemsData.forEach(function(data) { %> <%=
+        offerCardItem(data)%> <% }); %>
+      </div>
+    </div>
+    <%= additionalBookingBlock(additionalBookingBlockData) %>
+  </div>
+</div>

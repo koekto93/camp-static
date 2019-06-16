@@ -1,0 +1,40 @@
+<div class="l-available-dates">
+  <div class="l-available-dates__content">
+    <% if(caption) { %> <%= captionWithIcon(captionWithIconData) %> <% } %>
+    <div class="l-available-dates__content-block">
+      <% availableDateRowData.forEach(function(data) { %>
+      <div class="c-available-date-row display-flex _j-between _a-center">
+        <div class="c-available-date-row__date">
+          <span>1 июня—20 июня</span>
+        </div>
+        <div class="c-available-date-row__price">
+          <span>6 500₽</span>
+          <span class="c-available-date-row__price _sale">9 000₽</span>
+        </div>
+        <div
+          class="c-available-date-row__count display-flex _j-between _a-center"
+        >
+          <div class="c-available-date-row__control <%=data.minusСlassName%>">
+            <span>-</span>
+          </div>
+          <div><span><%= data.count %></span></div>
+          <div class="c-available-date-row__control"><span>+</span></div>
+        </div>
+      </div>
+      <% }); %>
+      <div
+        class="l-available-dates__accept-block display-flex _j-between _a-center"
+      >
+        <div class="l-available-dates__result">
+          <span>1 экскурсия на сумму 6 500₽</span>
+        </div>
+        <div
+          class="l-available-dates__control-buttons-block display-flex _j-between"
+        >
+          <button class="c-button">ЗАБРОНИРОВАТЬ</button>
+          <button class="c-button">КУПИТЬ</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

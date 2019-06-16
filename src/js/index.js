@@ -18,6 +18,7 @@ import {
 
 import getTemplate from './layers/header-layer.js';
 //common layers
+import header from './layers/header.js';
 import footerTemplate from './layers/footer.js';
 import mailingLayerTemplate from './layers/mailing.js';
 import guaranteesTemplate from './layers/guarantees.js';
@@ -63,13 +64,19 @@ import kidsFilterTemplate from './layers/kids-filter.js';
 //tours filter
 import toursFilterCompositeLayerTemplate from './layers/tours-filter-composite-layer.js';
 
-const header = document.body.querySelector('.header');
+//tour page
+import tourReviewsLayerTemplate from './layers/tour-reviews.js';
+import availableDatesTemplate from './layers/available-dates.js';
+import tourSeparateExcursionLayerTemplate from './layers/tour-separate-excursion.js';
+import tourCompositeLayerTemplate from './layers/tour-composite-layer.js';
+
+const headerElm = document.body.querySelector('.header');
 const content = document.body.querySelector('.content');
 const footer = document.body.querySelector('.footer');
 
 //-----Сборка main страницы
-header.innerHTML = getTemplate('main');
-const result =
+/* const result =
+  getTemplate('main') +
   mainNewsLayerTemplate +
   mainFirstCompositeLayerTemplate +
   mainSecondCompositeLayerTemplate +
@@ -79,11 +86,12 @@ const result =
   mainLeaderTemplate +
   mainThirdCompositeLayerTemplate +
   mainCorporateServicesTemplate +
-  mainOurCampsTemplate;
+  mainOurCampsTemplate; */
 
 //---- Сборка страницы social
-/* header.innerHTML = getTemplate('social');
+/* 
 const result =
+  getTemplate('social') +
   socialFirstCompositeLayerTemplate +
   socialNewsLayerTemplate +
   socialWellnessСompanyLayerTemplate +
@@ -94,48 +102,54 @@ const result =
   socialRecommendationsLayerTemplate; */
 
 //---- сборка страницы tours
-/* header.innerHTML = getTemplate('tours');
+
 const result =
+  getTemplate('tours') +
   toursFilterTemplate +
   toursCompositeLayerTemplate +
   mailingLayerTemplate +
   guaranteesTemplate +
-  previouslyViewedOffers; */
+  previouslyViewedOffers;
 
 //---- сборка страницы tours-filter
-/* header.innerHTML = getTemplate('toursBig');
+/* 
 const result =
+getTemplate('toursBig')+
   toursFilterCompositeLayerTemplate +
   mailingLayerTemplate +
   previouslyViewedOffers; */
 
 //---- сборка страницыTours + search results
-/* header.innerHTML = getTemplate('toursSimple');
+/*
 const result =
+getTemplate('toursSimple')+ 
   toursControlTemplate +
   offersChildHolidayCompositeTemplate +
   mailingLayerTemplate +
   previouslyViewedOffers; */
 
 //---- сборка страницы Family vacation
-/* header.innerHTML = getTemplate('familyBig');
+/* 
 const result =
+getTemplate('familyBig')+
   toursFilterCompositeLayerTemplate +
   mailingLayerTemplate +
   guaranteesTemplate +
   previouslyViewedOffers; */
 
 //---- сборка страницы Family vacation + search results
-/* header.innerHTML = getTemplate('family');
+/* header.innerHTML = ;
 const result =
+getTemplate('family') + 
   familyControlTemplate +
   offersChildHolidayCompositeTemplate +
   mailingLayerTemplate +
   previouslyViewedOffers; */
 
 //---- сборка страницы Kids vacation
-/* header.innerHTML = getTemplate('kids');
+/*
 const result =
+getTemplate('kids') + 
   kidsFilterTemplate +
   toursFilterCompositeLayerTemplate +
   mailingLayerTemplate +
@@ -143,8 +157,9 @@ const result =
   previouslyViewedOffers; */
 
 //---- сборка страницы Kids vacation - filters
-/* header.innerHTML = getTemplate('kidsBig');
+/* 
 const result =
+getTemplate('kidsBig')+ 
   kidsFilterTemplate +
   toursFilterCompositeLayerTemplate +
   mailingLayerTemplate +
@@ -152,21 +167,31 @@ const result =
   previouslyViewedOffers; */
 
 //---- сборка страницы Kids vacation + search results
-/* header.innerHTML = getTemplate('kids');
+/* 
 const result =
+getTemplate('kids') + 
   familyControlTemplate +
   offersChildHolidayCompositeTemplate +
   mailingLayerTemplate +
   previouslyViewedOffers; */
 
 //---- Сборка страницы transfers с таблицей
-/* header.innerHTML = getTemplate('transfers');
-const result = transfersInfoAboutRacesTemplate + previouslyViewedOffers; */
+/* 
+const result = getTemplate('transfers') + transfersInfoAboutRacesTemplate + previouslyViewedOffers; */
 
 //---- Сборка страницы transfers empty
-/* header.innerHTML = getTemplate('transfers');
-const result = transfersEmptyResultSearchTemplate + previouslyViewedOffers; */
+/*
+const result = getTemplate('transfers') + transfersEmptyResultSearchTemplate + previouslyViewedOffers; */
 
+//----- Сбора страницы tour v2
+
+/* const result =
+  tourSeparateExcursionLayerTemplate +
+  availableDatesTemplate +
+  tourReviewsLayerTemplate +
+  tourCompositeLayerTemplate; */
+
+headerElm.innerHTML = header;
 content.innerHTML = result;
 footer.innerHTML = footerTemplate;
 

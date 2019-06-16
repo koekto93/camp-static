@@ -3,6 +3,10 @@ export const captionWithIcon = _.template(
   require(`./../html/elements/caption-with-icon.html`).default,
 );
 
+export const tourReviewItem = _.template(
+  require(`./../html/elements/tour-review-item.html`).default,
+);
+
 export const customSelector = _.template(
   require(`./../html/elements/custom-selector.html`).default,
 );
@@ -162,6 +166,10 @@ export const childrenHolidayBlock = _.template(
 
 //----layers-----
 
+export const header = _.template(
+  require('./../html/layers/header.html').default,
+);
+
 export const headerLayer = _.template(
   require('./../html/layers/header-layer.html').default,
 );
@@ -295,4 +303,21 @@ export const kidsFilter = _.template(
 //tours filter
 export const toursFilterCompositeLayer = _.template(
   require('./../html/layers/tours-filter-composite-layer.html').default,
+);
+
+//tour page
+export const tourReviewsLayer = _.template(
+  require('./../html/layers/tour-reviews.html').default,
+);
+
+export const availableDatesLayer = _.template(
+  require('./../html/layers/available-dates.html').default,
+);
+
+export const tourSeparateExcursionLayer = _.template(
+  require('./../html/layers/tour-separate-excursion.html').default,
+);
+
+export const tourCompositeLayer = _.template(
+  require('./../html/layers/tour-composite-layer.html').default,
 );
