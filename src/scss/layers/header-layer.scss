@@ -3,13 +3,13 @@
   padding-top: 20px;
 
   &._main {
-    background-image: url('../uploads/main.png');
+    background-image: url("../uploads/main.png");
     .header-content__bottom {
       margin-top: 80px;
     }
   }
   &._tours {
-    background-image: url('../uploads/tours.png');
+    background-image: url("../uploads/tours.png");
     .header-content__caption {
       width: 771px;
     }
@@ -19,7 +19,7 @@
   }
   &._tours-big {
     height: 450px;
-    background-image: url('../uploads/tours.png');
+    background-image: url("../uploads/tours.png");
     background-size: cover;
     .header-content__caption {
       width: 771px;
@@ -29,7 +29,7 @@
     }
   }
   &._transfers {
-    background-image: url('../uploads/transfers.png');
+    background-image: url("../uploads/transfers.png");
     .header-content__bottom {
       margin-top: 73px;
     }
@@ -37,19 +37,19 @@
   &._family-big {
     height: 450px;
     background-size: cover;
-    background-image: url('../uploads/family vacation.png');
+    background-image: url("../uploads/family vacation.png");
     .header-content__bottom {
       margin-top: 58px;
     }
   }
   &._family {
-    background-image: url('../uploads/family vacation.png');
+    background-image: url("../uploads/family vacation.png");
     .header-content__bottom {
       margin-top: 94px;
     }
   }
   &._kids {
-    background-image: url('../uploads/kids.png');
+    background-image: url("../uploads/kids.png");
     .header-content__bottom {
       margin-top: 58px;
     }
@@ -57,7 +57,7 @@
   &._kids-big {
     height: 450px;
     background-size: cover;
-    background-image: url('../uploads/kids.png');
+    background-image: url("../uploads/kids.png");
     .header-content__bottom {
       margin-top: 58px;
     }
@@ -106,6 +106,10 @@
   &__navigation {
     @include set-link-color($head-content-font-color);
     @include font-bold(14px, normal, start, $head-content-font-color, 1px);
+
+    & > li a:hover {
+      color: $white-text-color;
+    }
 
     & > li:not(:last-child) {
       margin-right: 18px;
