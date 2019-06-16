@@ -103,13 +103,13 @@ const result =
 
 //---- сборка страницы tours
 
-const result =
+/* const result =
   getTemplate('tours') +
   toursFilterTemplate +
   toursCompositeLayerTemplate +
   mailingLayerTemplate +
   guaranteesTemplate +
-  previouslyViewedOffers;
+  previouslyViewedOffers; */
 
 //---- сборка страницы tours-filter
 /* 
@@ -138,13 +138,12 @@ getTemplate('familyBig')+
   previouslyViewedOffers; */
 
 //---- сборка страницы Family vacation + search results
-/* header.innerHTML = ;
 const result =
-getTemplate('family') + 
+  getTemplate('family') +
   familyControlTemplate +
   offersChildHolidayCompositeTemplate +
   mailingLayerTemplate +
-  previouslyViewedOffers; */
+  previouslyViewedOffers;
 
 //---- сборка страницы Kids vacation
 /*

@@ -19,6 +19,7 @@ const topOffersData = {
     className: '_row _a-center',
     imgName: 'search',
     text: 'Найдено',
+    extraText: '20',
   },
 
   offerCardItem,
