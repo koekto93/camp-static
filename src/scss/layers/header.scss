@@ -10,6 +10,7 @@
   border: 0;
   display: flex;
   justify-content: center;
+  width: 1280px;
 }
 
 .header-content {
@@ -20,6 +21,7 @@
     @extend %image-wrapper;
     width: 109px;
     height: 40px;
+    cursor: pointer;
   }
 
   &__vertical-bar {
@@ -32,6 +34,7 @@
     width: 144px;
     height: 40px;
     margin-right: 36px;
+    cursor: pointer;
   }
 
   &__logo {

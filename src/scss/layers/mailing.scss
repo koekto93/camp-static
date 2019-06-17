@@ -41,5 +41,10 @@
       border: 1px solid $mailing-text-color;
       color: $white-text-color;
     }
+
+    & > button:hover {
+      background-color: $mailing-text-color;
+      color: $text-color;
+    }
   }
 }

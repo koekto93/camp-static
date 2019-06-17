@@ -15,7 +15,7 @@
     border-radius: 6px;
     border: 1px solid #eeeeee;
     background-color: rgba(0, 0, 0, 0.21);
-
+    outline: none;
     @include font-bold(13px, normal, start, #ffffff);
 
     &::placeholder {

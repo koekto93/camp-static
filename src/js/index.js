@@ -1,5 +1,5 @@
-import _ from 'lodash';
-const path = './../html/includes/';
+import _ from "lodash";
+const path = "./../html/includes/";
 
 import {
   captionWithIcon,
@@ -13,70 +13,70 @@ import {
   materialInput,
   additionalBookingBlock,
   videoReview,
-  offerCardItem,
-} from './common.js';
+  offerCardItem
+} from "./common.js";
 
-import getTemplate from './layers/header-layer.js';
+import getTemplate from "./layers/header-layer.js";
 //common layers
-import header from './layers/header.js';
-import footerTemplate from './layers/footer.js';
-import mailingLayerTemplate from './layers/mailing.js';
-import guaranteesTemplate from './layers/guarantees.js';
-import previouslyViewedOffers from './layers/previously-viewed-offers.js';
-import advertisingPointTemplate from './layers/advertising-point.js';
-import offersChildHolidayCompositeTemplate from './layers/offers-child-holiday-composite-layer.js';
+import header from "./layers/header.js";
+import footerTemplate from "./layers/footer.js";
+import mailingLayerTemplate from "./layers/mailing.js";
+import guaranteesTemplate from "./layers/guarantees.js";
+import previouslyViewedOffers from "./layers/previously-viewed-offers.js";
+import advertisingPointTemplate from "./layers/advertising-point.js";
+import offersChildHolidayCompositeTemplate from "./layers/offers-child-holiday-composite-layer.js";
 
 //main
-import mainNewsLayerTemplate from './layers/main-news.js';
-import mainFirstCompositeLayerTemplate from './layers/main-first-composite-layer.js';
-import mainSecondCompositeLayerTemplate from './layers/main-second-composite-layer.js';
-import mainAboutMosgorturLayerTemplate from './layers/main-about-mosgortur.js';
-import mainLayerWithOffersTemplate from './layers/main-layer-with-offers.js';
-import mainLeaderTemplate from './layers/main-leader.js';
-import mainThirdCompositeLayerTemplate from './layers/main-third-composite-layer.js';
-import mainCorporateServicesTemplate from './layers/main-corporate-services.js';
-import mainOurCampsTemplate from './layers/main-our-camps.js';
+import mainNewsLayerTemplate from "./layers/main-news.js";
+import mainFirstCompositeLayerTemplate from "./layers/main-first-composite-layer.js";
+import mainSecondCompositeLayerTemplate from "./layers/main-second-composite-layer.js";
+import mainAboutMosgorturLayerTemplate from "./layers/main-about-mosgortur.js";
+import mainLayerWithOffersTemplate from "./layers/main-layer-with-offers.js";
+import mainLeaderTemplate from "./layers/main-leader.js";
+import mainThirdCompositeLayerTemplate from "./layers/main-third-composite-layer.js";
+import mainCorporateServicesTemplate from "./layers/main-corporate-services.js";
+import mainOurCampsTemplate from "./layers/main-our-camps.js";
 
 //social vacation
-import socialNewsLayerTemplate from './layers/social-news.js';
-import socialFirstCompositeLayerTemplate from './layers/social-first-composite-layer.js';
-import socialWellnessСompanyLayerTemplate from './layers/social-wellness-company.js';
-import socialUsefulLinksLayerTemplate from './layers/social-useful-links.js';
-import socialFrequentlyQuestionsLayerTemplate from './layers/social-frequently-questions.js';
-import socialRecommendationsLayerTemplate from './layers/social-recommendations.js';
-import socialAfterReceivingTheVoucherTemplate from './layers/social-after-receiving-the-voucher.js';
-import socialQuotaAllocationTemplate from './layers/social-quota-allocation.js';
+import socialNewsLayerTemplate from "./layers/social-news.js";
+import socialFirstCompositeLayerTemplate from "./layers/social-first-composite-layer.js";
+import socialWellnessСompanyLayerTemplate from "./layers/social-wellness-company.js";
+import socialUsefulLinksLayerTemplate from "./layers/social-useful-links.js";
+import socialFrequentlyQuestionsLayerTemplate from "./layers/social-frequently-questions.js";
+import socialRecommendationsLayerTemplate from "./layers/social-recommendations.js";
+import socialAfterReceivingTheVoucherTemplate from "./layers/social-after-receiving-the-voucher.js";
+import socialQuotaAllocationTemplate from "./layers/social-quota-allocation.js";
 
 //tours
-import toursFilterTemplate from './layers/tours-filter.js';
-import toursControlTemplate from './layers/tours-control.js';
-import toursCompositeLayerTemplate from './layers/tours-composite-layer.js';
+import toursFilterTemplate from "./layers/tours-filter.js";
+import toursControlTemplate from "./layers/tours-control.js";
+import toursCompositeLayerTemplate from "./layers/tours-composite-layer.js";
 
 //transfers
-import transfersInfoAboutRacesTemplate from './layers/transfers-info-about-races.js';
-import transfersEmptyResultSearchTemplate from './layers/transfers-empty-result-search.js';
+import transfersInfoAboutRacesTemplate from "./layers/transfers-info-about-races.js";
+import transfersEmptyResultSearchTemplate from "./layers/transfers-empty-result-search.js";
 //family
-import familyControlTemplate from './layers/family-control.js';
+import familyControlTemplate from "./layers/family-control.js";
 
 //kids
-import kidsFilterTemplate from './layers/kids-filter.js';
+import kidsFilterTemplate from "./layers/kids-filter.js";
 
 //tours filter
-import toursFilterCompositeLayerTemplate from './layers/tours-filter-composite-layer.js';
+import toursFilterCompositeLayerTemplate from "./layers/tours-filter-composite-layer.js";
 
 //tour page
-import tourReviewsLayerTemplate from './layers/tour-reviews.js';
-import availableDatesTemplate from './layers/available-dates.js';
-import tourSeparateExcursionLayerTemplate from './layers/tour-separate-excursion.js';
-import tourCompositeLayerTemplate from './layers/tour-composite-layer.js';
+import tourReviewsLayerTemplate from "./layers/tour-reviews.js";
+import availableDatesTemplate from "./layers/available-dates.js";
+import tourSeparateExcursionLayerTemplate from "./layers/tour-separate-excursion.js";
+import tourCompositeLayerTemplate from "./layers/tour-composite-layer.js";
 
-const headerElm = document.body.querySelector('.header');
-const content = document.body.querySelector('.content');
-const footer = document.body.querySelector('.footer');
+const headerElm = document.body.querySelector(".header");
+const content = document.body.querySelector(".content");
+const footer = document.body.querySelector(".footer");
 
 //-----Сборка main страницы
 /* const result =
-  getTemplate('main') +
+  getTemplate("main") +
   mainNewsLayerTemplate +
   mainFirstCompositeLayerTemplate +
   mainSecondCompositeLayerTemplate +
@@ -89,9 +89,9 @@ const footer = document.body.querySelector('.footer');
   mainOurCampsTemplate; */
 
 //---- Сборка страницы social
-/* 
-const result =
-  getTemplate('social') +
+
+/* const result =
+  getTemplate("social") +
   socialFirstCompositeLayerTemplate +
   socialNewsLayerTemplate +
   socialWellnessСompanyLayerTemplate +
@@ -104,7 +104,7 @@ const result =
 //---- сборка страницы tours
 
 /* const result =
-  getTemplate('tours') +
+  getTemplate("tours") +
   toursFilterTemplate +
   toursCompositeLayerTemplate +
   mailingLayerTemplate +
@@ -112,43 +112,44 @@ const result =
   previouslyViewedOffers; */
 
 //---- сборка страницы tours-filter
-/* 
-const result =
-getTemplate('toursBig')+
+
+/* const result =
+  getTemplate("toursBig") +
   toursFilterCompositeLayerTemplate +
   mailingLayerTemplate +
-  previouslyViewedOffers; */
+  previouslyViewedOffers;
+ */
 
 //---- сборка страницыTours + search results
-/*
-const result =
-getTemplate('toursSimple')+ 
+
+/* const result =
+  getTemplate("toursSimple") +
   toursControlTemplate +
   offersChildHolidayCompositeTemplate +
   mailingLayerTemplate +
   previouslyViewedOffers; */
 
 //---- сборка страницы Family vacation
-/* 
-const result =
-getTemplate('familyBig')+
+
+/* const result =
+  getTemplate("familyBig") +
   toursFilterCompositeLayerTemplate +
   mailingLayerTemplate +
   guaranteesTemplate +
   previouslyViewedOffers; */
 
 //---- сборка страницы Family vacation + search results
-const result =
-  getTemplate('family') +
+/* const result =
+  getTemplate("family") +
   familyControlTemplate +
   offersChildHolidayCompositeTemplate +
   mailingLayerTemplate +
-  previouslyViewedOffers;
+  previouslyViewedOffers; */
 
 //---- сборка страницы Kids vacation
-/*
-const result =
-getTemplate('kids') + 
+
+/* const result =
+  getTemplate("kids") +
   kidsFilterTemplate +
   toursFilterCompositeLayerTemplate +
   mailingLayerTemplate +
@@ -156,9 +157,9 @@ getTemplate('kids') +
   previouslyViewedOffers; */
 
 //---- сборка страницы Kids vacation - filters
-/* 
-const result =
-getTemplate('kidsBig')+ 
+
+/* const result =
+  getTemplate("kidsBig") +
   kidsFilterTemplate +
   toursFilterCompositeLayerTemplate +
   mailingLayerTemplate +
@@ -166,29 +167,35 @@ getTemplate('kidsBig')+
   previouslyViewedOffers; */
 
 //---- сборка страницы Kids vacation + search results
-/* 
-const result =
-getTemplate('kids') + 
+
+/* const result =
+  getTemplate("kids") +
   familyControlTemplate +
   offersChildHolidayCompositeTemplate +
   mailingLayerTemplate +
   previouslyViewedOffers; */
 
 //---- Сборка страницы transfers с таблицей
-/* 
-const result = getTemplate('transfers') + transfersInfoAboutRacesTemplate + previouslyViewedOffers; */
+
+/* const result =
+  getTemplate("transfers") +
+  transfersInfoAboutRacesTemplate +
+  previouslyViewedOffers; */
 
 //---- Сборка страницы transfers empty
-/*
-const result = getTemplate('transfers') + transfersEmptyResultSearchTemplate + previouslyViewedOffers; */
+
+/* const result =
+  getTemplate("transfers") +
+  transfersEmptyResultSearchTemplate +
+  previouslyViewedOffers; */
 
 //----- Сбора страницы tour v2
 
-/* const result =
+const result =
   tourSeparateExcursionLayerTemplate +
   availableDatesTemplate +
   tourReviewsLayerTemplate +
-  tourCompositeLayerTemplate; */
+  tourCompositeLayerTemplate;
 
 headerElm.innerHTML = header;
 content.innerHTML = result;

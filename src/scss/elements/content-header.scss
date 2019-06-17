@@ -38,7 +38,7 @@
   &__content {
     @include font-bold(14px, 1.43, center, $white-text-color);
     width: 478px;
-    height: 91px;
+    //height: 91px;
     &._tours {
       .c-header-content__search {
         margin-top: 8px;
