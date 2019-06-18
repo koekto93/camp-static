@@ -1,0 +1,25 @@
+.l-artboard-event-program {
+  &__content {
+    margin-top: 63px;
+  }
+
+  &__info {
+    width: 698px;
+  }
+
+  &__caption {
+    @include font-bold(20px, normal, start, #1b1e2d);
+  }
+
+  &__text {
+    @include font-regular(13px, 1.31);
+  }
+
+  &__button {
+    & > button {
+      height: 36px;
+      width: 137px;
+      text-align: center;
+    }
+  }
+}

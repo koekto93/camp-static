@@ -70,6 +70,10 @@ import availableDatesTemplate from "./layers/available-dates.js";
 import tourSeparateExcursionLayerTemplate from "./layers/tour-separate-excursion.js";
 import tourCompositeLayerTemplate from "./layers/tour-composite-layer.js";
 
+//artboard
+import artboardEventProgramTemplate from "./layers/artboard-event-program.js";
+import artboardItemsTemplate from "./layers/artboard-items.js";
+
 const headerElm = document.body.querySelector(".header");
 const content = document.body.querySelector(".content");
 const footer = document.body.querySelector(".footer");
@@ -190,12 +194,20 @@ const footer = document.body.querySelector(".footer");
   previouslyViewedOffers; */
 
 //----- Сбора страницы tour v2
-
+/* 
 const result =
   tourSeparateExcursionLayerTemplate +
   availableDatesTemplate +
   tourReviewsLayerTemplate +
-  tourCompositeLayerTemplate;
+  tourCompositeLayerTemplate; */
+
+//Сборка страницы Artboard
+
+const result =
+  artboardEventProgramTemplate +
+  artboardItemsTemplate +
+  availableDatesTemplate +
+  tourReviewsLayerTemplate;
 
 headerElm.innerHTML = header;
 content.innerHTML = result;
