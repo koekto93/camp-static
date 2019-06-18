@@ -330,3 +330,7 @@ export const artboardEventProgramLayer = _.template(
 export const artboardItemsLayer = _.template(
   require("./../html/layers/artboard-items.html").default
 );
+
+export const artboardChangesLayer = _.template(
+  require("./../html/layers/artboard-changes.html").default
+);

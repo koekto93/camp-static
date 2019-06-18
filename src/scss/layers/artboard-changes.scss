@@ -1,0 +1,59 @@
+.l-artboard-changes {
+  &__content {
+    width: 1068px;
+    margin-top: 51px;
+  }
+}
+
+.c-artboard-change-row {
+  padding: 25px 0;
+  @extend %border-bottom;
+  @include font-regular(17px, normal, start, #1b1e2d);
+
+  &__categoty {
+    @include font-regular(13px, normal, start, #9b9b9b);
+    margin-bottom: 7px;
+  }
+
+  &__date {
+    //flex-basis: 40%;
+  }
+
+  &__inclusions {
+    width: 94px;
+    & > span {
+      width: 26px;
+      height: 26px;
+      border: 1px solid #979797;
+      background-color: #d8d8d8;
+      border-radius: 12px;
+    }
+  }
+
+  &__price {
+    &._sale {
+      text-decoration: line-through;
+      margin-left: 18px;
+    }
+  }
+
+  &__buttons-block {
+    & > button {
+      height: 36px;
+      width: 137px;
+      text-align: center;
+      border: 1px solid #e3775b;
+      background-color: #e3775b;
+      color: $white-text-color;
+    }
+
+    & > button:first-child {
+      margin-bottom: 3px;
+    }
+
+    & > button:hover {
+      background-color: transparent;
+      color: $text-color;
+    }
+  }
+}

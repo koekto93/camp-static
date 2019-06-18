@@ -1,0 +1,53 @@
+<div class="l-artboard-changes">
+  <div class="l-artboard-changes__content">
+    <h3>Смены</h3>
+    <div class="l-artboard-changes__content-block">
+      <% availableDateRowData.forEach(function(data) { %>
+      <div class="c-artboard-change-row display-flex _j-between _a-start">
+        
+        <div class="c-artboard-change-row__date display-flex _column">
+          <span class="c-artboard-change-row__categoty">Дата заезда</span>
+          <span>1 июня—20 июня</span>
+        </div>
+
+        <div class="c-artboard-change-row__change display-flex _column">
+          <span class="c-artboard-change-row__categoty">Смена</span>
+          <span>1 смена</span>
+        </div>
+
+        <div class="c-artboard-change-row__inclusions-block display-flex _column">
+          <span class="c-artboard-change-row__categoty">Дата заезда</span>
+
+          <div class="c-artboard-change-row__inclusions display-flex _j-between">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="c-artboard-change-row__price-block display-flex _column">
+          <span class="c-artboard-change-row__categoty">Дата заезда</span>
+
+          <div class="c-artboard-change-row__price">
+            <span>50 000₽</span>
+            <span class="c-artboard-change-row__price _sale">60 000₽</span>
+          </div>
+
+        </div>
+
+        <div class="c-artboard-change-row__date display-flex _column">
+          <span class="c-artboard-change-row__categoty">Кол-во</span>
+          <%= customSelector(customSelectorData)%>
+        </div>
+
+        <div class="c-artboard-change-row__buttons-block display-flex _column">
+            <button class="c-button">КУПИТЬ</button>
+            <button class="c-button">КУПИТЬ В ОДИН КЛИК</button>
+        </div>
+      
+      </div>
+      <% }); %>
+
+    </div>
+  </div>
+</div>

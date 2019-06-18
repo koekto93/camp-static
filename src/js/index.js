@@ -73,6 +73,7 @@ import tourCompositeLayerTemplate from "./layers/tour-composite-layer.js";
 //artboard
 import artboardEventProgramTemplate from "./layers/artboard-event-program.js";
 import artboardItemsTemplate from "./layers/artboard-items.js";
+import artboardChangesTemplate from "./layers/artboard-changes.js";
 
 const headerElm = document.body.querySelector(".header");
 const content = document.body.querySelector(".content");
@@ -206,6 +207,7 @@ const result =
 const result =
   artboardEventProgramTemplate +
   artboardItemsTemplate +
+  artboardChangesTemplate +
   availableDatesTemplate +
   tourReviewsLayerTemplate;
 
