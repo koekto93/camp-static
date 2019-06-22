@@ -1,6 +1,13 @@
-.l-artboard-event-program {
+.l-artboard-additional-services {
   &__content {
-    margin-top: 63px;
+    margin-top: 36px;
+    width: 889px;
+  }
+
+  &__content-block {
+    margin-top: 22px;
+    padding-bottom: 25px;
+    @extend %border-bottom;
   }
 
   &__info {
@@ -9,11 +16,16 @@
 
   &__caption {
     @include font-bold(20px, normal, start, #1b1e2d);
-    margin-bottom: 7px;
+    margin-bottom: 13px;
   }
 
   &__text {
     @include font-regular(13px, 1.31);
+  }
+
+  &__price {
+    @include font-regular(14px, 1.31);
+    margin: 25px 0;
   }
 
   &__button {
